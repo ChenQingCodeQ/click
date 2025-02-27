@@ -48,6 +48,7 @@ class Avatar(KBEngine.Entity,Unit):
 		# 如果距离在攻击范围内，执行攻击操作
 		if dis <= self.attackRange: 
 			self.performAttack(hateTarget)
+			self.attack = self.attack + 1.0
 		# 结束函数，无实际作用
 		pass
 	
