@@ -9,8 +9,11 @@ from Mathf import Vector
 
 class Avatar(KBEngine.Entity,Unit):
 	def __init__(self):
+        # 调用KBEngine.Entity的初始化方法
 		KBEngine.Entity.__init__(self)
+        # 调用Unit的初始化方法
 		Unit.__init__(self)
+        # 打印初始化信息
 		DEBUG_MSG(f"初始化 [{type(self).__name__}] id:[{self.id}]")
 		self.updateTimerID = -1										# 更新定时器ID
 		self.proxHateID = -1                                        # 仇恨代理ID
@@ -33,13 +36,20 @@ class Avatar(KBEngine.Entity,Unit):
 		self.position = Math.Vector3(position.x, 0, position.y)
 	
 	def update(self, dt):
+		# 获取当前敌对目标的ID
 		self.hateTargetID = self.getDirectTargetID()
+		# 如果没有敌对目标，直接返回
 		if self.hateTargetID == -1: return
+		# 根据敌对目标ID获取敌对目标实体
 		hateTarget = KBEngine.entities.get(self.hateTargetID)
+		# 如果敌对目标不存在、被销毁或已死亡，直接返回
 		if hateTarget == None or hateTarget.isDestroyed or hateTarget.isDead: return
+		# 计算当前实体与敌对目标之间的二维距离
 		dis = Vector.distance2d(self.uPosition, hateTarget.uPosition)
+		# 如果距离在攻击范围内，执行攻击操作
 		if dis <= self.attackRange: 
 			self.performAttack(hateTarget)
+		# 结束函数，无实际作用
 		pass
 	
 	#--------------------------------------------------------------------------------------------

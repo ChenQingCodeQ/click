@@ -1,0 +1,149 @@
+<root>
+    <Properties>
+        <name>
+            <Type> 			UNICODE 			</Type>
+            <Flags> 		ALL_CLIENTS		 	</Flags>
+        </name>
+        <level>
+            <Type> 			INT32 				</Type>
+            <Flags> 		ALL_CLIENTS		 	</Flags>
+            <Default>		1					</Default>
+        </level>
+    
+        <currentHealth>
+            <Type>			HP				    </Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+            <Persistent>	true				</Persistent>
+        </currentHealth>
+        <currentMana>
+            <Type>			MP				    </Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+            <Persistent>	true				</Persistent>
+        </currentMana>
+
+        <attack>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </attack>
+        <armor>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </armor>
+        <health>
+            <Type>			HP				    </Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </health>
+        <mana>
+            <Type>			MP				    </Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </mana>
+        <attackSpeed>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </attackSpeed>
+        <movementSpeed>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </movementSpeed>
+        <attackRange>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </attackRange>
+        <healthRegen>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </healthRegen>
+        <manaRegen>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </manaRegen>
+    
+        <hit>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </hit>
+        <dodge>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </dodge>
+        <critRate>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </critRate>
+        <critDamage>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </critDamage>
+        <physicalDamage>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </physicalDamage>
+        <flamedamage>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </flamedamage>
+        <iceDamage>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </iceDamage>
+        <poisonDamage>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </poisonDamage>
+        <damageBonus>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </damageBonus>
+        <damageReduction>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </damageReduction>
+        <cooldownBoost>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </cooldownBoost>
+        <attackBoost>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </attackBoost>
+        <armorBoost>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </armorBoost>
+        <healthBoost>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </healthBoost>
+        <manaBoost>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </manaBoost>
+        <attackSpeedBoost>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </attackSpeedBoost>
+        <movementSpeedBoost>
+            <Type>			FLOAT				</Type>
+            <Flags>			ALL_CLIENTS			</Flags>
+        </movementSpeedBoost>
+    </Properties>
+
+    <CellMethods>
+
+    </CellMethods>
+    <ClientMethods>
+        <reqDead>
+            <Arg>	ID_ENTITY			</Arg>
+        </reqDead>
+        <reqAttack>
+            <Arg>	ID_ENTITY			</Arg>
+        </reqAttack>
+        <reqDamage>
+            <Arg>	ID_ENTITY			</Arg>
+            <Arg>	ID_SKILL			</Arg>
+            <Arg>	DAMAGE				</Arg>
+            <Arg>	DAMAGE_TYPE			</Arg>
+        </reqDamage>
+    </ClientMethods>
+</root>
+
