@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "D:\\IT\\kbengine\\click\\scripts\\common",
+        "D:\\IT\\kbengine\\click\\scripts\\data",
+        "D:\\IT\\kbengine\\click\\scripts\\server_common",
+        "D:\\IT\\kbengine\\click\\scripts\\user_type",
+    ]
+}

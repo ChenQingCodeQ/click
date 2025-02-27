@@ -1,5 +1,2 @@
-/vscode
-/env
-/_tmp
 /logs
-logs
+/.vscode
