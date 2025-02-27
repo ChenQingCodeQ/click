@@ -1,0 +1,1201 @@
+  INFO root [0x00003b78] [2025-02-24 13:19:08,498] - 
+  INFO root [0x00003b78] [2025-02-24 13:19:08,498] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003b78] [2025-02-24 13:19:08,500] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00003b78] [2025-02-24 13:19:08,502] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00003b78] [2025-02-24 13:19:08,502] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00003b78] [2025-02-24 13:19:08,507] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:54254 )
+  INFO root [0x00003b78] [2025-02-24 13:19:08,507] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:54254, SOMAXCONN=511.
+  INFO root [0x00003b78] [2025-02-24 13:19:08,507] - server-configs:
+  INFO root [0x00003b78] [2025-02-24 13:19:08,507] - 	gameUpdateHertz : 10
+  INFO root [0x00003b78] [2025-02-24 13:19:08,507] - 	defaultViewRadius : 80
+  INFO root [0x00003b78] [2025-02-24 13:19:08,507] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003b78] [2025-02-24 13:19:08,507] - 	entryScriptFile : kbemain
+  INFO root [0x00003b78] [2025-02-24 13:19:08,507] - 	internalTcpAddr : 192.168.192.10:54254
+  INFO root [0x00003b78] [2025-02-24 13:19:08,507] - 	componentID : 8001
+  INFO root [0x00003b78] [2025-02-24 13:19:08,565] - Components::findLogger: found logger, addr:192.168.192.10:54241
+  INFO root [0x00003b78] [2025-02-24 13:19:08,565] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00003b78] [2025-02-24 13:19:08,565] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003b78] [2025-02-24 13:19:08,568] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 12164 ----
+  INFO root [0x00003b78] [2025-02-24 13:19:08,568] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00003b78] [2025-02-24 13:19:08,569] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003b78] [2025-02-24 13:19:08,569] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00003b78] [2025-02-24 13:19:08,708] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00003b78] [2025-02-24 13:19:08,708] - Script::install(): KBExtra is successfully!
+ S_ERR root [0x00003b78] [2025-02-24 13:19:08,717] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/user_type\ITEM_INFO.py", line 2, in <module>
+    import GlobalConst
+ S_ERR root [0x00003b78] [2025-02-24 13:19:08,717] - ModuleNotFoundError: No module named 'GlobalConst'
+ ERROR root [0x00003b78] [2025-02-24 13:19:08,717] - DataTypes::loadTypes: parse FIXED_DICT [ITEM_INFO] error!
+ ERROR root [0x00003b78] [2025-02-24 13:19:08,717] - app::initialize(): initialization failed!
+ DEBUG root [0x00003b78] [2025-02-24 13:19:08,717] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00003b78] [2025-02-24 13:19:08,717] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00003b78] [2025-02-24 13:19:08,719] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003b78] [2025-02-24 13:19:08,719] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00003b78] [2025-02-24 13:19:09,031] - ThreadPool::destroy(): waiting for thread(2)[0x2a752a90850,0x2a752a90cb0,], try=1
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - TPThread::~TPThread(): 0x2a752a90850
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - TPThread::~TPThread(): 0x2a752a90cb0
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00003b78] [2025-02-24 13:19:09,451] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [0x00003b78] [2025-02-24 13:19:09,452] - Forwarding logs to logger[192.168.192.10:54241/0/0/0]...
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,585] - 
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,585] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,585] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,585] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,585] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,592] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:54513 )
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,592] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:54513, SOMAXCONN=511.
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,592] - server-configs:
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,592] - 	gameUpdateHertz : 10
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,592] - 	defaultViewRadius : 80
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,592] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,592] - 	entryScriptFile : kbemain
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,593] - 	internalTcpAddr : 192.168.192.10:54513
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,593] - 	componentID : 8001
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,661] - Components::findLogger: found logger, addr:192.168.192.10:54502
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,661] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,661] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,662] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 30520 ----
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,663] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,664] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,664] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,810] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,810] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002ba4] [2025-02-24 13:26:33,884] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00002ba4] [2025-02-24 13:26:33,884] - loaded entity-script:Monster(3).
+ DEBUG root [0x00002ba4] [2025-02-24 13:26:33,884] - loaded entity-script:NPC(4).
+ DEBUG root [0x00002ba4] [2025-02-24 13:26:33,885] - loaded entity-script:Space(5).
+ DEBUG root [0x00002ba4] [2025-02-24 13:26:33,885] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,885] - TelnetServer server is running on port 50000
+  INFO root [0x00002ba4] [2025-02-24 13:26:33,895] - ---- cellapp is running ----
+ DEBUG root [0x00002ba4] [2025-02-24 13:26:33,896] - Components::process(): Request for the process of identity...
+  WARN root [0x00002ba4] [2025-02-24 13:26:40,108] - Forwarding logs to logger[192.168.192.10:54502/0/0/0]...
+ ERROR root [0x00002ba4] [2025-02-24 13:27:36,630] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1570934999475, lastReceivedTime=1570893240839, inactivityExceptionPeriod=599500000)
+   OFF root [0x00002ba4] [2025-02-24 13:27:36,631] - The following logs sent to logger failed:
+  WARN root [0x00002ba4] [2025-02-24 13:27:36,631] - ==> [2025-02-24 13:27:36 630] TCPPacketReceiver::processPendingEvents(192.168.192.10:54502): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002ba4] [2025-02-24 13:27:36,631] - ==> [2025-02-24 13:27:36 630] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1570934999475, lastReceivedTime=1570893240839, inactivityExceptionPeriod=599500000)
+  WARN root [0x00002ba4] [2025-02-24 13:27:36,650] - TCPPacketReceiver::processPendingEvents(192.168.192.10:54505): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002ba4] [2025-02-24 13:27:36,650] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1570935205861, lastReceivedTime=1570896825782, inactivityExceptionPeriod=599500000)
+  INFO root [0x00002ba4] [2025-02-24 13:27:36,650] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002ba4] [2025-02-24 13:27:36,650] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00002ba4] [2025-02-24 13:27:36,650] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002ba4] [2025-02-24 13:27:36,651] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00002ba4] [2025-02-24 13:27:36,651] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00002ba4] [2025-02-24 13:27:36,660] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002ba4] [2025-02-24 13:27:36,660] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00002ba4] [2025-02-24 13:27:36,970] - ThreadPool::destroy(): waiting for thread(2)[0x22a86f0b4b0,0x22a86f0b8a0,], try=1
+  INFO root [0x00003074] [2025-02-24 17:49:03,636] - 
+  INFO root [0x00003074] [2025-02-24 17:49:03,636] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003074] [2025-02-24 17:49:03,637] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00003074] [2025-02-24 17:49:03,637] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00003074] [2025-02-24 17:49:03,637] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00003074] [2025-02-24 17:49:03,643] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:62253 )
+  INFO root [0x00003074] [2025-02-24 17:49:03,643] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:62253, SOMAXCONN=511.
+  INFO root [0x00003074] [2025-02-24 17:49:03,643] - server-configs:
+  INFO root [0x00003074] [2025-02-24 17:49:03,643] - 	gameUpdateHertz : 10
+  INFO root [0x00003074] [2025-02-24 17:49:03,643] - 	defaultViewRadius : 80
+  INFO root [0x00003074] [2025-02-24 17:49:03,643] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003074] [2025-02-24 17:49:03,643] - 	entryScriptFile : kbemain
+  INFO root [0x00003074] [2025-02-24 17:49:03,643] - 	internalTcpAddr : 192.168.192.10:62253
+  INFO root [0x00003074] [2025-02-24 17:49:03,643] - 	componentID : 8001
+  INFO root [0x00003074] [2025-02-24 17:49:03,754] - Components::findLogger: found logger, addr:192.168.192.10:62244
+  INFO root [0x00003074] [2025-02-24 17:49:03,754] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00003074] [2025-02-24 17:49:03,754] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003074] [2025-02-24 17:49:03,755] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 34280 ----
+  INFO root [0x00003074] [2025-02-24 17:49:03,756] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00003074] [2025-02-24 17:49:03,756] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003074] [2025-02-24 17:49:03,756] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00003074] [2025-02-24 17:49:03,895] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00003074] [2025-02-24 17:49:03,895] - Script::install(): KBExtra is successfully!
+ S_ERR root [0x00003074] [2025-02-24 17:49:03,932] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Avatar.py", line 9, in <module>
+    class Avatar(KBEngine.Entity,Unit):
+ S_ERR root [0x00003074] [2025-02-24 17:49:03,932] - NameError: name 'Unit' is not defined
+ ERROR root [0x00003074] [2025-02-24 17:49:03,932] - app::initialize(): initialization failed!
+ DEBUG root [0x00003074] [2025-02-24 17:49:03,933] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00003074] [2025-02-24 17:49:03,933] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00003074] [2025-02-24 17:49:03,936] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003074] [2025-02-24 17:49:03,936] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00003074] [2025-02-24 17:49:04,239] - ThreadPool::destroy(): waiting for thread(2)[0x21fb2693670,0x21fb2692f00,], try=1
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - TPThread::~TPThread(): 0x21fb2693670
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - TPThread::~TPThread(): 0x21fb2692f00
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - Bundle::destroyObjPool(): size 15.
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00003074] [2025-02-24 17:49:04,662] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [0x00003074] [2025-02-24 17:49:04,662] - Forwarding logs to logger[192.168.192.10:62244/0/0/0]...
+  INFO root [0x00003074] [2025-02-24 17:49:11,205] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00007564] [2025-02-24 17:50:07,193] - 
+  INFO root [0x00007564] [2025-02-24 17:50:07,193] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00007564] [2025-02-24 17:50:07,193] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00007564] [2025-02-24 17:50:07,193] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00007564] [2025-02-24 17:50:07,193] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00007564] [2025-02-24 17:50:07,205] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:62322 )
+  INFO root [0x00007564] [2025-02-24 17:50:07,205] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:62322, SOMAXCONN=511.
+  INFO root [0x00007564] [2025-02-24 17:50:07,205] - server-configs:
+  INFO root [0x00007564] [2025-02-24 17:50:07,205] - 	gameUpdateHertz : 10
+  INFO root [0x00007564] [2025-02-24 17:50:07,205] - 	defaultViewRadius : 80
+  INFO root [0x00007564] [2025-02-24 17:50:07,205] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00007564] [2025-02-24 17:50:07,205] - 	entryScriptFile : kbemain
+  INFO root [0x00007564] [2025-02-24 17:50:07,205] - 	internalTcpAddr : 192.168.192.10:62322
+  INFO root [0x00007564] [2025-02-24 17:50:07,205] - 	componentID : 8001
+  INFO root [0x00007564] [2025-02-24 17:50:07,264] - Components::findLogger: found logger, addr:192.168.192.10:62307
+  INFO root [0x00007564] [2025-02-24 17:50:07,264] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00007564] [2025-02-24 17:50:07,264] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00007564] [2025-02-24 17:50:07,280] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 10144 ----
+  INFO root [0x00007564] [2025-02-24 17:50:07,280] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00007564] [2025-02-24 17:50:07,281] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00007564] [2025-02-24 17:50:07,281] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00007564] [2025-02-24 17:50:07,435] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00007564] [2025-02-24 17:50:07,436] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00007564] [2025-02-24 17:50:07,512] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00007564] [2025-02-24 17:50:07,512] - loaded entity-script:Monster(3).
+ DEBUG root [0x00007564] [2025-02-24 17:50:07,512] - loaded entity-script:NPC(4).
+ DEBUG root [0x00007564] [2025-02-24 17:50:07,512] - loaded entity-script:Space(5).
+ DEBUG root [0x00007564] [2025-02-24 17:50:07,512] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x00007564] [2025-02-24 17:50:07,512] - TelnetServer server is running on port 50000
+  INFO root [0x00007564] [2025-02-24 17:50:07,521] - ---- cellapp is running ----
+ DEBUG root [0x00007564] [2025-02-24 17:50:07,521] - Components::process(): Request for the process of identity...
+  WARN root [0x00007564] [2025-02-24 17:50:13,694] - Forwarding logs to logger[192.168.192.10:62307/0/0/0]...
+ ERROR root [0x00007564] [2025-02-24 17:51:29,146] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1729260170951, lastReceivedTime=1729030099257, inactivityExceptionPeriod=599500064)
+   OFF root [0x00007564] [2025-02-24 17:51:29,148] - The following logs sent to logger failed:
+  WARN root [0x00007564] [2025-02-24 17:51:29,148] - ==> [2025-02-24 17:51:29 146] TCPPacketReceiver::processPendingEvents(192.168.192.10:62307): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00007564] [2025-02-24 17:51:29,148] - ==> [2025-02-24 17:51:29 147] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1729260170951, lastReceivedTime=1729030099257, inactivityExceptionPeriod=599500064)
+  WARN root [0x00007564] [2025-02-24 17:51:29,197] - TCPPacketReceiver::processPendingEvents(192.168.192.10:62308): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00007564] [2025-02-24 17:51:29,197] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1729260688236, lastReceivedTime=1729033652472, inactivityExceptionPeriod=599500064)
+  INFO root [0x00007564] [2025-02-24 17:51:29,198] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00007564] [2025-02-24 17:51:29,198] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00007564] [2025-02-24 17:51:29,200] - Spaces::destroySpace: 1.
+ S_DBG root [0x00007564] [2025-02-24 17:51:29,200] - onDestroy(2002)
+ S_ERR root [0x00007564] [2025-02-24 17:51:29,201] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 42, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x00007564] [2025-02-24 17:51:29,203] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 23, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x00007564] [2025-02-24 17:51:29,203] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x00007564] [2025-02-24 17:51:29,204] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+  INFO root [0x00007564] [2025-02-24 17:51:29,204] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00007564] [2025-02-24 17:51:29,204] - SpawnPoint::~SpawnPoint(): 2002
+ DEBUG root [0x00007564] [2025-02-24 17:51:29,204] - Monster::~Monster(): 1
+ DEBUG root [0x00007564] [2025-02-24 17:51:29,205] - Space::~Space(): 2001
+ DEBUG root [0x00007564] [2025-02-24 17:51:29,205] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00007564] [2025-02-24 17:51:29,205] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00007564] [2025-02-24 17:51:29,210] - Script::uninstall(): is successfully!
+ DEBUG root [0x00007564] [2025-02-24 17:51:29,210] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00007564] [2025-02-24 17:51:29,515] - ThreadPool::destroy(): waiting for thread(2)[0x25282873730,0x25282873a40,], try=1
+  INFO root [0x000040e4] [2025-02-24 17:51:33,799] - 
+  INFO root [0x000040e4] [2025-02-24 17:51:33,799] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000040e4] [2025-02-24 17:51:33,799] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x000040e4] [2025-02-24 17:51:33,799] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x000040e4] [2025-02-24 17:51:33,799] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x000040e4] [2025-02-24 17:51:33,806] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:62373 )
+  INFO root [0x000040e4] [2025-02-24 17:51:33,806] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:62373, SOMAXCONN=511.
+  INFO root [0x000040e4] [2025-02-24 17:51:33,806] - server-configs:
+  INFO root [0x000040e4] [2025-02-24 17:51:33,806] - 	gameUpdateHertz : 10
+  INFO root [0x000040e4] [2025-02-24 17:51:33,806] - 	defaultViewRadius : 80
+  INFO root [0x000040e4] [2025-02-24 17:51:33,806] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000040e4] [2025-02-24 17:51:33,806] - 	entryScriptFile : kbemain
+  INFO root [0x000040e4] [2025-02-24 17:51:33,806] - 	internalTcpAddr : 192.168.192.10:62373
+  INFO root [0x000040e4] [2025-02-24 17:51:33,806] - 	componentID : 8001
+  INFO root [0x000040e4] [2025-02-24 17:51:33,845] - Components::findLogger: found logger, addr:192.168.192.10:62365
+  INFO root [0x000040e4] [2025-02-24 17:51:33,845] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x000040e4] [2025-02-24 17:51:33,845] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000040e4] [2025-02-24 17:51:33,859] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 24596 ----
+  INFO root [0x000040e4] [2025-02-24 17:51:33,860] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x000040e4] [2025-02-24 17:51:33,860] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000040e4] [2025-02-24 17:51:33,860] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000040e4] [2025-02-24 17:51:34,004] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x000040e4] [2025-02-24 17:51:34,004] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000040e4] [2025-02-24 17:51:34,077] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000040e4] [2025-02-24 17:51:34,078] - loaded entity-script:Monster(3).
+ DEBUG root [0x000040e4] [2025-02-24 17:51:34,078] - loaded entity-script:NPC(4).
+ DEBUG root [0x000040e4] [2025-02-24 17:51:34,078] - loaded entity-script:Space(5).
+ DEBUG root [0x000040e4] [2025-02-24 17:51:34,078] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x000040e4] [2025-02-24 17:51:34,078] - TelnetServer server is running on port 50000
+  INFO root [0x000040e4] [2025-02-24 17:51:34,086] - ---- cellapp is running ----
+ DEBUG root [0x000040e4] [2025-02-24 17:51:34,086] - Components::process(): Request for the process of identity...
+  WARN root [0x000040e4] [2025-02-24 17:51:40,395] - Forwarding logs to logger[192.168.192.10:62365/0/0/0]...
+ ERROR root [0x000040e4] [2025-02-24 17:52:48,060] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1730049309339, lastReceivedTime=1729896479490, inactivityExceptionPeriod=599499873)
+   OFF root [0x000040e4] [2025-02-24 17:52:48,061] - The following logs sent to logger failed:
+  WARN root [0x000040e4] [2025-02-24 17:52:48,061] - ==> [2025-02-24 17:52:48 060] TCPPacketReceiver::processPendingEvents(192.168.192.10:62365): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000040e4] [2025-02-24 17:52:48,061] - ==> [2025-02-24 17:52:48 061] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1730049309339, lastReceivedTime=1729896479490, inactivityExceptionPeriod=599499873)
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,091] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 26, in onTimer
+    AI.update(self, SCDefine.DATA_TIME)
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,091] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 43, in update
+    if self.hateTargetID == -1:
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,091] - AttributeError: 'Monster' object has no attribute 'hateTargetID'
+  WARN root [0x000040e4] [2025-02-24 17:52:48,118] - TCPPacketReceiver::processPendingEvents(192.168.192.10:62366): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000040e4] [2025-02-24 17:52:48,118] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1730049890552, lastReceivedTime=1729899905081, inactivityExceptionPeriod=599499873)
+  INFO root [0x000040e4] [2025-02-24 17:52:48,118] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000040e4] [2025-02-24 17:52:48,118] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000040e4] [2025-02-24 17:52:48,118] - Spaces::destroySpace: 1.
+ S_DBG root [0x000040e4] [2025-02-24 17:52:48,118] - onDestroy(2)
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,118] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 42, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,120] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 23, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,121] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,121] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,123] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Avatar.py", line 128, in onLeaveTrap
+    entity.removeHateTarget(self.id)
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,123] -   File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 91, in removeHateTarget
+    AI.removeHateTarget(self, targetID)
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,123] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 103, in removeHateTarget
+    if targetID in self.hateTargetIDs:
+ S_ERR root [0x000040e4] [2025-02-24 17:52:48,123] - AttributeError: 'Monster' object has no attribute 'hateTargetIDs'
+ S_DBG root [0x000040e4] [2025-02-24 17:52:48,123] - entity销毁 [Avatar] id:[4]
+  INFO root [0x000040e4] [2025-02-24 17:52:48,124] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000040e4] [2025-02-24 17:52:48,124] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x000040e4] [2025-02-24 17:52:48,125] - Monster::~Monster(): 2001
+ DEBUG root [0x000040e4] [2025-02-24 17:52:48,125] - Avatar::~Avatar(): 4
+ DEBUG root [0x000040e4] [2025-02-24 17:52:48,125] - Space::~Space(): 1
+ DEBUG root [0x000040e4] [2025-02-24 17:52:48,125] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x000040e4] [2025-02-24 17:52:48,125] - Witness::destroyObjPool(): size 16.
+  INFO root [0x000040e4] [2025-02-24 17:52:48,131] - Script::uninstall(): is successfully!
+ DEBUG root [0x000040e4] [2025-02-24 17:52:48,131] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000040e4] [2025-02-24 17:52:48,432] - ThreadPool::destroy(): waiting for thread(2)[0x21bcff3e990,0x21bcff3e8b0,], try=1
+  INFO root [0x00007a00] [2025-02-24 17:54:11,970] - 
+  INFO root [0x00007a00] [2025-02-24 17:54:11,970] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00007a00] [2025-02-24 17:54:11,971] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00007a00] [2025-02-24 17:54:11,971] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00007a00] [2025-02-24 17:54:11,971] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00007a00] [2025-02-24 17:54:11,975] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:62473 )
+  INFO root [0x00007a00] [2025-02-24 17:54:11,977] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:62473, SOMAXCONN=511.
+  INFO root [0x00007a00] [2025-02-24 17:54:11,977] - server-configs:
+  INFO root [0x00007a00] [2025-02-24 17:54:11,977] - 	gameUpdateHertz : 10
+  INFO root [0x00007a00] [2025-02-24 17:54:11,977] - 	defaultViewRadius : 80
+  INFO root [0x00007a00] [2025-02-24 17:54:11,977] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00007a00] [2025-02-24 17:54:11,977] - 	entryScriptFile : kbemain
+  INFO root [0x00007a00] [2025-02-24 17:54:11,977] - 	internalTcpAddr : 192.168.192.10:62473
+  INFO root [0x00007a00] [2025-02-24 17:54:11,977] - 	componentID : 8001
+  INFO root [0x00007a00] [2025-02-24 17:54:12,064] - Components::findLogger: found logger, addr:192.168.192.10:62457
+  INFO root [0x00007a00] [2025-02-24 17:54:12,064] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00007a00] [2025-02-24 17:54:12,064] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00007a00] [2025-02-24 17:54:12,066] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 11944 ----
+  INFO root [0x00007a00] [2025-02-24 17:54:12,067] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00007a00] [2025-02-24 17:54:12,067] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00007a00] [2025-02-24 17:54:12,067] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00007a00] [2025-02-24 17:54:12,208] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00007a00] [2025-02-24 17:54:12,208] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00007a00] [2025-02-24 17:54:12,283] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00007a00] [2025-02-24 17:54:12,283] - loaded entity-script:Monster(3).
+ DEBUG root [0x00007a00] [2025-02-24 17:54:12,283] - loaded entity-script:NPC(4).
+ DEBUG root [0x00007a00] [2025-02-24 17:54:12,283] - loaded entity-script:Space(5).
+ DEBUG root [0x00007a00] [2025-02-24 17:54:12,283] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x00007a00] [2025-02-24 17:54:12,283] - TelnetServer server is running on port 50000
+  INFO root [0x00007a00] [2025-02-24 17:54:12,291] - ---- cellapp is running ----
+ DEBUG root [0x00007a00] [2025-02-24 17:54:12,291] - Components::process(): Request for the process of identity...
+  WARN root [0x00007a00] [2025-02-24 17:54:18,439] - Forwarding logs to logger[192.168.192.10:62457/0/0/0]...
+ ERROR root [0x00007a00] [2025-02-24 17:54:44,760] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1731216319850, lastReceivedTime=1731177413866, inactivityExceptionPeriod=599500064)
+   OFF root [0x00007a00] [2025-02-24 17:54:44,762] - The following logs sent to logger failed:
+  WARN root [0x00007a00] [2025-02-24 17:54:44,762] - ==> [2025-02-24 17:54:44 761] TCPPacketReceiver::processPendingEvents(192.168.192.10:62457): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00007a00] [2025-02-24 17:54:44,762] - ==> [2025-02-24 17:54:44 762] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1731216319850, lastReceivedTime=1731177413866, inactivityExceptionPeriod=599500064)
+  WARN root [0x00007a00] [2025-02-24 17:54:44,812] - TCPPacketReceiver::processPendingEvents(192.168.192.10:62458): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00007a00] [2025-02-24 17:54:44,812] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1731216826616, lastReceivedTime=1731181011138, inactivityExceptionPeriod=599500064)
+  INFO root [0x00007a00] [2025-02-24 17:54:44,812] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00007a00] [2025-02-24 17:54:44,813] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00007a00] [2025-02-24 17:54:44,813] - Spaces::destroySpace: 1.
+ S_DBG root [0x00007a00] [2025-02-24 17:54:44,813] - onDestroy(2002)
+ S_ERR root [0x00007a00] [2025-02-24 17:54:44,813] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 42, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x00007a00] [2025-02-24 17:54:44,814] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 26, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x00007a00] [2025-02-24 17:54:44,814] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x00007a00] [2025-02-24 17:54:44,814] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x00007a00] [2025-02-24 17:54:44,814] - entity销毁 [Avatar] id:[2004]
+  INFO root [0x00007a00] [2025-02-24 17:54:44,815] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00007a00] [2025-02-24 17:54:44,815] - SpawnPoint::~SpawnPoint(): 2002
+ DEBUG root [0x00007a00] [2025-02-24 17:54:44,815] - Monster::~Monster(): 1
+ DEBUG root [0x00007a00] [2025-02-24 17:54:44,815] - Avatar::~Avatar(): 2004
+ DEBUG root [0x00007a00] [2025-02-24 17:54:44,816] - Space::~Space(): 2001
+ DEBUG root [0x00007a00] [2025-02-24 17:54:44,816] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00007a00] [2025-02-24 17:54:44,816] - Witness::destroyObjPool(): size 16.
+  INFO root [0x00007a00] [2025-02-24 17:54:44,826] - Script::uninstall(): is successfully!
+ DEBUG root [0x00007a00] [2025-02-24 17:54:44,826] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00007a00] [2025-02-24 17:54:45,130] - ThreadPool::destroy(): waiting for thread(2)[0x1d14f6ca180,0x1d14f6c9540,], try=1
+  INFO root [0x000039c0] [2025-02-24 17:57:11,606] - 
+  INFO root [0x000039c0] [2025-02-24 17:57:11,606] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000039c0] [2025-02-24 17:57:11,607] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x000039c0] [2025-02-24 17:57:11,607] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x000039c0] [2025-02-24 17:57:11,607] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x000039c0] [2025-02-24 17:57:11,613] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:62581 )
+  INFO root [0x000039c0] [2025-02-24 17:57:11,613] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:62581, SOMAXCONN=511.
+  INFO root [0x000039c0] [2025-02-24 17:57:11,613] - server-configs:
+  INFO root [0x000039c0] [2025-02-24 17:57:11,613] - 	gameUpdateHertz : 10
+  INFO root [0x000039c0] [2025-02-24 17:57:11,613] - 	defaultViewRadius : 80
+  INFO root [0x000039c0] [2025-02-24 17:57:11,613] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000039c0] [2025-02-24 17:57:11,613] - 	entryScriptFile : kbemain
+  INFO root [0x000039c0] [2025-02-24 17:57:11,613] - 	internalTcpAddr : 192.168.192.10:62581
+  INFO root [0x000039c0] [2025-02-24 17:57:11,613] - 	componentID : 8001
+  INFO root [0x000039c0] [2025-02-24 17:57:11,684] - Components::findLogger: found logger, addr:192.168.192.10:62566
+  INFO root [0x000039c0] [2025-02-24 17:57:11,684] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x000039c0] [2025-02-24 17:57:11,684] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000039c0] [2025-02-24 17:57:11,689] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 27660 ----
+  INFO root [0x000039c0] [2025-02-24 17:57:11,690] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x000039c0] [2025-02-24 17:57:11,690] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000039c0] [2025-02-24 17:57:11,690] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000039c0] [2025-02-24 17:57:11,825] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x000039c0] [2025-02-24 17:57:11,825] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000039c0] [2025-02-24 17:57:11,902] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000039c0] [2025-02-24 17:57:11,902] - loaded entity-script:Monster(3).
+ DEBUG root [0x000039c0] [2025-02-24 17:57:11,902] - loaded entity-script:NPC(4).
+ DEBUG root [0x000039c0] [2025-02-24 17:57:11,902] - loaded entity-script:Space(5).
+ DEBUG root [0x000039c0] [2025-02-24 17:57:11,902] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x000039c0] [2025-02-24 17:57:11,902] - TelnetServer server is running on port 50000
+  INFO root [0x000039c0] [2025-02-24 17:57:11,910] - ---- cellapp is running ----
+ DEBUG root [0x000039c0] [2025-02-24 17:57:11,910] - Components::process(): Request for the process of identity...
+  WARN root [0x000039c0] [2025-02-24 17:57:18,161] - Forwarding logs to logger[192.168.192.10:62566/0/0/0]...
+ ERROR root [0x000039c0] [2025-02-24 17:57:46,528] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1733033990965, lastReceivedTime=1732974315857, inactivityExceptionPeriod=599499873)
+   OFF root [0x000039c0] [2025-02-24 17:57:46,528] - The following logs sent to logger failed:
+  WARN root [0x000039c0] [2025-02-24 17:57:46,528] - ==> [2025-02-24 17:57:46 529] TCPPacketReceiver::processPendingEvents(192.168.192.10:62566): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000039c0] [2025-02-24 17:57:46,528] - ==> [2025-02-24 17:57:46 529] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1733033990965, lastReceivedTime=1732974315857, inactivityExceptionPeriod=599499873)
+  WARN root [0x000039c0] [2025-02-24 17:57:46,569] - TCPPacketReceiver::processPendingEvents(192.168.192.10:62567): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000039c0] [2025-02-24 17:57:46,569] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1733034406061, lastReceivedTime=1732977749288, inactivityExceptionPeriod=599499873)
+  INFO root [0x000039c0] [2025-02-24 17:57:46,569] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000039c0] [2025-02-24 17:57:46,571] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000039c0] [2025-02-24 17:57:46,571] - Spaces::destroySpace: 1.
+ S_DBG root [0x000039c0] [2025-02-24 17:57:46,571] - onDestroy(2)
+ S_ERR root [0x000039c0] [2025-02-24 17:57:46,571] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 42, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x000039c0] [2025-02-24 17:57:46,571] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 26, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x000039c0] [2025-02-24 17:57:46,571] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x000039c0] [2025-02-24 17:57:46,572] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x000039c0] [2025-02-24 17:57:46,572] - entity销毁 [Avatar] id:[4]
+  INFO root [0x000039c0] [2025-02-24 17:57:46,572] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000039c0] [2025-02-24 17:57:46,572] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x000039c0] [2025-02-24 17:57:46,572] - Monster::~Monster(): 2001
+ DEBUG root [0x000039c0] [2025-02-24 17:57:46,572] - Avatar::~Avatar(): 4
+ DEBUG root [0x000039c0] [2025-02-24 17:57:46,573] - Space::~Space(): 1
+ DEBUG root [0x000039c0] [2025-02-24 17:57:46,574] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x000039c0] [2025-02-24 17:57:46,574] - Witness::destroyObjPool(): size 16.
+  INFO root [0x000039c0] [2025-02-24 17:57:46,581] - Script::uninstall(): is successfully!
+ DEBUG root [0x000039c0] [2025-02-24 17:57:46,581] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000039c0] [2025-02-24 17:57:46,895] - ThreadPool::destroy(): waiting for thread(2)[0x15c27847bf0,0x15c278479c0,], try=1
+  INFO root [0x000074ec] [2025-02-24 21:09:57,547] - 
+  INFO root [0x000074ec] [2025-02-24 21:09:57,547] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000074ec] [2025-02-24 21:09:57,549] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x000074ec] [2025-02-24 21:09:57,549] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x000074ec] [2025-02-24 21:09:57,549] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x000074ec] [2025-02-24 21:09:57,557] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:63966 )
+  INFO root [0x000074ec] [2025-02-24 21:09:57,557] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:63966, SOMAXCONN=511.
+  INFO root [0x000074ec] [2025-02-24 21:09:57,557] - server-configs:
+  INFO root [0x000074ec] [2025-02-24 21:09:57,557] - 	gameUpdateHertz : 10
+  INFO root [0x000074ec] [2025-02-24 21:09:57,557] - 	defaultViewRadius : 80
+  INFO root [0x000074ec] [2025-02-24 21:09:57,557] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000074ec] [2025-02-24 21:09:57,557] - 	entryScriptFile : kbemain
+  INFO root [0x000074ec] [2025-02-24 21:09:57,557] - 	internalTcpAddr : 192.168.192.10:63966
+  INFO root [0x000074ec] [2025-02-24 21:09:57,557] - 	componentID : 8001
+  INFO root [0x000074ec] [2025-02-24 21:09:57,606] - Components::findLogger: found logger, addr:192.168.192.10:63950
+  INFO root [0x000074ec] [2025-02-24 21:09:57,606] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x000074ec] [2025-02-24 21:09:57,606] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000074ec] [2025-02-24 21:09:57,608] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 22832 ----
+  INFO root [0x000074ec] [2025-02-24 21:09:57,608] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x000074ec] [2025-02-24 21:09:57,608] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000074ec] [2025-02-24 21:09:57,608] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000074ec] [2025-02-24 21:09:57,759] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x000074ec] [2025-02-24 21:09:57,759] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000074ec] [2025-02-24 21:09:57,836] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000074ec] [2025-02-24 21:09:57,836] - loaded entity-script:Monster(3).
+ DEBUG root [0x000074ec] [2025-02-24 21:09:57,836] - loaded entity-script:NPC(4).
+ DEBUG root [0x000074ec] [2025-02-24 21:09:57,836] - loaded entity-script:Space(5).
+ DEBUG root [0x000074ec] [2025-02-24 21:09:57,836] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x000074ec] [2025-02-24 21:09:57,836] - TelnetServer server is running on port 50000
+  INFO root [0x000074ec] [2025-02-24 21:09:57,848] - ---- cellapp is running ----
+ DEBUG root [0x000074ec] [2025-02-24 21:09:57,848] - Components::process(): Request for the process of identity...
+  WARN root [0x000074ec] [2025-02-24 21:10:01,462] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20904, errorno=10048
+  WARN root [0x000074ec] [2025-02-24 21:10:04,568] - Forwarding logs to logger[192.168.192.10:63950/0/0/0]...
+ ERROR root [0x000074ec] [2025-02-24 21:11:36,698] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1849344137132, lastReceivedTime=1849241611144, inactivityExceptionPeriod=599499873)
+   OFF root [0x000074ec] [2025-02-24 21:11:36,698] - The following logs sent to logger failed:
+  WARN root [0x000074ec] [2025-02-24 21:11:36,698] - ==> [2025-02-24 21:11:36 698] TCPPacketReceiver::processPendingEvents(192.168.192.10:63950): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000074ec] [2025-02-24 21:11:36,698] - ==> [2025-02-24 21:11:36 698] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1849344137132, lastReceivedTime=1849241611144, inactivityExceptionPeriod=599499873)
+  WARN root [0x000074ec] [2025-02-24 21:11:36,737] - TCPPacketReceiver::processPendingEvents(192.168.192.10:63951): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000074ec] [2025-02-24 21:11:36,737] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1849344544975, lastReceivedTime=1849245173246, inactivityExceptionPeriod=599499873)
+  INFO root [0x000074ec] [2025-02-24 21:11:36,739] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000074ec] [2025-02-24 21:11:36,739] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000074ec] [2025-02-24 21:11:36,739] - Spaces::destroySpace: 1.
+ S_DBG root [0x000074ec] [2025-02-24 21:11:36,739] - onDestroy(2)
+ S_ERR root [0x000074ec] [2025-02-24 21:11:36,740] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 42, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x000074ec] [2025-02-24 21:11:36,741] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 26, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x000074ec] [2025-02-24 21:11:36,741] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x000074ec] [2025-02-24 21:11:36,741] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x000074ec] [2025-02-24 21:11:36,741] - entity销毁 [Avatar] id:[4]
+  INFO root [0x000074ec] [2025-02-24 21:11:36,742] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000074ec] [2025-02-24 21:11:36,742] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x000074ec] [2025-02-24 21:11:36,742] - Monster::~Monster(): 2001
+ DEBUG root [0x000074ec] [2025-02-24 21:11:36,742] - Space::~Space(): 1
+ DEBUG root [0x000074ec] [2025-02-24 21:11:36,742] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x000074ec] [2025-02-24 21:11:36,742] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x000074ec] [2025-02-24 21:11:36,744] - EntityGarbages::~EntityGarbages(): leaked, size=1.
+ ERROR root [0x000074ec] [2025-02-24 21:11:36,744] - 	--> leaked: Avatar(4).
+ ERROR root [0x000074ec] [2025-02-24 21:11:36,744] - PyGC::debugTracing(): Vector3 : leaked(2)
+ ERROR root [0x000074ec] [2025-02-24 21:11:36,744] - PyGC::debugTracing(): Entity : leaked(1)
+ ERROR root [0x000074ec] [2025-02-24 21:11:36,744] - PyGC::debugTracing(): EntityCall : leaked(2)
+ DEBUG root [0x000074ec] [2025-02-24 21:11:36,747] - Avatar::~Avatar(): 4
+  INFO root [0x000074ec] [2025-02-24 21:11:36,750] - Script::uninstall(): is successfully!
+ DEBUG root [0x000074ec] [2025-02-24 21:11:36,750] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000074ec] [2025-02-24 21:11:37,063] - ThreadPool::destroy(): waiting for thread(2)[0x2649d0b2b80,0x2649d0b2870,], try=1
+  INFO root [0x0000208c] [2025-02-24 21:13:05,858] - 
+  INFO root [0x0000208c] [2025-02-24 21:13:05,858] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000208c] [2025-02-24 21:13:05,859] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x0000208c] [2025-02-24 21:13:05,859] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x0000208c] [2025-02-24 21:13:05,859] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x0000208c] [2025-02-24 21:13:05,868] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:64180 )
+  INFO root [0x0000208c] [2025-02-24 21:13:05,869] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:64180, SOMAXCONN=511.
+  INFO root [0x0000208c] [2025-02-24 21:13:05,869] - server-configs:
+  INFO root [0x0000208c] [2025-02-24 21:13:05,869] - 	gameUpdateHertz : 10
+  INFO root [0x0000208c] [2025-02-24 21:13:05,869] - 	defaultViewRadius : 80
+  INFO root [0x0000208c] [2025-02-24 21:13:05,869] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000208c] [2025-02-24 21:13:05,869] - 	entryScriptFile : kbemain
+  INFO root [0x0000208c] [2025-02-24 21:13:05,869] - 	internalTcpAddr : 192.168.192.10:64180
+  INFO root [0x0000208c] [2025-02-24 21:13:05,869] - 	componentID : 8001
+  INFO root [0x0000208c] [2025-02-24 21:13:05,919] - Components::findLogger: found logger, addr:192.168.192.10:64164
+  INFO root [0x0000208c] [2025-02-24 21:13:05,920] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x0000208c] [2025-02-24 21:13:05,920] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000208c] [2025-02-24 21:13:05,923] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 34636 ----
+  INFO root [0x0000208c] [2025-02-24 21:13:05,923] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x0000208c] [2025-02-24 21:13:05,923] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000208c] [2025-02-24 21:13:05,923] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000208c] [2025-02-24 21:13:06,076] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x0000208c] [2025-02-24 21:13:06,076] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x0000208c] [2025-02-24 21:13:06,145] - loaded entity-script:Avatar(2).
+ DEBUG root [0x0000208c] [2025-02-24 21:13:06,145] - loaded entity-script:Monster(3).
+ DEBUG root [0x0000208c] [2025-02-24 21:13:06,145] - loaded entity-script:NPC(4).
+ DEBUG root [0x0000208c] [2025-02-24 21:13:06,145] - loaded entity-script:Space(5).
+ DEBUG root [0x0000208c] [2025-02-24 21:13:06,145] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x0000208c] [2025-02-24 21:13:06,145] - TelnetServer server is running on port 50000
+  INFO root [0x0000208c] [2025-02-24 21:13:06,153] - ---- cellapp is running ----
+ DEBUG root [0x0000208c] [2025-02-24 21:13:06,153] - Components::process(): Request for the process of identity...
+  WARN root [0x0000208c] [2025-02-24 21:13:12,352] - Forwarding logs to logger[192.168.192.10:64164/0/0/0]...
+ ERROR root [0x0000208c] [2025-02-24 21:41:56,312] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1867540286556, lastReceivedTime=1867324563255, inactivityExceptionPeriod=599500064)
+   OFF root [0x0000208c] [2025-02-24 21:41:56,313] - The following logs sent to logger failed:
+  WARN root [0x0000208c] [2025-02-24 21:41:56,313] - ==> [2025-02-24 21:41:56 313] TCPPacketReceiver::processPendingEvents(192.168.192.10:64164): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000208c] [2025-02-24 21:41:56,313] - ==> [2025-02-24 21:41:56 313] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1867540286556, lastReceivedTime=1867324563255, inactivityExceptionPeriod=599500064)
+  WARN root [0x0000208c] [2025-02-24 21:41:56,348] - TCPPacketReceiver::processPendingEvents(192.168.192.10:64165): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000208c] [2025-02-24 21:41:56,348] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1867540649777, lastReceivedTime=1867328156659, inactivityExceptionPeriod=599500064)
+  INFO root [0x0000208c] [2025-02-24 21:41:56,348] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000208c] [2025-02-24 21:41:56,348] - Shutdowner::onShutdown: shutting down
+  INFO root [0x0000208c] [2025-02-24 21:41:56,350] - Spaces::destroySpace: 1.
+ DEBUG root [0x0000208c] [2025-02-24 21:41:56,350] - Avatar::~Avatar(): 4
+ S_DBG root [0x0000208c] [2025-02-24 21:41:56,350] - onDestroy(2)
+ S_ERR root [0x0000208c] [2025-02-24 21:41:56,350] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 42, in onDestroy
+    if spawner:
+ S_ERR root [0x0000208c] [2025-02-24 21:41:56,351] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 26, in onDestroy
+    def enable(self):
+ S_ERR root [0x0000208c] [2025-02-24 21:41:56,351] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x0000208c] [2025-02-24 21:41:56,352] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+  INFO root [0x0000208c] [2025-02-24 21:41:56,352] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x0000208c] [2025-02-24 21:41:56,352] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x0000208c] [2025-02-24 21:41:56,352] - Monster::~Monster(): 2001
+ DEBUG root [0x0000208c] [2025-02-24 21:41:56,353] - Space::~Space(): 1
+ DEBUG root [0x0000208c] [2025-02-24 21:41:56,353] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x0000208c] [2025-02-24 21:41:56,353] - Witness::destroyObjPool(): size 16.
+  INFO root [0x0000208c] [2025-02-24 21:41:56,360] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000208c] [2025-02-24 21:41:56,360] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000208c] [2025-02-24 21:41:56,663] - ThreadPool::destroy(): waiting for thread(2)[0x1e31e8f33d0,0x1e31e8f2f70,], try=1
+  INFO root [0x000030f4] [2025-02-24 21:42:08,326] - 
+  INFO root [0x000030f4] [2025-02-24 21:42:08,327] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000030f4] [2025-02-24 21:42:08,327] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x000030f4] [2025-02-24 21:42:08,327] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x000030f4] [2025-02-24 21:42:08,327] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x000030f4] [2025-02-24 21:42:08,334] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:64982 )
+  INFO root [0x000030f4] [2025-02-24 21:42:08,334] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:64982, SOMAXCONN=511.
+  INFO root [0x000030f4] [2025-02-24 21:42:08,334] - server-configs:
+  INFO root [0x000030f4] [2025-02-24 21:42:08,334] - 	gameUpdateHertz : 10
+  INFO root [0x000030f4] [2025-02-24 21:42:08,334] - 	defaultViewRadius : 80
+  INFO root [0x000030f4] [2025-02-24 21:42:08,334] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000030f4] [2025-02-24 21:42:08,334] - 	entryScriptFile : kbemain
+  INFO root [0x000030f4] [2025-02-24 21:42:08,334] - 	internalTcpAddr : 192.168.192.10:64982
+  INFO root [0x000030f4] [2025-02-24 21:42:08,334] - 	componentID : 8001
+  INFO root [0x000030f4] [2025-02-24 21:42:08,340] - Components::findLogger: found logger, addr:192.168.192.10:64966
+  INFO root [0x000030f4] [2025-02-24 21:42:08,340] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x000030f4] [2025-02-24 21:42:08,340] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000030f4] [2025-02-24 21:42:08,341] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 268 ----
+  INFO root [0x000030f4] [2025-02-24 21:42:08,341] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x000030f4] [2025-02-24 21:42:08,341] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000030f4] [2025-02-24 21:42:08,342] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000030f4] [2025-02-24 21:42:08,484] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x000030f4] [2025-02-24 21:42:08,484] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000030f4] [2025-02-24 21:42:08,557] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000030f4] [2025-02-24 21:42:08,557] - loaded entity-script:Monster(3).
+ DEBUG root [0x000030f4] [2025-02-24 21:42:08,557] - loaded entity-script:NPC(4).
+ DEBUG root [0x000030f4] [2025-02-24 21:42:08,558] - loaded entity-script:Space(5).
+ DEBUG root [0x000030f4] [2025-02-24 21:42:08,558] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x000030f4] [2025-02-24 21:42:08,558] - TelnetServer server is running on port 50000
+  INFO root [0x000030f4] [2025-02-24 21:42:08,566] - ---- cellapp is running ----
+ DEBUG root [0x000030f4] [2025-02-24 21:42:08,566] - Components::process(): Request for the process of identity...
+  WARN root [0x000030f4] [2025-02-24 21:42:14,732] - Forwarding logs to logger[192.168.192.10:64966/0/0/0]...
+ ERROR root [0x000030f4] [2025-02-24 22:03:08,456] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1880261723913, lastReceivedTime=1880250286596, inactivityExceptionPeriod=599499873)
+   OFF root [0x000030f4] [2025-02-24 22:03:08,457] - The following logs sent to logger failed:
+  WARN root [0x000030f4] [2025-02-24 22:03:08,457] - ==> [2025-02-24 22:03:08 457] TCPPacketReceiver::processPendingEvents(192.168.192.10:64966): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000030f4] [2025-02-24 22:03:08,457] - ==> [2025-02-24 22:03:08 457] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1880261723913, lastReceivedTime=1880250286596, inactivityExceptionPeriod=599499873)
+  WARN root [0x000030f4] [2025-02-24 22:03:08,473] - TCPPacketReceiver::processPendingEvents(192.168.192.10:64967): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000030f4] [2025-02-24 22:03:08,473] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1880261893256, lastReceivedTime=1880253702961, inactivityExceptionPeriod=599499873)
+  INFO root [0x000030f4] [2025-02-24 22:03:08,474] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000030f4] [2025-02-24 22:03:08,474] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000030f4] [2025-02-24 22:03:08,474] - Spaces::destroySpace: 1.
+ S_DBG root [0x000030f4] [2025-02-24 22:03:08,474] - onDestroy(2)
+ S_ERR root [0x000030f4] [2025-02-24 22:03:08,476] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 44, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x000030f4] [2025-02-24 22:03:08,477] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 24, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x000030f4] [2025-02-24 22:03:08,478] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x000030f4] [2025-02-24 22:03:08,478] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x000030f4] [2025-02-24 22:03:08,478] - entity销毁 [Avatar] id:[4]
+  INFO root [0x000030f4] [2025-02-24 22:03:08,479] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000030f4] [2025-02-24 22:03:08,479] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x000030f4] [2025-02-24 22:03:08,479] - Monster::~Monster(): 2001
+ DEBUG root [0x000030f4] [2025-02-24 22:03:08,481] - Space::~Space(): 1
+ DEBUG root [0x000030f4] [2025-02-24 22:03:08,481] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x000030f4] [2025-02-24 22:03:08,481] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x000030f4] [2025-02-24 22:03:08,482] - EntityGarbages::~EntityGarbages(): leaked, size=1.
+ ERROR root [0x000030f4] [2025-02-24 22:03:08,482] - 	--> leaked: Avatar(4).
+ ERROR root [0x000030f4] [2025-02-24 22:03:08,483] - PyGC::debugTracing(): Vector3 : leaked(2)
+ ERROR root [0x000030f4] [2025-02-24 22:03:08,483] - PyGC::debugTracing(): Entity : leaked(1)
+ ERROR root [0x000030f4] [2025-02-24 22:03:08,483] - PyGC::debugTracing(): EntityCall : leaked(2)
+ DEBUG root [0x000030f4] [2025-02-24 22:03:08,486] - Avatar::~Avatar(): 4
+  INFO root [0x000030f4] [2025-02-24 22:03:08,490] - Script::uninstall(): is successfully!
+ DEBUG root [0x000030f4] [2025-02-24 22:03:08,490] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,692] - 
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,692] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,694] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,694] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,694] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,700] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:65411 )
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,701] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:65411, SOMAXCONN=511.
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,701] - server-configs:
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,701] - 	gameUpdateHertz : 10
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,701] - 	defaultViewRadius : 80
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,701] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,701] - 	entryScriptFile : kbemain
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,701] - 	internalTcpAddr : 192.168.192.10:65411
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,701] - 	componentID : 8001
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,799] - Components::findLogger: found logger, addr:192.168.192.10:65395
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,799] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,799] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,803] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 20876 ----
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,803] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,803] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,803] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,945] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00005cd4] [2025-02-24 22:05:25,945] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00005cd4] [2025-02-24 22:05:26,016] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00005cd4] [2025-02-24 22:05:26,016] - loaded entity-script:Monster(3).
+ DEBUG root [0x00005cd4] [2025-02-24 22:05:26,016] - loaded entity-script:NPC(4).
+ DEBUG root [0x00005cd4] [2025-02-24 22:05:26,016] - loaded entity-script:Space(5).
+ DEBUG root [0x00005cd4] [2025-02-24 22:05:26,016] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x00005cd4] [2025-02-24 22:05:26,017] - TelnetServer server is running on port 50000
+  INFO root [0x00005cd4] [2025-02-24 22:05:26,025] - ---- cellapp is running ----
+ DEBUG root [0x00005cd4] [2025-02-24 22:05:26,025] - Components::process(): Request for the process of identity...
+  WARN root [0x00005cd4] [2025-02-24 22:05:32,173] - Forwarding logs to logger[192.168.192.10:65395/0/0/0]...
+ ERROR root [0x00005cd4] [2025-02-24 22:06:01,040] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1881987560275, lastReceivedTime=1881923586792, inactivityExceptionPeriod=599500000)
+   OFF root [0x00005cd4] [2025-02-24 22:06:01,041] - The following logs sent to logger failed:
+ S_ERR root [0x00005cd4] [2025-02-24 22:06:01,041] - ==> [2025-02-24 22:06:01 028] Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Avatar.py", line 96, in onTimer
+    self.update()
+ S_ERR root [0x00005cd4] [2025-02-24 22:06:01,041] - ==> [2025-02-24 22:06:01 032] TypeError: update() missing 1 required positional argument: 'dt'
+  WARN root [0x00005cd4] [2025-02-24 22:06:01,041] - ==> [2025-02-24 22:06:01 040] TCPPacketReceiver::processPendingEvents(192.168.192.10:65395): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005cd4] [2025-02-24 22:06:01,041] - ==> [2025-02-24 22:06:01 041] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1881987560275, lastReceivedTime=1881923586792, inactivityExceptionPeriod=599500000)
+  WARN root [0x00005cd4] [2025-02-24 22:06:01,075] - TCPPacketReceiver::processPendingEvents(192.168.192.10:65396): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005cd4] [2025-02-24 22:06:01,075] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1881987917319, lastReceivedTime=1881927131967, inactivityExceptionPeriod=599500000)
+  INFO root [0x00005cd4] [2025-02-24 22:06:01,077] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00005cd4] [2025-02-24 22:06:01,077] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00005cd4] [2025-02-24 22:06:01,077] - Spaces::destroySpace: 1.
+ S_DBG root [0x00005cd4] [2025-02-24 22:06:01,077] - onDestroy(2002)
+ S_ERR root [0x00005cd4] [2025-02-24 22:06:01,077] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 44, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x00005cd4] [2025-02-24 22:06:01,078] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 24, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x00005cd4] [2025-02-24 22:06:01,079] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x00005cd4] [2025-02-24 22:06:01,079] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x00005cd4] [2025-02-24 22:06:01,080] - entity销毁 [Avatar] id:[2004]
+  INFO root [0x00005cd4] [2025-02-24 22:06:01,080] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00005cd4] [2025-02-24 22:06:01,080] - SpawnPoint::~SpawnPoint(): 2002
+ DEBUG root [0x00005cd4] [2025-02-24 22:06:01,080] - Monster::~Monster(): 1
+ DEBUG root [0x00005cd4] [2025-02-24 22:06:01,082] - Space::~Space(): 2001
+ DEBUG root [0x00005cd4] [2025-02-24 22:06:01,082] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00005cd4] [2025-02-24 22:06:01,082] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00005cd4] [2025-02-24 22:06:01,083] - EntityGarbages::~EntityGarbages(): leaked, size=1.
+ ERROR root [0x00005cd4] [2025-02-24 22:06:01,084] - 	--> leaked: Avatar(2004).
+ ERROR root [0x00005cd4] [2025-02-24 22:06:01,084] - PyGC::debugTracing(): Vector3 : leaked(2)
+ ERROR root [0x00005cd4] [2025-02-24 22:06:01,084] - PyGC::debugTracing(): Entity : leaked(1)
+ ERROR root [0x00005cd4] [2025-02-24 22:06:01,084] - PyGC::debugTracing(): EntityCall : leaked(2)
+ DEBUG root [0x00005cd4] [2025-02-24 22:06:01,086] - Avatar::~Avatar(): 2004
+  INFO root [0x00005cd4] [2025-02-24 22:06:01,088] - Script::uninstall(): is successfully!
+ DEBUG root [0x00005cd4] [2025-02-24 22:06:01,088] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00006900] [2025-02-24 23:07:36,462] - 
+  INFO root [0x00006900] [2025-02-24 23:07:36,462] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00006900] [2025-02-24 23:07:36,463] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00006900] [2025-02-24 23:07:36,463] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00006900] [2025-02-24 23:07:36,463] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00006900] [2025-02-24 23:07:36,469] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:50836 )
+  INFO root [0x00006900] [2025-02-24 23:07:36,469] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:50836, SOMAXCONN=511.
+  INFO root [0x00006900] [2025-02-24 23:07:36,469] - server-configs:
+  INFO root [0x00006900] [2025-02-24 23:07:36,469] - 	gameUpdateHertz : 10
+  INFO root [0x00006900] [2025-02-24 23:07:36,469] - 	defaultViewRadius : 80
+  INFO root [0x00006900] [2025-02-24 23:07:36,469] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00006900] [2025-02-24 23:07:36,469] - 	entryScriptFile : kbemain
+  INFO root [0x00006900] [2025-02-24 23:07:36,469] - 	internalTcpAddr : 192.168.192.10:50836
+  INFO root [0x00006900] [2025-02-24 23:07:36,469] - 	componentID : 8001
+  INFO root [0x00006900] [2025-02-24 23:07:36,492] - Components::findLogger: found logger, addr:192.168.192.10:50820
+  INFO root [0x00006900] [2025-02-24 23:07:36,492] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00006900] [2025-02-24 23:07:36,492] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00006900] [2025-02-24 23:07:36,495] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 3996 ----
+  INFO root [0x00006900] [2025-02-24 23:07:36,495] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00006900] [2025-02-24 23:07:36,495] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00006900] [2025-02-24 23:07:36,495] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00006900] [2025-02-24 23:07:36,633] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00006900] [2025-02-24 23:07:36,633] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00006900] [2025-02-24 23:07:36,703] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00006900] [2025-02-24 23:07:36,703] - loaded entity-script:Monster(3).
+ DEBUG root [0x00006900] [2025-02-24 23:07:36,703] - loaded entity-script:NPC(4).
+ DEBUG root [0x00006900] [2025-02-24 23:07:36,703] - loaded entity-script:Space(5).
+ DEBUG root [0x00006900] [2025-02-24 23:07:36,703] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x00006900] [2025-02-24 23:07:36,704] - TelnetServer server is running on port 50000
+  INFO root [0x00006900] [2025-02-24 23:07:36,712] - ---- cellapp is running ----
+ DEBUG root [0x00006900] [2025-02-24 23:07:36,712] - Components::process(): Request for the process of identity...
+  WARN root [0x00006900] [2025-02-24 23:07:42,946] - Forwarding logs to logger[192.168.192.10:50820/0/0/0]...
+ ERROR root [0x00006900] [2025-02-24 23:08:10,648] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1919283645425, lastReceivedTime=1919231225832, inactivityExceptionPeriod=599500000)
+   OFF root [0x00006900] [2025-02-24 23:08:10,648] - The following logs sent to logger failed:
+ S_ERR root [0x00006900] [2025-02-24 23:08:10,648] - ==> [2025-02-24 23:08:10 626] Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Avatar.py", line 94, in onTimer
+    self.update(GlobalConst.DATA_TIME)
+ S_ERR root [0x00006900] [2025-02-24 23:08:10,648] - ==> [2025-02-24 23:08:10 647]   File "D:/IT/kbengine/click/scripts/cell\Avatar.py", line 37, in update
+    self.hateTargetID = self.getDirectTargetID()
+ S_ERR root [0x00006900] [2025-02-24 23:08:10,648] - ==> [2025-02-24 23:08:10 649]   File "D:/IT/kbengine/click/scripts/cell\Avatar.py", line 149, in getDirectTargetID
+    dis = Vector.distance2d(self.uPosition, hateTarget.uPosition)
+ S_ERR root [0x00006900] [2025-02-24 23:08:10,648] - ==> [2025-02-24 23:08:10 649] NameError: name 'Vector' is not defined
+  WARN root [0x00006900] [2025-02-24 23:08:10,648] - ==> [2025-02-24 23:08:10 649] TCPPacketReceiver::processPendingEvents(192.168.192.10:50820): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00006900] [2025-02-24 23:08:10,648] - ==> [2025-02-24 23:08:10 649] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1919283645425, lastReceivedTime=1919231225832, inactivityExceptionPeriod=599500000)
+  WARN root [0x00006900] [2025-02-24 23:08:10,686] - TCPPacketReceiver::processPendingEvents(192.168.192.10:50821): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00006900] [2025-02-24 23:08:10,686] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1919284023112, lastReceivedTime=1919234810321, inactivityExceptionPeriod=599500000)
+  INFO root [0x00006900] [2025-02-24 23:08:10,687] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00006900] [2025-02-24 23:08:10,688] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00006900] [2025-02-24 23:08:10,688] - Spaces::destroySpace: 1.
+ S_DBG root [0x00006900] [2025-02-24 23:08:10,688] - onDestroy(2)
+ S_ERR root [0x00006900] [2025-02-24 23:08:10,689] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 44, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x00006900] [2025-02-24 23:08:10,690] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 24, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x00006900] [2025-02-24 23:08:10,691] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x00006900] [2025-02-24 23:08:10,693] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x00006900] [2025-02-24 23:08:10,693] - entity销毁 [Avatar] id:[4]
+  INFO root [0x00006900] [2025-02-24 23:08:10,693] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00006900] [2025-02-24 23:08:10,693] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x00006900] [2025-02-24 23:08:10,694] - Monster::~Monster(): 2001
+ DEBUG root [0x00006900] [2025-02-24 23:08:10,694] - Space::~Space(): 1
+ DEBUG root [0x00006900] [2025-02-24 23:08:10,696] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00006900] [2025-02-24 23:08:10,696] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00006900] [2025-02-24 23:08:10,696] - EntityGarbages::~EntityGarbages(): leaked, size=1.
+ ERROR root [0x00006900] [2025-02-24 23:08:10,697] - 	--> leaked: Avatar(4).
+ ERROR root [0x00006900] [2025-02-24 23:08:10,697] - PyGC::debugTracing(): Vector3 : leaked(2)
+ ERROR root [0x00006900] [2025-02-24 23:08:10,697] - PyGC::debugTracing(): Entity : leaked(1)
+ ERROR root [0x00006900] [2025-02-24 23:08:10,697] - PyGC::debugTracing(): EntityCall : leaked(2)
+ DEBUG root [0x00006900] [2025-02-24 23:08:10,699] - Avatar::~Avatar(): 4
+  INFO root [0x00006900] [2025-02-24 23:08:10,702] - Script::uninstall(): is successfully!
+ DEBUG root [0x00006900] [2025-02-24 23:08:10,702] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00006900] [2025-02-24 23:08:11,016] - ThreadPool::destroy(): waiting for thread(2)[0x1b916d92f00,0x1b916d934b0,], try=1
+  INFO root [0x00001934] [2025-02-24 23:08:49,857] - 
+  INFO root [0x00001934] [2025-02-24 23:08:49,857] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001934] [2025-02-24 23:08:49,858] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00001934] [2025-02-24 23:08:49,858] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00001934] [2025-02-24 23:08:49,858] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00001934] [2025-02-24 23:08:49,863] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:50925 )
+  INFO root [0x00001934] [2025-02-24 23:08:49,863] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:50925, SOMAXCONN=511.
+  INFO root [0x00001934] [2025-02-24 23:08:49,863] - server-configs:
+  INFO root [0x00001934] [2025-02-24 23:08:49,863] - 	gameUpdateHertz : 10
+  INFO root [0x00001934] [2025-02-24 23:08:49,864] - 	defaultViewRadius : 80
+  INFO root [0x00001934] [2025-02-24 23:08:49,864] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001934] [2025-02-24 23:08:49,864] - 	entryScriptFile : kbemain
+  INFO root [0x00001934] [2025-02-24 23:08:49,864] - 	internalTcpAddr : 192.168.192.10:50925
+  INFO root [0x00001934] [2025-02-24 23:08:49,864] - 	componentID : 8001
+  INFO root [0x00001934] [2025-02-24 23:08:49,931] - Components::findLogger: found logger, addr:192.168.192.10:50910
+  INFO root [0x00001934] [2025-02-24 23:08:49,931] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00001934] [2025-02-24 23:08:49,931] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001934] [2025-02-24 23:08:49,934] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 21916 ----
+  INFO root [0x00001934] [2025-02-24 23:08:49,935] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00001934] [2025-02-24 23:08:49,935] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001934] [2025-02-24 23:08:49,935] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001934] [2025-02-24 23:08:50,075] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00001934] [2025-02-24 23:08:50,075] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001934] [2025-02-24 23:08:50,151] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00001934] [2025-02-24 23:08:50,151] - loaded entity-script:Monster(3).
+ DEBUG root [0x00001934] [2025-02-24 23:08:50,151] - loaded entity-script:NPC(4).
+ DEBUG root [0x00001934] [2025-02-24 23:08:50,151] - loaded entity-script:Space(5).
+ DEBUG root [0x00001934] [2025-02-24 23:08:50,151] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x00001934] [2025-02-24 23:08:50,151] - TelnetServer server is running on port 50000
+  INFO root [0x00001934] [2025-02-24 23:08:50,160] - ---- cellapp is running ----
+ DEBUG root [0x00001934] [2025-02-24 23:08:50,161] - Components::process(): Request for the process of identity...
+  WARN root [0x00001934] [2025-02-24 23:08:56,357] - Forwarding logs to logger[192.168.192.10:50910/0/0/0]...
+ ERROR root [0x00001934] [2025-02-24 23:09:57,986] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1920357012065, lastReceivedTime=1920265371041, inactivityExceptionPeriod=599500000)
+   OFF root [0x00001934] [2025-02-24 23:09:57,986] - The following logs sent to logger failed:
+  WARN root [0x00001934] [2025-02-24 23:09:57,986] - ==> [2025-02-24 23:09:57 985] TCPPacketReceiver::processPendingEvents(192.168.192.10:50910): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001934] [2025-02-24 23:09:57,986] - ==> [2025-02-24 23:09:57 986] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1920357012065, lastReceivedTime=1920265371041, inactivityExceptionPeriod=599500000)
+  WARN root [0x00001934] [2025-02-24 23:09:58,028] - TCPPacketReceiver::processPendingEvents(192.168.192.10:50911): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001934] [2025-02-24 23:09:58,028] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1920357446900, lastReceivedTime=1920268632763, inactivityExceptionPeriod=599500000)
+  INFO root [0x00001934] [2025-02-24 23:09:58,029] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001934] [2025-02-24 23:09:58,029] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00001934] [2025-02-24 23:09:58,029] - Spaces::destroySpace: 1.
+ S_DBG root [0x00001934] [2025-02-24 23:09:58,029] - onDestroy(2)
+ S_ERR root [0x00001934] [2025-02-24 23:09:58,030] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 44, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x00001934] [2025-02-24 23:09:58,032] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 24, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x00001934] [2025-02-24 23:09:58,033] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x00001934] [2025-02-24 23:09:58,033] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x00001934] [2025-02-24 23:09:58,033] - entity销毁 [Avatar] id:[4]
+  INFO root [0x00001934] [2025-02-24 23:09:58,033] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00001934] [2025-02-24 23:09:58,033] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x00001934] [2025-02-24 23:09:58,033] - Monster::~Monster(): 2001
+ DEBUG root [0x00001934] [2025-02-24 23:09:58,034] - Space::~Space(): 1
+ DEBUG root [0x00001934] [2025-02-24 23:09:58,034] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00001934] [2025-02-24 23:09:58,034] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00001934] [2025-02-24 23:09:58,035] - EntityGarbages::~EntityGarbages(): leaked, size=1.
+ ERROR root [0x00001934] [2025-02-24 23:09:58,036] - 	--> leaked: Avatar(4).
+ ERROR root [0x00001934] [2025-02-24 23:09:58,036] - PyGC::debugTracing(): Vector3 : leaked(2)
+ ERROR root [0x00001934] [2025-02-24 23:09:58,036] - PyGC::debugTracing(): Entity : leaked(1)
+ ERROR root [0x00001934] [2025-02-24 23:09:58,036] - PyGC::debugTracing(): EntityCall : leaked(2)
+ DEBUG root [0x00001934] [2025-02-24 23:09:58,039] - Avatar::~Avatar(): 4
+  INFO root [0x00001934] [2025-02-24 23:09:58,041] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001934] [2025-02-24 23:09:58,041] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001934] [2025-02-24 23:09:58,343] - ThreadPool::destroy(): waiting for thread(2)[0x20342a817d0,0x20342a81290,], try=1
+  INFO root [0x000040b8] [2025-02-24 23:24:16,766] - 
+  INFO root [0x000040b8] [2025-02-24 23:24:16,766] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000040b8] [2025-02-24 23:24:16,766] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x000040b8] [2025-02-24 23:24:16,766] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x000040b8] [2025-02-24 23:24:16,766] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x000040b8] [2025-02-24 23:24:16,772] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:51276 )
+  INFO root [0x000040b8] [2025-02-24 23:24:16,772] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:51276, SOMAXCONN=511.
+  INFO root [0x000040b8] [2025-02-24 23:24:16,774] - server-configs:
+  INFO root [0x000040b8] [2025-02-24 23:24:16,774] - 	gameUpdateHertz : 10
+  INFO root [0x000040b8] [2025-02-24 23:24:16,774] - 	defaultViewRadius : 80
+  INFO root [0x000040b8] [2025-02-24 23:24:16,774] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000040b8] [2025-02-24 23:24:16,774] - 	entryScriptFile : kbemain
+  INFO root [0x000040b8] [2025-02-24 23:24:16,774] - 	internalTcpAddr : 192.168.192.10:51276
+  INFO root [0x000040b8] [2025-02-24 23:24:16,774] - 	componentID : 8001
+  INFO root [0x000040b8] [2025-02-24 23:24:16,795] - Components::findLogger: found logger, addr:192.168.192.10:51268
+  INFO root [0x000040b8] [2025-02-24 23:24:16,795] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x000040b8] [2025-02-24 23:24:16,795] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000040b8] [2025-02-24 23:24:16,797] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 2616 ----
+  INFO root [0x000040b8] [2025-02-24 23:24:16,797] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x000040b8] [2025-02-24 23:24:16,797] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000040b8] [2025-02-24 23:24:16,797] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000040b8] [2025-02-24 23:24:16,937] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x000040b8] [2025-02-24 23:24:16,937] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000040b8] [2025-02-24 23:24:17,006] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000040b8] [2025-02-24 23:24:17,006] - loaded entity-script:Monster(3).
+ DEBUG root [0x000040b8] [2025-02-24 23:24:17,006] - loaded entity-script:NPC(4).
+ DEBUG root [0x000040b8] [2025-02-24 23:24:17,006] - loaded entity-script:Space(5).
+ DEBUG root [0x000040b8] [2025-02-24 23:24:17,006] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x000040b8] [2025-02-24 23:24:17,006] - TelnetServer server is running on port 50000
+  INFO root [0x000040b8] [2025-02-24 23:24:17,014] - ---- cellapp is running ----
+ DEBUG root [0x000040b8] [2025-02-24 23:24:17,014] - Components::process(): Request for the process of identity...
+  WARN root [0x000040b8] [2025-02-24 23:24:23,241] - Forwarding logs to logger[192.168.192.10:51268/0/0/0]...
+ ERROR root [0x000040b8] [2025-02-24 23:26:30,818] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1930285343909, lastReceivedTime=1930134766816, inactivityExceptionPeriod=599500000)
+   OFF root [0x000040b8] [2025-02-24 23:26:30,821] - The following logs sent to logger failed:
+  WARN root [0x000040b8] [2025-02-24 23:26:30,821] - ==> [2025-02-24 23:26:30 818] TCPPacketReceiver::processPendingEvents(192.168.192.10:51268): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000040b8] [2025-02-24 23:26:30,821] - ==> [2025-02-24 23:26:30 819] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1930285343909, lastReceivedTime=1930134766816, inactivityExceptionPeriod=599500000)
+  WARN root [0x000040b8] [2025-02-24 23:26:30,913] - TCPPacketReceiver::processPendingEvents(192.168.192.10:51269): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000040b8] [2025-02-24 23:26:30,915] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1930286318506, lastReceivedTime=1930138037170, inactivityExceptionPeriod=599500000)
+  INFO root [0x000040b8] [2025-02-24 23:26:30,917] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000040b8] [2025-02-24 23:26:30,917] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000040b8] [2025-02-24 23:26:30,917] - Spaces::destroySpace: 1.
+ S_DBG root [0x000040b8] [2025-02-24 23:26:30,918] - onDestroy(2002)
+ S_ERR root [0x000040b8] [2025-02-24 23:26:30,918] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 44, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x000040b8] [2025-02-24 23:26:30,918] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 24, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x000040b8] [2025-02-24 23:26:30,918] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x000040b8] [2025-02-24 23:26:30,919] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+  INFO root [0x000040b8] [2025-02-24 23:26:30,919] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000040b8] [2025-02-24 23:26:30,919] - SpawnPoint::~SpawnPoint(): 2002
+ DEBUG root [0x000040b8] [2025-02-24 23:26:30,919] - Monster::~Monster(): 1
+ DEBUG root [0x000040b8] [2025-02-24 23:26:30,919] - Space::~Space(): 2001
+ DEBUG root [0x000040b8] [2025-02-24 23:26:30,919] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000040b8] [2025-02-24 23:26:30,919] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000040b8] [2025-02-24 23:26:30,925] - Script::uninstall(): is successfully!
+ DEBUG root [0x000040b8] [2025-02-24 23:26:30,925] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00002aac] [2025-02-24 23:26:35,098] - 
+  INFO root [0x00002aac] [2025-02-24 23:26:35,100] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002aac] [2025-02-24 23:26:35,100] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00002aac] [2025-02-24 23:26:35,100] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00002aac] [2025-02-24 23:26:35,100] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00002aac] [2025-02-24 23:26:35,106] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:51396 )
+  INFO root [0x00002aac] [2025-02-24 23:26:35,106] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:51396, SOMAXCONN=511.
+  INFO root [0x00002aac] [2025-02-24 23:26:35,106] - server-configs:
+  INFO root [0x00002aac] [2025-02-24 23:26:35,106] - 	gameUpdateHertz : 10
+  INFO root [0x00002aac] [2025-02-24 23:26:35,106] - 	defaultViewRadius : 80
+  INFO root [0x00002aac] [2025-02-24 23:26:35,106] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002aac] [2025-02-24 23:26:35,106] - 	entryScriptFile : kbemain
+  INFO root [0x00002aac] [2025-02-24 23:26:35,106] - 	internalTcpAddr : 192.168.192.10:51396
+  INFO root [0x00002aac] [2025-02-24 23:26:35,106] - 	componentID : 8001
+  INFO root [0x00002aac] [2025-02-24 23:26:35,146] - Components::findLogger: found logger, addr:192.168.192.10:51388
+  INFO root [0x00002aac] [2025-02-24 23:26:35,146] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00002aac] [2025-02-24 23:26:35,146] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002aac] [2025-02-24 23:26:35,147] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 12748 ----
+  INFO root [0x00002aac] [2025-02-24 23:26:35,147] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00002aac] [2025-02-24 23:26:35,147] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002aac] [2025-02-24 23:26:35,147] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002aac] [2025-02-24 23:26:35,289] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00002aac] [2025-02-24 23:26:35,289] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002aac] [2025-02-24 23:26:35,362] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00002aac] [2025-02-24 23:26:35,362] - loaded entity-script:Monster(3).
+ DEBUG root [0x00002aac] [2025-02-24 23:26:35,362] - loaded entity-script:NPC(4).
+ DEBUG root [0x00002aac] [2025-02-24 23:26:35,362] - loaded entity-script:Space(5).
+ DEBUG root [0x00002aac] [2025-02-24 23:26:35,362] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x00002aac] [2025-02-24 23:26:35,362] - TelnetServer server is running on port 50000
+  INFO root [0x00002aac] [2025-02-24 23:26:35,370] - ---- cellapp is running ----
+ DEBUG root [0x00002aac] [2025-02-24 23:26:35,370] - Components::process(): Request for the process of identity...
+  WARN root [0x00002aac] [2025-02-24 23:26:41,504] - Forwarding logs to logger[192.168.192.10:51388/0/0/0]...
+ ERROR root [0x00002aac] [2025-02-24 23:28:20,094] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1931378098396, lastReceivedTime=1931217758115, inactivityExceptionPeriod=599499873)
+   OFF root [0x00002aac] [2025-02-24 23:28:20,095] - The following logs sent to logger failed:
+  WARN root [0x00002aac] [2025-02-24 23:28:20,095] - ==> [2025-02-24 23:28:20 094] TCPPacketReceiver::processPendingEvents(192.168.192.10:51388): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002aac] [2025-02-24 23:28:20,095] - ==> [2025-02-24 23:28:20 094] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1931378098396, lastReceivedTime=1931217758115, inactivityExceptionPeriod=599499873)
+  WARN root [0x00002aac] [2025-02-24 23:28:20,120] - TCPPacketReceiver::processPendingEvents(192.168.192.10:51389): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002aac] [2025-02-24 23:28:20,121] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1931378367230, lastReceivedTime=1931221183005, inactivityExceptionPeriod=599499873)
+  INFO root [0x00002aac] [2025-02-24 23:28:20,121] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002aac] [2025-02-24 23:28:20,121] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00002aac] [2025-02-24 23:28:20,121] - Spaces::destroySpace: 1.
+ S_DBG root [0x00002aac] [2025-02-24 23:28:20,121] - onDestroy(2002)
+ S_ERR root [0x00002aac] [2025-02-24 23:28:20,121] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 44, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x00002aac] [2025-02-24 23:28:20,124] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 24, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x00002aac] [2025-02-24 23:28:20,124] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x00002aac] [2025-02-24 23:28:20,124] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x00002aac] [2025-02-24 23:28:20,124] - entity销毁 [Avatar] id:[2004]
+  INFO root [0x00002aac] [2025-02-24 23:28:20,125] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002aac] [2025-02-24 23:28:20,125] - SpawnPoint::~SpawnPoint(): 2002
+ DEBUG root [0x00002aac] [2025-02-24 23:28:20,125] - Monster::~Monster(): 1
+ DEBUG root [0x00002aac] [2025-02-24 23:28:20,126] - Space::~Space(): 2001
+ DEBUG root [0x00002aac] [2025-02-24 23:28:20,126] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00002aac] [2025-02-24 23:28:20,126] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00002aac] [2025-02-24 23:28:20,127] - EntityGarbages::~EntityGarbages(): leaked, size=1.
+ ERROR root [0x00002aac] [2025-02-24 23:28:20,127] - 	--> leaked: Avatar(2004).
+ ERROR root [0x00002aac] [2025-02-24 23:28:20,128] - PyGC::debugTracing(): Vector3 : leaked(2)
+ ERROR root [0x00002aac] [2025-02-24 23:28:20,128] - PyGC::debugTracing(): Entity : leaked(1)
+ ERROR root [0x00002aac] [2025-02-24 23:28:20,128] - PyGC::debugTracing(): EntityCall : leaked(2)
+ DEBUG root [0x00002aac] [2025-02-24 23:28:20,131] - Avatar::~Avatar(): 2004
+  INFO root [0x00002aac] [2025-02-24 23:28:20,134] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002aac] [2025-02-24 23:28:20,134] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00002aac] [2025-02-24 23:28:20,447] - ThreadPool::destroy(): waiting for thread(2)[0x203bd18e660,0x203bd18dc50,], try=1
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,377] - 
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,377] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,378] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,378] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,378] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,389] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:51564 )
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,390] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:51564, SOMAXCONN=511.
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,390] - server-configs:
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,390] - 	gameUpdateHertz : 10
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,390] - 	defaultViewRadius : 80
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,390] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,390] - 	entryScriptFile : kbemain
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,390] - 	internalTcpAddr : 192.168.192.10:51564
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,390] - 	componentID : 8001
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,494] - Components::findLogger: found logger, addr:192.168.192.10:51548
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,494] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,494] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,495] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 24056 ----
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,495] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,495] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,495] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,630] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,630] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000fbc] [2025-02-24 23:33:20,694] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00000fbc] [2025-02-24 23:33:20,694] - loaded entity-script:Monster(3).
+ DEBUG root [0x00000fbc] [2025-02-24 23:33:20,694] - loaded entity-script:NPC(4).
+ DEBUG root [0x00000fbc] [2025-02-24 23:33:20,694] - loaded entity-script:Space(5).
+ DEBUG root [0x00000fbc] [2025-02-24 23:33:20,694] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,694] - TelnetServer server is running on port 50000
+  INFO root [0x00000fbc] [2025-02-24 23:33:20,702] - ---- cellapp is running ----
+ DEBUG root [0x00000fbc] [2025-02-24 23:33:20,702] - Components::process(): Request for the process of identity...
+  WARN root [0x00000fbc] [2025-02-24 23:33:26,864] - Forwarding logs to logger[192.168.192.10:51548/0/0/0]...
+ ERROR root [0x00000fbc] [2025-02-24 23:34:29,216] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1935069323908, lastReceivedTime=1934970163510, inactivityExceptionPeriod=599500000)
+   OFF root [0x00000fbc] [2025-02-24 23:34:29,217] - The following logs sent to logger failed:
+  WARN root [0x00000fbc] [2025-02-24 23:34:29,217] - ==> [2025-02-24 23:34:29 217] TCPPacketReceiver::processPendingEvents(192.168.192.10:51548): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000fbc] [2025-02-24 23:34:29,217] - ==> [2025-02-24 23:34:29 217] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1935069323908, lastReceivedTime=1934970163510, inactivityExceptionPeriod=599500000)
+  WARN root [0x00000fbc] [2025-02-24 23:34:29,257] - TCPPacketReceiver::processPendingEvents(192.168.192.10:51549): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000fbc] [2025-02-24 23:34:29,257] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1935069734474, lastReceivedTime=1934973896001, inactivityExceptionPeriod=599500000)
+  INFO root [0x00000fbc] [2025-02-24 23:34:29,258] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00000fbc] [2025-02-24 23:34:29,258] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00000fbc] [2025-02-24 23:34:29,258] - Spaces::destroySpace: 1.
+ S_DBG root [0x00000fbc] [2025-02-24 23:34:29,258] - onDestroy(2)
+ S_ERR root [0x00000fbc] [2025-02-24 23:34:29,259] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 44, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x00000fbc] [2025-02-24 23:34:29,260] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 24, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x00000fbc] [2025-02-24 23:34:29,260] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x00000fbc] [2025-02-24 23:34:29,260] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x00000fbc] [2025-02-24 23:34:29,260] - entity销毁 [Avatar] id:[4]
+  INFO root [0x00000fbc] [2025-02-24 23:34:29,261] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00000fbc] [2025-02-24 23:34:29,261] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x00000fbc] [2025-02-24 23:34:29,261] - Monster::~Monster(): 2001
+ DEBUG root [0x00000fbc] [2025-02-24 23:34:29,262] - Space::~Space(): 1
+ DEBUG root [0x00000fbc] [2025-02-24 23:34:29,262] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00000fbc] [2025-02-24 23:34:29,262] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00000fbc] [2025-02-24 23:34:29,262] - EntityGarbages::~EntityGarbages(): leaked, size=1.
+ ERROR root [0x00000fbc] [2025-02-24 23:34:29,262] - 	--> leaked: Avatar(4).
+ ERROR root [0x00000fbc] [2025-02-24 23:34:29,264] - PyGC::debugTracing(): Vector3 : leaked(2)
+ ERROR root [0x00000fbc] [2025-02-24 23:34:29,264] - PyGC::debugTracing(): Entity : leaked(1)
+ ERROR root [0x00000fbc] [2025-02-24 23:34:29,264] - PyGC::debugTracing(): EntityCall : leaked(2)
+ DEBUG root [0x00000fbc] [2025-02-24 23:34:29,266] - Avatar::~Avatar(): 4
+  INFO root [0x00000fbc] [2025-02-24 23:34:29,270] - Script::uninstall(): is successfully!
+ DEBUG root [0x00000fbc] [2025-02-24 23:34:29,270] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00000fbc] [2025-02-24 23:34:29,579] - ThreadPool::destroy(): waiting for thread(2)[0x1bfe26ce3a0,0x1bfe26ceb10,], try=1
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,300] - 
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,300] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,300] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,300] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,300] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,307] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:51685 )
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,307] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:51685, SOMAXCONN=511.
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,307] - server-configs:
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,307] - 	gameUpdateHertz : 10
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,307] - 	defaultViewRadius : 80
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,307] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,307] - 	entryScriptFile : kbemain
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,307] - 	internalTcpAddr : 192.168.192.10:51685
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,307] - 	componentID : 8001
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,311] - Components::findLogger: found logger, addr:192.168.192.10:51669
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,311] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,311] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,314] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 30784 ----
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,314] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,314] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,314] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,461] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,461] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00004f7c] [2025-02-24 23:36:23,541] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00004f7c] [2025-02-24 23:36:23,541] - loaded entity-script:Monster(3).
+ DEBUG root [0x00004f7c] [2025-02-24 23:36:23,541] - loaded entity-script:NPC(4).
+ DEBUG root [0x00004f7c] [2025-02-24 23:36:23,541] - loaded entity-script:Space(5).
+ DEBUG root [0x00004f7c] [2025-02-24 23:36:23,541] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,541] - TelnetServer server is running on port 50000
+  INFO root [0x00004f7c] [2025-02-24 23:36:23,549] - ---- cellapp is running ----
+ DEBUG root [0x00004f7c] [2025-02-24 23:36:23,549] - Components::process(): Request for the process of identity...
+  WARN root [0x00004f7c] [2025-02-24 23:36:29,775] - Forwarding logs to logger[192.168.192.10:51669/0/0/0]...
+ ERROR root [0x00004f7c] [2025-02-24 23:38:15,857] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1937335734073, lastReceivedTime=1937097335435, inactivityExceptionPeriod=599500000)
+   OFF root [0x00004f7c] [2025-02-24 23:38:15,857] - The following logs sent to logger failed:
+  WARN root [0x00004f7c] [2025-02-24 23:38:15,857] - ==> [2025-02-24 23:38:15 858] TCPPacketReceiver::processPendingEvents(192.168.192.10:51669): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00004f7c] [2025-02-24 23:38:15,857] - ==> [2025-02-24 23:38:15 858] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1937335734073, lastReceivedTime=1937097335435, inactivityExceptionPeriod=599500000)
+  WARN root [0x00004f7c] [2025-02-24 23:38:15,888] - TCPPacketReceiver::processPendingEvents(192.168.192.10:51670): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00004f7c] [2025-02-24 23:38:15,888] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1937336049658, lastReceivedTime=1937101344713, inactivityExceptionPeriod=599500000)
+  INFO root [0x00004f7c] [2025-02-24 23:38:15,890] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00004f7c] [2025-02-24 23:38:15,890] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00004f7c] [2025-02-24 23:38:15,890] - Spaces::destroySpace: 1.
+ S_DBG root [0x00004f7c] [2025-02-24 23:38:15,890] - onDestroy(2)
+ S_ERR root [0x00004f7c] [2025-02-24 23:38:15,890] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 44, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x00004f7c] [2025-02-24 23:38:15,891] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 24, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x00004f7c] [2025-02-24 23:38:15,891] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x00004f7c] [2025-02-24 23:38:15,891] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x00004f7c] [2025-02-24 23:38:15,891] - entity销毁 [Avatar] id:[4]
+  INFO root [0x00004f7c] [2025-02-24 23:38:15,891] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00004f7c] [2025-02-24 23:38:15,891] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x00004f7c] [2025-02-24 23:38:15,891] - Monster::~Monster(): 2001
+ DEBUG root [0x00004f7c] [2025-02-24 23:38:15,892] - Space::~Space(): 1
+ DEBUG root [0x00004f7c] [2025-02-24 23:38:15,892] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00004f7c] [2025-02-24 23:38:15,892] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00004f7c] [2025-02-24 23:38:15,894] - EntityGarbages::~EntityGarbages(): leaked, size=1.
+ ERROR root [0x00004f7c] [2025-02-24 23:38:15,894] - 	--> leaked: Avatar(4).
+ ERROR root [0x00004f7c] [2025-02-24 23:38:15,894] - PyGC::debugTracing(): Vector3 : leaked(2)
+ ERROR root [0x00004f7c] [2025-02-24 23:38:15,894] - PyGC::debugTracing(): Entity : leaked(1)
+ ERROR root [0x00004f7c] [2025-02-24 23:38:15,894] - PyGC::debugTracing(): EntityCall : leaked(2)
+ DEBUG root [0x00004f7c] [2025-02-24 23:38:15,896] - Avatar::~Avatar(): 4
+  INFO root [0x00004f7c] [2025-02-24 23:38:15,898] - Script::uninstall(): is successfully!
+ DEBUG root [0x00004f7c] [2025-02-24 23:38:15,898] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00004f7c] [2025-02-24 23:38:16,202] - ThreadPool::destroy(): waiting for thread(2)[0x17b56869520,0x17b56868db0,], try=1
+  INFO root [0x000037fc] [2025-02-24 23:50:38,978] - 
+  INFO root [0x000037fc] [2025-02-24 23:50:38,978] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000037fc] [2025-02-24 23:50:38,978] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [0x000037fc] [2025-02-24 23:50:38,978] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [0x000037fc] [2025-02-24 23:50:38,978] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [0x000037fc] [2025-02-24 23:50:38,985] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:52159 )
+  INFO root [0x000037fc] [2025-02-24 23:50:38,985] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:52159, SOMAXCONN=511.
+  INFO root [0x000037fc] [2025-02-24 23:50:38,985] - server-configs:
+  INFO root [0x000037fc] [2025-02-24 23:50:38,985] - 	gameUpdateHertz : 10
+  INFO root [0x000037fc] [2025-02-24 23:50:38,985] - 	defaultViewRadius : 80
+  INFO root [0x000037fc] [2025-02-24 23:50:38,985] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000037fc] [2025-02-24 23:50:38,985] - 	entryScriptFile : kbemain
+  INFO root [0x000037fc] [2025-02-24 23:50:38,985] - 	internalTcpAddr : 192.168.192.10:52159
+  INFO root [0x000037fc] [2025-02-24 23:50:38,985] - 	componentID : 8001
+  INFO root [0x000037fc] [2025-02-24 23:50:39,024] - Components::findLogger: found logger, addr:192.168.192.10:52150
+  INFO root [0x000037fc] [2025-02-24 23:50:39,024] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [0x000037fc] [2025-02-24 23:50:39,024] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000037fc] [2025-02-24 23:50:39,025] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 2948 ----
+  INFO root [0x000037fc] [2025-02-24 23:50:39,026] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [0x000037fc] [2025-02-24 23:50:39,026] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000037fc] [2025-02-24 23:50:39,026] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000037fc] [2025-02-24 23:50:39,168] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [0x000037fc] [2025-02-24 23:50:39,168] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000037fc] [2025-02-24 23:50:39,240] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000037fc] [2025-02-24 23:50:39,240] - loaded entity-script:Monster(3).
+ DEBUG root [0x000037fc] [2025-02-24 23:50:39,240] - loaded entity-script:NPC(4).
+ DEBUG root [0x000037fc] [2025-02-24 23:50:39,240] - loaded entity-script:Space(5).
+ DEBUG root [0x000037fc] [2025-02-24 23:50:39,240] - loaded entity-script:SpawnPoint(6).
+  INFO root [0x000037fc] [2025-02-24 23:50:39,240] - TelnetServer server is running on port 50000
+  INFO root [0x000037fc] [2025-02-24 23:50:39,248] - ---- cellapp is running ----
+ DEBUG root [0x000037fc] [2025-02-24 23:50:39,248] - Components::process(): Request for the process of identity...
+  WARN root [0x000037fc] [2025-02-24 23:50:45,444] - Forwarding logs to logger[192.168.192.10:52150/0/0/0]...
+ ERROR root [0x000037fc] [2025-02-24 23:52:55,884] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1946136003138, lastReceivedTime=1945955757700, inactivityExceptionPeriod=599500000)
+   OFF root [0x000037fc] [2025-02-24 23:52:55,885] - The following logs sent to logger failed:
+  WARN root [0x000037fc] [2025-02-24 23:52:55,885] - ==> [2025-02-24 23:52:55 885] TCPPacketReceiver::processPendingEvents(192.168.192.10:52150): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000037fc] [2025-02-24 23:52:55,885] - ==> [2025-02-24 23:52:55 885] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1946136003138, lastReceivedTime=1945955757700, inactivityExceptionPeriod=599500000)
+  WARN root [0x000037fc] [2025-02-24 23:52:55,919] - TCPPacketReceiver::processPendingEvents(192.168.192.10:52151): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000037fc] [2025-02-24 23:52:55,920] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1946136360932, lastReceivedTime=1945959476546, inactivityExceptionPeriod=599500000)
+  INFO root [0x000037fc] [2025-02-24 23:52:55,920] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000037fc] [2025-02-24 23:52:55,920] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000037fc] [2025-02-24 23:52:55,920] - Spaces::destroySpace: 1.
+ S_DBG root [0x000037fc] [2025-02-24 23:52:55,920] - onDestroy(2)
+ S_ERR root [0x000037fc] [2025-02-24 23:52:55,921] - Traceback (most recent call last):
+  File "D:/IT/kbengine/click/scripts/cell\Monster.py", line 44, in onDestroy
+    AI.onDestroy(self)
+ S_ERR root [0x000037fc] [2025-02-24 23:52:55,921] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\AI.py", line 24, in onDestroy
+    Movement.onDestroy(self)
+ S_ERR root [0x000037fc] [2025-02-24 23:52:55,923] -   File "D:/IT/kbengine/click/scripts/cell\interfaces\Movement.py", line 16, in onDestroy
+    if self.followTimerID != -1:
+ S_ERR root [0x000037fc] [2025-02-24 23:52:55,923] - AttributeError: 'Monster' object has no attribute 'followTimerID'
+ S_DBG root [0x000037fc] [2025-02-24 23:52:55,923] - entity销毁 [Avatar] id:[4]
+  INFO root [0x000037fc] [2025-02-24 23:52:55,923] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000037fc] [2025-02-24 23:52:55,923] - SpawnPoint::~SpawnPoint(): 2
+ DEBUG root [0x000037fc] [2025-02-24 23:52:55,923] - Monster::~Monster(): 2001
+ DEBUG root [0x000037fc] [2025-02-24 23:52:55,925] - Space::~Space(): 1
+ DEBUG root [0x000037fc] [2025-02-24 23:52:55,925] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x000037fc] [2025-02-24 23:52:55,925] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x000037fc] [2025-02-24 23:52:55,925] - EntityGarbages::~EntityGarbages(): leaked, size=1.
+ ERROR root [0x000037fc] [2025-02-24 23:52:55,926] - 	--> leaked: Avatar(4).
+ ERROR root [0x000037fc] [2025-02-24 23:52:55,926] - PyGC::debugTracing(): Vector3 : leaked(2)
+ ERROR root [0x000037fc] [2025-02-24 23:52:55,926] - PyGC::debugTracing(): Entity : leaked(1)
+ ERROR root [0x000037fc] [2025-02-24 23:52:55,926] - PyGC::debugTracing(): EntityCall : leaked(2)
+ DEBUG root [0x000037fc] [2025-02-24 23:52:55,930] - Avatar::~Avatar(): 4
+  INFO root [0x000037fc] [2025-02-24 23:52:55,934] - Script::uninstall(): is successfully!
+ DEBUG root [0x000037fc] [2025-02-24 23:52:55,934] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000037fc] [2025-02-24 23:52:56,248] - ThreadPool::destroy(): waiting for thread(2)[0x1b924613500,0x1b924612f50,], try=1

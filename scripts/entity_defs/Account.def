@@ -1,0 +1,51 @@
+<root>
+	<Properties>
+		<!-- 封号 -->
+		<locked>
+			<Type> 			INT32 				</Type>			<!-- 数据类型 -->
+			<Flags> 		BASE_AND_CLIENT 	</Flags>			<!-- 发布设备 -->
+			<Persistent> 	true 				</Persistent>			<!-- 是否写入数据库 -->
+		</locked>
+		<playerName>
+			<Type>				UNICODE				</Type>
+			<Flags>				BASE				</Flags>
+			<Default></Default>
+			<Persistent>		true				</Persistent>
+		</playerName>
+		<dbid>
+			<Type>				UINT64				</Type>
+			<Flags>				BASE				</Flags>
+			<Persistent>		true				</Persistent>
+		</dbid>
+	</Properties>
+
+	<ClientMethods>
+		<onReqAvatarInfo>
+			<Arg>			UNICODE				</Arg>
+		</onReqAvatarInfo>
+
+		<onSetAvatarResult>
+			<Arg>			UNICODE 			</Arg>
+		</onSetAvatarResult>
+	</ClientMethods>
+
+	<BaseMethods>
+		<reqAvatarInfo>
+			<Exposed/>
+		</reqAvatarInfo>
+
+		<reqSetAvatar>
+			<Exposed/>
+			<Arg>			UNICODE				</Arg>			<!-- name -->
+		</reqSetAvatar>
+
+		<selectAvatarGame>
+			<Exposed/>
+		</selectAvatarGame>
+
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

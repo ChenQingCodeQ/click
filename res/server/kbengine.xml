@@ -1,0 +1,94 @@
+<root>
+	<!--
+		个性化服务端配置({assets}/res/server/kbengine.xml)
+
+		如果你需要改变引擎设置, 请在({assets}/res/server/kbengine.xml)中覆盖kbe/res/server/kbengine_defaults.xml的对应参数来修改, 
+		这样的好处是不会破坏引擎的默认设置，在你更新引擎时也不会产生冲突，以及在多个逻辑项目时不会影响到其他的项目设置。
+		详细说明请参考：http://kbengine.org/cn/docs/configuration/kbengine.html
+	-->
+
+	<trace_packet>
+		<debug_type> 0 </debug_type>
+	</trace_packet>
+
+	<publish>
+		<!-- 发布状态, 可在脚本中获取该值。 KBEngine.publish()
+			0 : debug
+			1 : release
+			其他自定义(Other custom)
+		-->
+		<state> 0 </state>
+
+		<!-- 脚本层发布的版本号-->
+		<script_version> 0.1.0 </script_version>
+	</publish>
+
+	<!-- defined => kbe/res/server/kbengine_defs.xml -->
+	<dbmgr>
+		<account_system>
+			<accountEntityScriptType>Account</accountEntityScriptType>
+			<!-- 账号找回密码相关 -->
+			<account_resetPassword>
+				<!-- 是否开放重设密码 -->
+				<enable>	true	</enable>
+			</account_resetPassword>
+
+			<!-- 账号注册相关
+				(Account registration)
+			-->
+			<account_registration>
+				<!-- 是否开放注册 
+					(Whether open registration)
+				-->
+				<enable>	true	</enable>
+				<!-- 登录合法时游戏数据库找不到游戏账号则自动创建 -->
+				<loginAutoCreate> false </loginAutoCreate>
+			</account_registration>
+		</account_system>
+
+		<databaseInterfaces>
+			<default>
+				<!-- 数据库类型 -->
+				<type>mysql</type>
+				<!-- 数据库地址 -->
+				<host>127.0.0.1</host>
+				<!-- 数据库端口 -->
+				<port>3306</port>
+				<!-- 数据库名称 -->
+				<databaseName>kbe_click</databaseName>
+				<!-- 数据库用户名 -->
+				<username>root</username>
+				<!-- 数据库密码 -->
+				<password>123456</password>
+				<!-- 数据库编码 -->
+				<encoding>utf8</encoding>
+				<!-- 连接池大小 -->
+				<numConnections>5</numConnections>
+			</default>
+		</databaseInterfaces>
+	</dbmgr>
+	<!-- 添加 network 配置 -->
+	<!-- <network>
+		<channelTimeout>
+			<timeout>30</timeout>
+		</channelTimeout>
+	</network> -->
+	<!-- 添加 baseapp 配置 -->
+	<baseapp>
+		<externalAddress> 192.168.2.66 </externalAddress>
+	</baseapp>
+	<!-- 添加 loginapp 配置 -->
+	<loginapp>
+		<externalAddress> 192.168.2.66 </externalAddress>
+	</loginapp>
+	<!-- 添加 cellapp 配置 -->
+	<!-- <machine>
+		<addresses>
+			<item> 192.168.2.22 </item>
+		</addresses>
+	</machine> -->
+
+	<cellapp>
+		<defaultViewRadius>1000</defaultViewRadius>
+	</cellapp>
+</root>

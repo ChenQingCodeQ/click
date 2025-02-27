@@ -1,0 +1,121 @@
+<!-- 玩家实体定义 -->
+<root>
+	<!-- 引入模块 -->
+	<Interfaces>
+		<Interface>			Unit				</Interface>
+	</Interfaces>
+	<!-- 属性 -->
+	<Properties>
+		<mapID>
+			<Type>			INT32				</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+			<Persistent>	true				</Persistent>
+			<Default>		10001				</Default>
+		</mapID>
+		<unitID>
+			<Type> 			INT32 				</Type>
+			<Flags> 		OWN_CLIENT		 	</Flags>
+			<Persistent> 	true 				</Persistent>
+			<Default>		10001				</Default>
+		</unitID>
+
+		<exp>
+			<Type>			FLOAT				</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Persistent>	true				</Persistent>
+		</exp>
+		<gold>
+			<Type>			INT64				</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Persistent>	true				</Persistent>
+		</gold>
+		<diamond>
+			<Type>			INT32				</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Persistent>	true				</Persistent>
+		</diamond>
+		<inventoryList>
+			<Type> 			ITEM_INFO_LIST 		</Type>
+			<Flags> 		BASE_AND_CLIENT 	</Flags>
+			<Persistent> 	true 				</Persistent>
+		</inventoryList>
+		<equipList>
+			<Type> 			ITEM_INFO_LIST 		</Type>
+			<Flags> 		BASE_AND_CLIENT 	</Flags>
+			<Persistent> 	true 				</Persistent>
+		</equipList>
+	</Properties>
+	<!-- 客户端 -->
+	<ClientMethods>
+		<onItemInfo>
+			<Arg>			ITEM_INFO_LIST		</Arg>
+			<Arg>			ITEM_INFO_LIST		</Arg>
+		</onItemInfo>
+		<onEquipItem>
+			<Arg>			ITEM_INFO			</Arg>
+			<Arg>			ITEM_INFO			</Arg>
+		</onEquipItem>
+		<onSellItem>
+			<Arg>			INT32				</Arg>
+			<Arg>			INT32				</Arg>
+		</onSellItem>
+		<onUseItem>
+			<Arg>			INT32				</Arg>
+			<Arg>			INT32				</Arg>
+		</onUseItem>
+		<onSwapItem>
+			<Arg>			INT32				</Arg>
+			<Arg>			INT32				</Arg>
+		</onSwapItem>
+	</ClientMethods>
+	<!-- base服务器 -->
+	<BaseMethods>
+		<!-- cell -->
+		<killUnit>
+			<Arg>			INT32				</Arg>
+		</killUnit>
+		<!-- 装备 -->
+		<reqItemInfo>
+			<Exposed/>
+		</reqItemInfo>
+		<reqEquipItem>
+			<Arg>			INT32				</Arg>
+			<Arg>			INT32				</Arg>
+			<Exposed/>
+		</reqEquipItem>
+		<reqUseItem>
+			<Arg>			INT32				</Arg>
+			<Arg>			INT32				</Arg>
+			<Exposed/>
+		</reqUseItem>
+		<reqSellItem>
+			<Arg>			INT32				</Arg>
+			<Arg>			INT32				</Arg>
+			<Exposed/>
+		</reqSellItem>
+		<reqSwapItem>
+			<Arg>			INT32				</Arg>
+			<Arg>			INT32				</Arg>
+			<Exposed/>
+		</reqSwapItem>
+		<!-- 功能 -->
+		<reqRaffle>
+			<Arg>			INT32				</Arg>			<!-- ID -->
+			<Arg>			INT32				</Arg>			<!-- 次数 -->
+			<Exposed/>
+		</reqRaffle>
+	</BaseMethods>
+	<!-- cell服务器  -->
+	<CellMethods>
+		<!-- base -->
+		<equipItem>
+			<Arg>			ITEM_INFO			</Arg>
+		</equipItem>
+		<resetItem>
+			<Arg>			ITEM_INFO_LIST		</Arg>
+		</resetItem>
+		<levelUp>
+			<Arg>			INT32				</Arg>
+		</levelUp>
+	</CellMethods>
+</root>

@@ -1,0 +1,16 @@
+<root>
+	<!--
+		实体注册文件(<你的资产库>/scripts/entities.xml)
+		详细说明请参考：http://kbengine.org/cn/docs/configuration/entities.html
+					http://www.kbengine.org/cn/docs/programming/entitydef.html
+	-->
+
+	<!-- <Avatar/> -->
+	<!-- 玩家实体 -->
+	<Account hasClient="true"></Account>
+	<Avatar hasClient="true"></Avatar>
+	<Monster hasClient="true"></Monster>
+	<NPC hasClient="true"></NPC>
+	<Space/>
+	<SpawnPoint/>
+</root>

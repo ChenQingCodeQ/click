@@ -1,0 +1,273 @@
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 508] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 511] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 511] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 511] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 517] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:57996 )
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 518] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:57996, SOMAXCONN=511.
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 518] - server-configs:
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 518] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 518] - 	defaultViewRadius : 80
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 518] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 518] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 518] - 	internalTcpAddr : 192.168.192.10:57996
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 518] - 	componentID : 8001
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 545] - Components::findLogger: found logger, addr:192.168.192.10:57980
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 546] - Components::addComponent: reset orderLog, uid=42997!
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 546] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 549] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Release X64. Built: 13:56:38 Feb  9 2025. AppID: 8001. UID: 42997. PID: 5516 ----
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 549] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 549] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 549] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 689] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 689] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 42997 8001  [2025-02-23 20:48:06 762] - loaded entity-script:Avatar(2).
+   DEBUG    cellapp-1 42997 8001  [2025-02-23 20:48:06 762] - loaded entity-script:Monster(3).
+   DEBUG    cellapp-1 42997 8001  [2025-02-23 20:48:06 762] - loaded entity-script:NPC(4).
+   DEBUG    cellapp-1 42997 8001  [2025-02-23 20:48:06 762] - loaded entity-script:Space(5).
+   DEBUG    cellapp-1 42997 8001  [2025-02-23 20:48:06 762] - loaded entity-script:SpawnPoint(6).
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 762] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:06 773] - ---- cellapp is running ----
+   DEBUG    cellapp-1 42997 8001  [2025-02-23 20:48:06 773] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 42997 8001  [2025-02-23 20:48:13 059] - EntityApp::checkTickPeriod: tick took 6286% (6.29 seconds)!
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:14 088] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:14 136] - Components::findComponents: found dbmgr, addr:192.168.192.10:57981
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:14 136] - Components::addComponent: reset orderLog, uid=42997!
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:14 136] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:14 137] - Components::findComponents: found dbmgr, addr:192.168.192.10:57981
+ WARNING    cellapp-1 42997 8001  [2025-02-23 20:48:15 146] - EntityApp::checkTickPeriod: tick took 1167% (1.17 seconds)!
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:16 188] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:16 207] - Components::findComponents: found cellappmgr, addr:192.168.192.10:57985
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:16 207] - Components::addComponent[cellappmgr], uid=42997, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:16 207] - Components::findComponents: found cellappmgr, addr:192.168.192.10:57985
+ WARNING    cellapp-1 42997 8001  [2025-02-23 20:48:17 215] - EntityApp::checkTickPeriod: tick took 1135% (1.13 seconds)!
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:18 276] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:18 389] - Components::findComponents: found baseappmgr, addr:192.168.192.10:57982
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:18 389] - Components::addComponent[baseappmgr], uid=42997, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:18 389] - Components::findComponents: found baseappmgr, addr:192.168.192.10:57982
+ WARNING    cellapp-1 42997 8001  [2025-02-23 20:48:19 399] - EntityApp::checkTickPeriod: tick took 1217% (1.22 seconds)!
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:20 487] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:20 520] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:20 583] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:20 613] - Components::process(): Found all the components!
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:21 898] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.192.10, intport:57988, extaddr:192.168.192.10, extport:20015,  from 192.168.192.10:57981/0/0/0.
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:21 898] - Components::addComponent[baseapp], uid=42997, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 42997 8001  [2025-02-23 20:48:24 920] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=A23F02FAEF6DC1CCC2EB3E5A9A482AEB.
+    INFO    cellapp01 42997 8001  [2025-02-23 20:48:24 920] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 42997 8001  [2025-02-23 20:48:25 402] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20164, errorno=10048
+ WARNING    cellapp01 42997 8001  [2025-02-23 20:48:25 902] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20796, errorno=10048
+ WARNING    cellapp01 42997 8001  [2025-02-23 20:48:27 226] - D:\Downloads\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 2.31 seconds
+ WARNING    cellapp01 42997 8001  [2025-02-23 20:48:27 226] - EntityApp::checkTickPeriod: tick took 2338% (2.34 seconds)!
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:27 289] - onInit::isReload:0
+   DEBUG    cellapp01 42997 8001  [2025-02-23 20:48:27 319] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    cellapp01 42997 8001  [2025-02-23 20:48:27 320] - Spaces::createNewSpace: new space(Space) 1.
+    INFO    cellapp01 42997 8001  [2025-02-23 20:48:27 320] - EntityApp::createEntity: new Space 2001
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:27 320] - 初始化 cell [Space] id:[2001]
+    INFO    cellapp01 42997 8001  [2025-02-23 20:48:27 397] - EntityApp::createEntity: new SpawnPoint 2002
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:27 397] - 初始化 cell [SpawnPoint] id:[2002]
+    INFO    cellapp01 42997 8001  [2025-02-23 20:48:28 387] - EntityApp::createEntity: new Monster 1
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:28 387] -  被复活
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:28 388] - 初始化 [Monster] id:[1] spaceID:[1]
+    INFO    cellapp01 42997 8001  [2025-02-23 20:48:50 769] - EntityApp::createEntity: new Avatar 2004
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:50 769] - Bob 被复活
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:50 770] - 初始化 [Avatar] id:[2004]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:50 770] - 实体被观察 [Monster] id:[1] spaceID:[1] isWitnessed:[True]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:50 770] - 启用 [Monster] id:[1] spaceID:[1]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:50 770] - 绑定观察者 [Avatar] id:[2004]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:55 379] - Damage: 10.0 to Bob, health:390.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:56 874] - Damage: 10.0 to Bob, health:384.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:48:59 876] - Damage: 10.0 to Bob, health:380.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:01 387] - Damage: 10.0 to Bob, health:372.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:02 887] - Damage: 10.0 to Bob, health:366.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:04 376] - Damage: 10.0 to Bob, health:358.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:05 874] - Damage: 10.0 to Bob, health:352.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:07 384] - Damage: 10.0 to Bob, health:344.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:08 889] - Damage: 10.0 to Bob, health:338.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:10 382] - Damage: 10.0 to Bob, health:330.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:13 388] - Damage: 10.0 to Bob, health:326.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:14 879] - Damage: 10.0 to Bob, health:320.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:16 382] - Damage: 10.0 to Bob, health:312.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:17 887] - Damage: 10.0 to Bob, health:306.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:19 384] - Damage: 10.0 to Bob, health:298.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:20 874] - Damage: 10.0 to Bob, health:292.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:22 376] - Damage: 10.0 to Bob, health:284.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:23 878] - Damage: 10.0 to Bob, health:278.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:25 377] - Damage: 10.0 to Bob, health:270.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:26 884] - Damage: 10.0 to Bob, health:264.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:28 375] - Damage: 10.0 to Bob, health:256.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:29 888] - Damage: 10.0 to Bob, health:250.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:31 381] - Damage: 10.0 to Bob, health:242.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:32 878] - Damage: 10.0 to Bob, health:236.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:34 374] - Damage: 10.0 to Bob, health:228.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:35 881] - Damage: 10.0 to Bob, health:222.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:38 887] - Damage: 10.0 to Bob, health:218.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:40 385] - Damage: 10.0 to Bob, health:210.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:44 879] - Damage: 10.0 to Bob, health:210.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:46 374] - Damage: 10.0 to Bob, health:202.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:49 380] - Damage: 10.0 to Bob, health:198.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:50 878] - Damage: 10.0 to Bob, health:192.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:53 881] - Damage: 10.0 to Bob, health:188.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:58 381] - Damage: 10.0 to Bob, health:186.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:49:59 882] - Damage: 10.0 to Bob, health:180.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:01 379] - Damage: 10.0 to Bob, health:172.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:02 877] - Damage: 10.0 to Bob, health:166.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:04 377] - Damage: 10.0 to Bob, health:158.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:07 386] - Damage: 10.0 to Bob, health:154.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:08 881] - Damage: 10.0 to Bob, health:148.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:11 877] - Damage: 10.0 to Bob, health:144.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:13 389] - Damage: 10.0 to Bob, health:136.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:16 379] - Damage: 15.0 to Bob, health:127.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:17 879] - Damage: 10.0 to Bob, health:121.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:19 388] - Damage: 10.0 to Bob, health:113.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:20 880] - Damage: 10.0 to Bob, health:107.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:22 378] - Damage: 10.0 to Bob, health:99.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:23 884] - Damage: 10.0 to Bob, health:93.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:25 383] - Damage: 10.0 to Bob, health:85.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:26 881] - Damage: 10.0 to Bob, health:79.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:28 376] - Damage: 10.0 to Bob, health:71.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:29 188] - entity销毁 [Avatar] id:[2004]
+   DEBUG    cellapp01 42997 8001  [2025-02-23 20:50:29 281] - Avatar::~Avatar(): 2004
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:44 198] - 实体被观察 [Monster] id:[1] spaceID:[1] isWitnessed:[False]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:44 198] - 禁用 [Monster] id:[1] spaceID:[1]
+   DEBUG    cellapp01 42997 8001  [2025-02-23 20:50:44 198] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp01 42997 8001  [2025-02-23 20:50:46 294] - EntityApp::createEntity: new Avatar 2005
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:46 295] - Bob 被复活
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:46 295] - 初始化 [Avatar] id:[2005]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:46 295] - 实体被观察 [Monster] id:[1] spaceID:[1] isWitnessed:[True]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:46 295] - 启用 [Monster] id:[1] spaceID:[1]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:46 295] - 绑定观察者 [Avatar] id:[2005]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:49 482] - Damage: 10.0 to Bob, health:390.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:50 978] - Damage: 10.0 to Bob, health:382.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:52 485] - Damage: 10.0 to Bob, health:376.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:50:59 977] - Damage: 10.0 to Bob, health:380.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:01 476] - Damage: 10.0 to Bob, health:374.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:02 974] - Damage: 10.0 to Bob, health:366.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:04 484] - Damage: 10.0 to Bob, health:360.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:05 977] - Damage: 10.0 to Bob, health:352.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:08 980] - Damage: 10.0 to Bob, health:348.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:10 486] - Damage: 10.0 to Bob, health:342.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:11 980] - Damage: 10.0 to Bob, health:334.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:13 474] - Damage: 10.0 to Bob, health:328.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:16 477] - Damage: 10.0 to Bob, health:324.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:17 974] - Damage: 10.0 to Bob, health:316.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:19 476] - Damage: 10.0 to Bob, health:310.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:20 983] - Damage: 15.0 to Bob, health:297.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:22 484] - Damage: 10.0 to Bob, health:291.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:28 487] - Damage: 10.0 to Bob, health:293.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:32 989] - Damage: 10.0 to Bob, health:291.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:34 485] - Damage: 10.0 to Bob, health:285.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:35 982] - Damage: 10.0 to Bob, health:277.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:40 488] - Damage: 15.0 to Bob, health:272.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:41 979] - Damage: 10.0 to Bob, health:264.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:47 985] - Damage: 10.0 to Bob, health:266.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:49 487] - Damage: 10.0 to Bob, health:260.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:52 967] - 解绑观察者 [Avatar] id:[2005]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:52 967] - entity销毁 [Avatar] id:[2005]
+   DEBUG    cellapp01 42997 8001  [2025-02-23 20:51:52 986] - Avatar::~Avatar(): 2005
+    INFO    cellapp01 42997 8001  [2025-02-23 20:51:54 119] - EntityApp::createEntity: new Avatar 2005
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:54 119] - Bob 被复活
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:54 119] - 初始化 [Avatar] id:[2005]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:54 120] - 实体被观察 [Monster] id:[1] spaceID:[1] isWitnessed:[True]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:54 120] - 启用 [Monster] id:[1] spaceID:[1]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:54 120] - 绑定观察者 [Avatar] id:[2005]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:55 488] - Damage: 10.0 to Bob, health:390.0
+   DEBUG    cellapp01 42997 8001  [2025-02-23 20:51:57 970] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:51:58 484] - Damage: 10.0 to Bob, health:386.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:00 581] - Damage: 10.0 to Bob, health:380.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:02 075] - Damage: 10.0 to Bob, health:372.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:03 584] - Damage: 10.0 to Bob, health:366.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:05 083] - Damage: 10.0 to Bob, health:358.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:06 588] - Damage: 10.0 to Bob, health:352.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:08 077] - Damage: 10.0 to Bob, health:344.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:09 589] - Damage: 10.0 to Bob, health:338.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:11 088] - Damage: 15.0 to Bob, health:325.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:12 579] - Damage: 10.0 to Bob, health:319.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:14 077] - Damage: 10.0 to Bob, health:311.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:15 575] - Damage: 10.0 to Bob, health:305.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:17 086] - Damage: 10.0 to Bob, health:297.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:18 586] - Damage: 10.0 to Bob, health:291.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:21 588] - Damage: 10.0 to Bob, health:287.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:23 080] - Damage: 15.0 to Bob, health:274.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:26 075] - Damage: 10.0 to Bob, health:270.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:27 584] - Damage: 10.0 to Bob, health:264.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:30 577] - Damage: 10.0 to Bob, health:260.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:33 587] - Damage: 10.0 to Bob, health:256.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:36 577] - Damage: 10.0 to Bob, health:252.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:38 074] - Damage: 10.0 to Bob, health:244.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:39 576] - Damage: 10.0 to Bob, health:238.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:41 083] - Damage: 10.0 to Bob, health:230.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:42 579] - Damage: 10.0 to Bob, health:224.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:44 087] - Damage: 10.0 to Bob, health:216.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:45 578] - Damage: 10.0 to Bob, health:210.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:50 076] - Damage: 10.0 to Bob, health:208.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:54 584] - Damage: 10.0 to Bob, health:208.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:52:56 080] - Damage: 10.0 to Bob, health:200.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:02 080] - Damage: 10.0 to Bob, health:202.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:03 578] - Damage: 10.0 to Bob, health:196.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:06 577] - Damage: 10.0 to Bob, health:192.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:09 575] - Damage: 10.0 to Bob, health:188.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:11 089] - Damage: 10.0 to Bob, health:180.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:11 319] - 解绑观察者 [Avatar] id:[2005]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:11 319] - entity销毁 [Avatar] id:[2005]
+   DEBUG    cellapp01 42997 8001  [2025-02-23 20:53:11 389] - Avatar::~Avatar(): 2005
+    INFO    cellapp01 42997 8001  [2025-02-23 20:53:12 417] - EntityApp::createEntity: new Avatar 2005
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:12 417] - Bob 被复活
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:12 417] - 初始化 [Avatar] id:[2005]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:12 417] - 实体被观察 [Monster] id:[1] spaceID:[1] isWitnessed:[True]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:12 417] - 启用 [Monster] id:[1] spaceID:[1]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:12 417] - 绑定观察者 [Avatar] id:[2005]
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:13 574] - Damage: 10.0 to Bob, health:390.0
+   DEBUG    cellapp01 42997 8001  [2025-02-23 20:53:16 327] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:18 082] - Damage: 10.0 to Bob, health:388.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:19 579] - Damage: 10.0 to Bob, health:382.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:21 074] - Damage: 10.0 to Bob, health:374.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:25 581] - Damage: 10.0 to Bob, health:374.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:27 088] - Damage: 10.0 to Bob, health:366.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:28 580] - Damage: 10.0 to Bob, health:360.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:30 075] - Damage: 10.0 to Bob, health:352.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:31 576] - Damage: 10.0 to Bob, health:346.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:33 084] - Damage: 10.0 to Bob, health:338.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:34 584] - Damage: 10.0 to Bob, health:332.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:36 078] - Damage: 10.0 to Bob, health:324.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:37 575] - Damage: 10.0 to Bob, health:318.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:39 085] - Damage: 10.0 to Bob, health:310.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:40 574] - Damage: 10.0 to Bob, health:304.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:47 184] - Damage: 10.0 to Bob, health:306.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:48 681] - Damage: 10.0 to Bob, health:300.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:51 688] - Damage: 15.0 to Bob, health:291.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:54 687] - Damage: 10.0 to Bob, health:287.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:56 187] - Damage: 10.0 to Bob, health:279.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:53:59 188] - Damage: 10.0 to Bob, health:275.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:00 683] - Damage: 10.0 to Bob, health:269.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:02 181] - Damage: 10.0 to Bob, health:261.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:06 688] - Damage: 10.0 to Bob, health:261.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:08 182] - Damage: 10.0 to Bob, health:253.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:09 687] - Damage: 10.0 to Bob, health:247.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:11 181] - Damage: 10.0 to Bob, health:239.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:12 676] - Damage: 10.0 to Bob, health:233.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:15 685] - Damage: 10.0 to Bob, health:229.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:17 184] - Damage: 15.0 to Bob, health:216.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:20 182] - Damage: 10.0 to Bob, health:212.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:23 187] - Damage: 10.0 to Bob, health:208.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:26 188] - Damage: 10.0 to Bob, health:204.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:29 182] - Damage: 10.0 to Bob, health:200.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:30 678] - Damage: 10.0 to Bob, health:194.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:32 180] - Damage: 10.0 to Bob, health:186.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:33 680] - Damage: 10.0 to Bob, health:180.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:35 186] - Damage: 15.0 to Bob, health:167.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:36 688] - Damage: 10.0 to Bob, health:161.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:41 185] - Damage: 10.0 to Bob, health:159.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:42 685] - Damage: 10.0 to Bob, health:153.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:45 676] - Damage: 10.0 to Bob, health:149.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:47 189] - Damage: 10.0 to Bob, health:141.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:48 687] - Damage: 10.0 to Bob, health:135.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:50 177] - Damage: 15.0 to Bob, health:122.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:51 680] - Damage: 10.0 to Bob, health:116.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:53 176] - Damage: 10.0 to Bob, health:108.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:54 680] - Damage: 10.0 to Bob, health:102.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:56 187] - Damage: 10.0 to Bob, health:94.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:57 688] - Damage: 10.0 to Bob, health:88.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:54:59 181] - Damage: 10.0 to Bob, health:80.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:55:02 180] - Damage: 10.0 to Bob, health:76.0
+   S_DBG    cellapp01 42997 8001  [2025-02-23 20:55:03 677] - Damage: 10.0 to Bob, health:70.0

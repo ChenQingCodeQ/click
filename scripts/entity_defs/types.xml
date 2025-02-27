@@ -1,0 +1,57 @@
+<root>
+	<BOOL>				UINT8		</BOOL>
+	<DBID>				UINT64		</DBID>
+	<UID>				UINT64		</UID>
+	<OBJECT_ID>			INT32		</OBJECT_ID>
+
+	<POSITION3D>		VECTOR3		</POSITION3D>
+	<DIRECTION3D>		VECTOR3		</DIRECTION3D>
+
+	<HP>				FLOAT		</HP>
+	<MP>				FLOAT		</MP>
+
+	<ID_SKILL>			INT32		</ID_SKILL>
+	<ID_ENTITY>			INT32		</ID_ENTITY>
+	<ID_ITEM>			INT32		</ID_ITEM>
+
+	<DAMAGE>			FLOAT		</DAMAGE>
+	<DAMAGE_TYPE>		INT32		</DAMAGE_TYPE>
+
+	<ITEM_INFO>  FIXED_DICT
+		<implementedBy>ITEM_INFO.item_info_inst</implementedBy>
+		<Properties>
+			<UUID>
+				<Type> DBID </Type>
+			</UUID>
+			<itemId>
+				<Type> ID_ITEM </Type>
+			</itemId>
+			<itemCount>
+				<Type> INT32 </Type>
+			</itemCount>
+			<itemIndex>
+				<Type> INT32 </Type>
+			</itemIndex>
+			<itemAttr1>
+				<Type> FLOAT </Type>
+			</itemAttr1>
+			<itemAttr2>
+				<Type> FLOAT </Type>
+			</itemAttr2>
+			<itemAttr3>
+				<Type> FLOAT </Type>
+			</itemAttr3>
+		</Properties>
+	</ITEM_INFO>
+
+	<ITEM_INFO_LIST> FIXED_DICT
+		<implementedBy>ITEM_INFO.item_info_list_inst</implementedBy>
+		<Properties>
+			<values>
+				<Type> ARRAY
+					<of> ITEM_INFO </of>
+				</Type>
+			</values>
+		</Properties>
+	</ITEM_INFO_LIST>
+</root>

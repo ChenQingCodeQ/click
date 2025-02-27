@@ -1,0 +1,266 @@
+<root>
+    <!-- 游戏逻辑处理频率 
+		(Update frequency process)
+	-->
+    <gameUpdateHertz> 10 </gameUpdateHertz>
+
+    <!-- 每秒发送到客户端的带宽限制(bit) 
+		(The data sent to the client, the second bandwidth limit (bit))
+	-->
+    <bitsPerSecondToClient> 20000 </bitsPerSecondToClient>    <!-- Type: Integer -->
+
+    <!-- 非0则不优化， 不带包长信息的包强制都携带长度信息， 某些情况下方便某些前端对接协议
+	什么样的包不带长度信息? 所有能够预先计算出包大小的且永远不变的包不带长度信息， 
+	如果有可变字符串参数则一定需要带长度信息
+	-->
+    <packetAlwaysContainLength>0</packetAlwaysContainLength>
+
+    <!-- 是否需要将任何接收和发送的包以文本输出到log中提供调试
+		(Whether the contents of the log output packet)
+		
+		debug_type:
+			0: 不输出(Not output)
+			1: 16进制输出(16 hexadecimal output)
+			2: 字符流输出(Stringstream output)
+			3: 10进制输出(10 hexadecimal output)
+		use_logfile:
+			是否独立一个log文件来记录包内容，文件名通常为
+			(Whether the use of other log files ? such as:)
+			appname_packetlogs.log
+		disable_msgs:
+			关闭某些包的输出
+			(Some messages are not output)
+	-->
+    <trace_packet>
+        <debug_type>0</debug_type>
+        <use_logfile>false</use_logfile>
+        <disables>
+            <item>Baseappmgr::updateBaseapp</item>
+            <item>Cellapp::onUpdateDataFromClient</item>
+            <item>Baseapp::onUpdateDataFromClient</item>
+            <item>Baseapp::forwardMessageToClientFromCellapp</item>
+            <item>Client::onUpdateVolatileData</item>
+            <item>Client::onUpdateData</item>
+            <item>Client::onUpdateBasePos</item>
+            <item>Client::onUpdateData_xz</item>
+            <item>Client::onUpdateData_xyz</item>
+            <item>Client::onUpdateData_y</item>
+            <item>Client::onUpdateData_r</item>
+            <item>Client::onUpdateData_p</item>
+            <item>Client::onUpdateData_ypr</item>
+            <item>Client::onUpdateData_yp</item>
+            <item>Client::onUpdateData_yr</item>
+            <item>Client::onUpdateData_pr</item>
+            <item>Client::onUpdateData_xz_y</item>
+            <item>Client::onUpdateData_xz_p</item>
+            <item>Client::onUpdateData_xz_r</item>
+            <item>Client::onUpdateData_xz_yr</item>
+            <item>Client::onUpdateData_xz_yp</item>
+            <item>Client::onUpdateData_xz_pr</item>
+            <item>Client::onUpdateData_xz_ypr</item>
+            <item>Client::onUpdateData_xyz_y</item>
+            <item>Client::onUpdateData_xyz_p</item>
+            <item>Client::onUpdateData_xyz_r</item>
+            <item>Client::onUpdateData_xyz_yr</item>
+            <item>Client::onUpdateData_xyz_yp</item>
+            <item>Client::onUpdateData_xyz_pr</item>
+            <item>Client::onUpdateData_xyz_ypr</item>
+        </disables>
+    </trace_packet>
+
+    <!-- 是否输出entity的创建， 脚本获取属性， 初始化属性等调试信息， 以及def信息 -->
+    <debugEntity>0</debugEntity>
+
+    <publish>
+        <!-- 发布状态, 可在脚本中获取该值。 KBEngine.publish()
+			Type: Integer8
+			0 : debug
+			1 : release
+			其他自定义(Other custom)
+		-->
+        <state>0</state>
+
+        <!-- 脚本层发布的版本号 -->
+        <script_version> 0.1.0 </script_version>
+    </publish>
+
+    <channelCommon>
+        <!-- 最后一次通信时间超过此时间则被认定为超时通道， 服务器将踢出该通道 -->
+        <timeout>
+            <internal> 60.0 </internal>
+            <external> 60.0 </external>
+        </timeout>
+
+        <!-- socket读写缓冲大小 -->
+        <readBufferSize>
+            <internal>	16777216		</internal>            <!-- 16M -->
+            <external>	0			</external>            <!-- 系统默认(system default) -->
+        </readBufferSize>
+        <writeBufferSize>
+            <internal>	16777216		</internal>            <!-- 16M -->
+            <external>	0			</external>            <!-- 系统默认(system default) -->
+        </writeBufferSize>
+
+        <!-- 一个tick内发送与接收窗口溢出值，0无限制 -->
+        <windowOverflow>
+            <send>
+                <messages>
+                    <critical>	128			</critical>
+                    <internal>	65535		</internal>
+                    <external>	256			</external>
+                </messages>
+                <bytes>
+                    <internal>	0			</internal>
+                    <external>	0			</external>
+                </bytes>
+            </send>
+
+            <receive>
+                <messages>
+                    <critical>	24			</critical>
+                    <internal>	65535		</internal>
+                    <external>	32			</external>
+                </messages>
+                <bytes>
+                    <internal>	0			</internal>
+                    <external>	2048		</external>
+                </bytes>
+            </receive>
+        </windowOverflow>
+
+        <!-- 加密通信，只对外部通道，可选择的加密方式(Optional encryption):
+				0: 无加密(No Encryption)
+				1: Blowfish
+				2: RSA (res\key\kbengine_private.key)
+		 -->
+        <encrypt_type> 1 </encrypt_type>
+    </channelCommon>
+
+    <!-- 关服倒计时(秒) -->
+    <shutdown_time> 60.0 </shutdown_time>
+
+    <!-- 关闭服务器的时候， 如果有未完成的任务， 服务器需要等待任务结束。每Tick（秒）检查一次 -->
+    <shutdown_waittick> 1.0 </shutdown_waittick>
+
+    <!-- callback默认超时时间(秒) -->
+    <callback_timeout> 300.0 </callback_timeout>
+
+    <thread_pool>
+        <!-- 默认超时时间(秒) -->
+        <timeout> 300.0 </timeout>
+
+        <init_create> 1 </init_create>
+        <pre_create> 2 </pre_create>
+        <max_create> 8 </max_create>
+    </thread_pool>
+
+    <!-- Email服务, 提供账号验证， 密码找回等等。-->
+    <email_service_config>server/email_service_defaults.xml</email_service_config>
+
+    <interfaces>
+        <!-- 账号的类型(Account Type): normal: 默认当前进程处理, thirdparty:由第三方服务商处理 -->
+        <accountType> normal </accountType>
+
+        <!-- 
+			计费的类型(Charge Type):
+			normal: 默认当前进程处理(default handling the current process), 
+			thirdparty: 由第三方服务商处理(handled by third-party service providers) 
+		-->
+        <chargeType> normal </chargeType>
+
+        <!-- interfaces的地址，多组游戏服务端可以共用一个interfaces -->
+        <host> localhost </host>
+        <port> 30099 	</port>
+
+        <!-- 订单超时(秒) -->
+        <orders_timeout> 3600 	</orders_timeout>
+
+        <!-- 第三方账号服务接口,如: www.google.com, 当accountType是thirdparty时有效 -->
+        <thirdpartyAccountService_addr></thirdpartyAccountService_addr>
+        <thirdpartyAccountService_port> 80 </thirdpartyAccountService_port>
+
+        <!-- 第三方充值服务接口 如: www.google.com, 当chargeType是thirdparty时有效 -->
+        <thirdpartyChargeService_addr></thirdpartyChargeService_addr>
+        <thirdpartyChargeService_port> 80 </thirdpartyChargeService_port>
+
+        <!-- interfaces和第三方服务商协作的回调地址, 这个通道是一个未定义的协议通道， 相关协议需要开发者根据需要自己解析 -->
+        <thirdpartyService_cbport> 30040 </thirdpartyService_cbport>
+
+        <!-- listen监听队列最大值 -->
+        <SOMAXCONN> 128 </SOMAXCONN>
+    </interfaces>
+
+    <dbmgr>
+        <!-- debug模式下可输出读写操作信息 -->
+        <debug> false </debug>
+
+        <!-- 是否检查defs-MD5 -->
+        <allowEmptyDigest> false </allowEmptyDigest>        <!-- Type: Boolean -->
+
+        <!-- 接口网卡的名称 -->
+        <internalInterface></internalInterface>
+
+        <!-- 数据库类型 -->
+        <type> mysql </type>        <!-- Type: String -->
+
+        <!-- 数据库地址 -->
+        <host> localhost </host>        <!-- Type: String -->
+        <port> 3306 </port>        <!-- Type: Integer -->
+
+        <!-- 数据库账号验证 -->
+        <auth>
+            <username> kbe </username>            <!-- Type: String -->
+            <password> kbe </password>            <!-- Type: String -->
+
+            <!-- 为true则表示password是加密(rsa)的, 可防止明文配置 -->
+            <encrypt> true </encrypt>
+        </auth>
+
+        <!-- 数据库名称 -->
+        <databaseName> kbe </databaseName>        <!-- Type: String -->
+
+        <!-- 数据库允许的连接数 -->
+        <numConnections> 5 </numConnections>        <!-- Type: Integer -->
+
+        <!-- 字符编码类型 -->
+        <unicodeString>
+            <characterSet> utf8 </characterSet>            <!-- Type: String -->
+            <collation> utf8_bin </collation>            <!-- Type: String -->
+        </unicodeString>
+
+        <!-- 账号系统 (Account system) -->
+        <account_system>
+            <!-- 账号Entity的名称 (Name of AccountEntity) -->
+            <accountEntityScriptType> Account </accountEntityScriptType>
+
+            <!-- 新账号默认标记(可组合，填写时按十进制格式) 
+				(Default flags a new account, Can be combined, Fill in decimal format when)
+				常规标记(normal flag) = 0x00000000
+				锁定标记(lock flag) = 0x000000001
+				未激活标记(normal flag) = 0x000000002
+			-->
+            <accountDefaultFlags> 0 </accountDefaultFlags>            <!-- Type: Integer -->
+
+            <!-- 新账号默认过期时间(秒, 引擎会加上当前时间) -->
+            <accountDefaultDeadline> 0 </accountDefaultDeadline>            <!-- Type: Integer -->
+
+            <!-- 账号注册相关 -->
+            <account_registration>
+                <!-- 是否开放注册 -->
+                <enable>	true	</enable>
+
+                <!-- 登录合法时游戏数据库找不到游戏账号则自动创建 -->
+                <loginAutoCreate> true </loginAutoCreate>
+            </account_registration>
+        </account_system>
+    </dbmgr>
+
+    <cellapp>
+        <!-- 入口模块， 相当于main函数 -->
+        <entryScriptFile> kbengine </entryScriptFile>
+
+        <!-- 默认View半径, 脚本中可以改变它 
+			(Default View radius, the script can change it)
+		-->
+    </cellapp>
+</root>

@@ -1,0 +1,695 @@
+  INFO root [2025-02-25 19:53:21,432] - 
+  INFO root [2025-02-25 19:53:21,432] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 19:53:21,435] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 19:53:21,435] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 19:53:21,435] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 19:53:21,443] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:59122 )
+  INFO root [2025-02-25 19:53:21,443] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:59122, SOMAXCONN=511.
+  INFO root [2025-02-25 19:53:21,443] - server-configs:
+  INFO root [2025-02-25 19:53:21,443] - 	internalTcpAddr : 192.168.192.10:59122
+  INFO root [2025-02-25 19:53:21,443] - 	componentID : 5000
+  INFO root [2025-02-25 19:53:22,946] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 9880 ----
+  INFO root [2025-02-25 19:53:22,947] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 19:53:22,947] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 19:53:22,947] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 19:53:23,062] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 19:53:23,062] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 19:53:26,702] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20693, errorno=10048
+  WARN root [2025-02-25 19:53:29,804] - TCPPacketReceiver::processPendingEvents(192.168.192.10:59146): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [2025-02-25 19:53:30,819] - Components::findComponents: find logger(1)...
+  INFO root [2025-02-25 19:53:30,870] - Components::findComponents: found logger, addr:192.168.192.10:59121
+  INFO root [2025-02-25 19:53:30,871] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 19:53:30,871] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 19:53:30,872] - Components::findComponents: find dbmgr(2)...
+  INFO root [2025-02-25 19:53:30,981] - Components::findComponents: found dbmgr, addr:192.168.192.10:59123
+  INFO root [2025-02-25 19:53:30,981] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 19:53:30,981] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 19:53:30,983] - Components::findComponents: found dbmgr, addr:192.168.192.10:59123
+  WARN root [2025-02-25 19:53:31,995] - Forwarding logs to logger[192.168.192.10:59121/0/0/0]...
+ ERROR root [2025-02-25 19:54:33,465] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2667128564701, lastReceivedTime=2667003451244, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 19:54:33,466] - The following logs sent to logger failed:
+  WARN root [2025-02-25 19:54:33,466] - ==> [2025-02-25 19:54:33 466] TCPPacketReceiver::processPendingEvents(192.168.192.10:59121): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 19:54:33,466] - ==> [2025-02-25 19:54:33 467] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2667128564701, lastReceivedTime=2667003451244, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 19:54:33,506] - TCPPacketReceiver::processPendingEvents(192.168.192.10:59123): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 19:54:33,507] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2667128975441, lastReceivedTime=2667009527402, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 19:54:33,507] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 19:54:33,507] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 19:54:33,507] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 19:54:33,507] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:04:49,449] - 
+  INFO root [2025-02-25 20:04:49,450] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:04:49,450] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:04:49,450] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:04:49,450] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:04:49,456] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:59466 )
+  INFO root [2025-02-25 20:04:49,456] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:59466, SOMAXCONN=511.
+  INFO root [2025-02-25 20:04:49,456] - server-configs:
+  INFO root [2025-02-25 20:04:49,456] - 	internalTcpAddr : 192.168.192.10:59466
+  INFO root [2025-02-25 20:04:49,456] - 	componentID : 5000
+  INFO root [2025-02-25 20:04:49,462] - Components::findLogger: found logger, addr:192.168.192.10:59463
+  INFO root [2025-02-25 20:04:49,462] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:04:49,462] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:04:49,463] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 8468 ----
+  INFO root [2025-02-25 20:04:49,463] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:04:49,463] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:04:49,463] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:04:49,576] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:04:49,576] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:04:55,748] - Forwarding logs to logger[192.168.192.10:59463/0/0/0]...
+ ERROR root [2025-02-25 20:10:37,460] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2676768508120, lastReceivedTime=2676583493031, inactivityExceptionPeriod=599500064)
+   OFF root [2025-02-25 20:10:37,462] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:10:37,462] - ==> [2025-02-25 20:10:37 461] TCPPacketReceiver::processPendingEvents(192.168.192.10:59463): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:10:37,462] - ==> [2025-02-25 20:10:37 461] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2676768508120, lastReceivedTime=2676583493031, inactivityExceptionPeriod=599500064)
+  WARN root [2025-02-25 20:10:37,512] - TCPPacketReceiver::processPendingEvents(192.168.192.10:59464): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:10:37,512] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2676769017513, lastReceivedTime=2676586902064, inactivityExceptionPeriod=599500064)
+  INFO root [2025-02-25 20:10:37,512] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:10:37,512] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:10:37,512] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:10:37,512] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:10:45,197] - 
+  INFO root [2025-02-25 20:10:45,197] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:10:45,198] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:10:45,198] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:10:45,198] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:10:45,209] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:59741 )
+  INFO root [2025-02-25 20:10:45,210] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:59741, SOMAXCONN=511.
+  INFO root [2025-02-25 20:10:45,210] - server-configs:
+  INFO root [2025-02-25 20:10:45,210] - 	internalTcpAddr : 192.168.192.10:59741
+  INFO root [2025-02-25 20:10:45,210] - 	componentID : 5000
+  INFO root [2025-02-25 20:10:45,252] - Components::findLogger: found logger, addr:192.168.192.10:59738
+  INFO root [2025-02-25 20:10:45,252] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:10:45,252] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:10:45,254] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 14788 ----
+  INFO root [2025-02-25 20:10:45,254] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:10:45,254] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:10:45,254] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:10:45,369] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:10:45,369] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:10:51,636] - Forwarding logs to logger[192.168.192.10:59738/0/0/0]...
+ ERROR root [2025-02-25 20:13:25,595] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2678449848442, lastReceivedTime=2678340325708, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 20:13:25,595] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:13:25,595] - ==> [2025-02-25 20:13:25 595] TCPPacketReceiver::processPendingEvents(192.168.192.10:59738): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:13:25,595] - ==> [2025-02-25 20:13:25 595] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2678449848442, lastReceivedTime=2678340325708, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 20:13:25,636] - TCPPacketReceiver::processPendingEvents(192.168.192.10:59739): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:13:25,636] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2678450268472, lastReceivedTime=2678344187748, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 20:13:25,637] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:13:25,637] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:13:25,637] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:13:25,637] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:13:29,804] - 
+  INFO root [2025-02-25 20:13:29,804] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:13:29,804] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:13:29,806] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:13:29,806] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:13:29,813] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:59851 )
+  INFO root [2025-02-25 20:13:29,813] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:59851, SOMAXCONN=511.
+  INFO root [2025-02-25 20:13:29,813] - server-configs:
+  INFO root [2025-02-25 20:13:29,813] - 	internalTcpAddr : 192.168.192.10:59851
+  INFO root [2025-02-25 20:13:29,813] - 	componentID : 5000
+  INFO root [2025-02-25 20:13:29,913] - Components::findLogger: found logger, addr:192.168.192.10:59848
+  INFO root [2025-02-25 20:13:29,913] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:13:29,913] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:13:29,926] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 20476 ----
+  INFO root [2025-02-25 20:13:29,926] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:13:29,926] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:13:29,926] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:13:30,041] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:13:30,041] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:13:36,356] - Forwarding logs to logger[192.168.192.10:59848/0/0/0]...
+ ERROR root [2025-02-25 20:15:37,878] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2679772679956, lastReceivedTime=2679686796791, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 20:15:37,878] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:15:37,878] - ==> [2025-02-25 20:15:37 878] TCPPacketReceiver::processPendingEvents(192.168.192.10:59848): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:15:37,878] - ==> [2025-02-25 20:15:37 878] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2679772679956, lastReceivedTime=2679686796791, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 20:15:37,922] - TCPPacketReceiver::processPendingEvents(192.168.192.10:59849): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:15:37,922] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2679773124229, lastReceivedTime=2679690381831, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 20:15:37,922] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:15:37,922] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:15:37,922] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:15:37,922] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:15:41,744] - 
+  INFO root [2025-02-25 20:15:41,744] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:15:41,745] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:15:41,745] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:15:41,745] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:15:41,751] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:59979 )
+  INFO root [2025-02-25 20:15:41,751] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:59979, SOMAXCONN=511.
+  INFO root [2025-02-25 20:15:41,751] - server-configs:
+  INFO root [2025-02-25 20:15:41,751] - 	internalTcpAddr : 192.168.192.10:59979
+  INFO root [2025-02-25 20:15:41,751] - 	componentID : 5000
+  INFO root [2025-02-25 20:15:41,757] - Components::findLogger: found logger, addr:192.168.192.10:59977
+  INFO root [2025-02-25 20:15:41,757] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:15:41,757] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:15:41,758] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 9728 ----
+  INFO root [2025-02-25 20:15:41,758] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:15:41,758] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:15:41,759] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:15:41,873] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:15:41,873] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:15:48,067] - Forwarding logs to logger[192.168.192.10:59977/0/0/0]...
+ ERROR root [2025-02-25 20:17:30,045] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2680894348080, lastReceivedTime=2680706347937, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 20:17:30,045] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:17:30,045] - ==> [2025-02-25 20:17:30 045] TCPPacketReceiver::processPendingEvents(192.168.192.10:59977): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:17:30,045] - ==> [2025-02-25 20:17:30 045] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2680894348080, lastReceivedTime=2680706347937, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 20:17:30,084] - TCPPacketReceiver::processPendingEvents(192.168.192.10:59978): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:17:30,084] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2680894741191, lastReceivedTime=2680709624660, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 20:17:30,084] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:17:30,084] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:17:30,084] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:17:30,084] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:17:38,517] - 
+  INFO root [2025-02-25 20:17:38,517] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:17:38,518] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:17:38,518] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:17:38,518] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:17:38,525] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:60082 )
+  INFO root [2025-02-25 20:17:38,525] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:60082, SOMAXCONN=511.
+  INFO root [2025-02-25 20:17:38,525] - server-configs:
+  INFO root [2025-02-25 20:17:38,525] - 	internalTcpAddr : 192.168.192.10:60082
+  INFO root [2025-02-25 20:17:38,525] - 	componentID : 5000
+  INFO root [2025-02-25 20:17:38,609] - Components::findLogger: found logger, addr:192.168.192.10:60079
+  INFO root [2025-02-25 20:17:38,609] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:17:38,609] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:17:38,622] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 30040 ----
+  INFO root [2025-02-25 20:17:38,622] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:17:38,624] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:17:38,624] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:17:38,739] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:17:38,739] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:17:44,914] - Forwarding logs to logger[192.168.192.10:60079/0/0/0]...
+ ERROR root [2025-02-25 20:30:05,048] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2688444390273, lastReceivedTime=2688173908361, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 20:30:05,049] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:30:05,049] - ==> [2025-02-25 20:30:05 049] TCPPacketReceiver::processPendingEvents(192.168.192.10:60079): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:30:05,049] - ==> [2025-02-25 20:30:05 049] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2688444390273, lastReceivedTime=2688173908361, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 20:30:05,137] - TCPPacketReceiver::processPendingEvents(192.168.192.10:60080): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:30:05,137] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2688445278474, lastReceivedTime=2688177463344, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 20:30:05,138] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:30:05,139] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:30:05,139] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:30:05,139] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:30:13,455] - 
+  INFO root [2025-02-25 20:30:13,455] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:30:13,456] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:30:13,456] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:30:13,456] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:30:13,463] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:60472 )
+  INFO root [2025-02-25 20:30:13,463] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:60472, SOMAXCONN=511.
+  INFO root [2025-02-25 20:30:13,463] - server-configs:
+  INFO root [2025-02-25 20:30:13,463] - 	internalTcpAddr : 192.168.192.10:60472
+  INFO root [2025-02-25 20:30:13,463] - 	componentID : 5000
+  INFO root [2025-02-25 20:30:13,501] - Components::findLogger: found logger, addr:192.168.192.10:60469
+  INFO root [2025-02-25 20:30:13,501] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:30:13,501] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:30:13,504] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 15500 ----
+  INFO root [2025-02-25 20:30:13,504] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:30:13,504] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:30:13,504] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:30:13,616] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:30:13,616] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:30:19,828] - Forwarding logs to logger[192.168.192.10:60469/0/0/0]...
+ ERROR root [2025-02-25 20:31:40,472] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2689398632985, lastReceivedTime=2689122627995, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 20:31:40,473] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:31:40,473] - ==> [2025-02-25 20:31:40 473] TCPPacketReceiver::processPendingEvents(192.168.192.10:60469): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:31:40,473] - ==> [2025-02-25 20:31:40 473] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2689398632985, lastReceivedTime=2689122627995, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 20:31:40,505] - TCPPacketReceiver::processPendingEvents(192.168.192.10:60470): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:31:40,505] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2689398950441, lastReceivedTime=2689126520454, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 20:31:40,505] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:31:40,505] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:31:40,505] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:31:40,505] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:31:44,987] - 
+  INFO root [2025-02-25 20:31:44,987] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:31:44,988] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:31:44,988] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:31:44,988] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:31:44,996] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:60590 )
+  INFO root [2025-02-25 20:31:44,996] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:60590, SOMAXCONN=511.
+  INFO root [2025-02-25 20:31:44,996] - server-configs:
+  INFO root [2025-02-25 20:31:44,996] - 	internalTcpAddr : 192.168.192.10:60590
+  INFO root [2025-02-25 20:31:44,996] - 	componentID : 5000
+  INFO root [2025-02-25 20:31:45,082] - Components::findLogger: found logger, addr:192.168.192.10:60588
+  INFO root [2025-02-25 20:31:45,082] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:31:45,082] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:31:45,083] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 10932 ----
+  INFO root [2025-02-25 20:31:45,083] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:31:45,083] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:31:45,083] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:31:45,194] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:31:45,194] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:31:51,401] - Forwarding logs to logger[192.168.192.10:60588/0/0/0]...
+ ERROR root [2025-02-25 20:34:49,640] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2691290306908, lastReceivedTime=2691238523629, inactivityExceptionPeriod=599499873)
+   OFF root [2025-02-25 20:34:49,640] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:34:49,640] - ==> [2025-02-25 20:34:49 641] TCPPacketReceiver::processPendingEvents(192.168.192.10:60588): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:34:49,640] - ==> [2025-02-25 20:34:49 641] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2691290306908, lastReceivedTime=2691238523629, inactivityExceptionPeriod=599499873)
+  WARN root [2025-02-25 20:34:49,735] - TCPPacketReceiver::processPendingEvents(192.168.192.10:60589): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:34:49,737] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2691291267374, lastReceivedTime=2691241985393, inactivityExceptionPeriod=599499873)
+  INFO root [2025-02-25 20:34:49,737] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:34:49,737] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:34:49,737] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:34:49,737] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:35:28,211] - 
+  INFO root [2025-02-25 20:35:28,211] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:35:28,212] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:35:28,212] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:35:28,212] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:35:28,219] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:60725 )
+  INFO root [2025-02-25 20:35:28,219] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:60725, SOMAXCONN=511.
+  INFO root [2025-02-25 20:35:28,219] - server-configs:
+  INFO root [2025-02-25 20:35:28,219] - 	internalTcpAddr : 192.168.192.10:60725
+  INFO root [2025-02-25 20:35:28,219] - 	componentID : 5000
+  INFO root [2025-02-25 20:35:28,239] - Components::findLogger: found logger, addr:192.168.192.10:60722
+  INFO root [2025-02-25 20:35:28,239] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:35:28,240] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:35:28,241] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 18304 ----
+  INFO root [2025-02-25 20:35:28,241] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:35:28,241] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:35:28,241] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:35:28,356] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:35:28,356] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:35:34,604] - Forwarding logs to logger[192.168.192.10:60722/0/0/0]...
+ ERROR root [2025-02-25 20:40:29,496] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2694688863698, lastReceivedTime=2694670054679, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 20:40:29,497] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:40:29,497] - ==> [2025-02-25 20:40:29 496] TCPPacketReceiver::processPendingEvents(192.168.192.10:60722): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:40:29,497] - ==> [2025-02-25 20:40:29 496] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2694688863698, lastReceivedTime=2694670054679, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 20:40:29,529] - TCPPacketReceiver::processPendingEvents(192.168.192.10:60723): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:40:29,529] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2694689206943, lastReceivedTime=2694674095846, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 20:40:29,531] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:40:29,531] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:40:29,531] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:40:29,531] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:43:33,770] - 
+  INFO root [2025-02-25 20:43:33,771] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:43:33,774] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:43:33,774] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:43:33,774] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:43:33,784] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:61164 )
+  INFO root [2025-02-25 20:43:33,784] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:61164, SOMAXCONN=511.
+  INFO root [2025-02-25 20:43:33,784] - server-configs:
+  INFO root [2025-02-25 20:43:33,784] - 	internalTcpAddr : 192.168.192.10:61164
+  INFO root [2025-02-25 20:43:33,784] - 	componentID : 5000
+  INFO root [2025-02-25 20:43:33,898] - Components::findLogger: found logger, addr:192.168.192.10:61163
+  INFO root [2025-02-25 20:43:33,898] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:43:33,898] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:43:33,899] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 11928 ----
+  INFO root [2025-02-25 20:43:33,899] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:43:33,899] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:43:33,899] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:43:34,010] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:43:34,010] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:43:40,257] - Forwarding logs to logger[192.168.192.10:61163/0/0/0]...
+ ERROR root [2025-02-25 20:45:44,087] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2697834775274, lastReceivedTime=2697725774081, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 20:45:44,088] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:45:44,089] - ==> [2025-02-25 20:45:44 087] TCPPacketReceiver::processPendingEvents(192.168.192.10:61163): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:45:44,089] - ==> [2025-02-25 20:45:44 088] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2697834775274, lastReceivedTime=2697725774081, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 20:45:44,198] - TCPPacketReceiver::processPendingEvents(192.168.192.10:61166): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:45:44,198] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2697835884943, lastReceivedTime=2697733201459, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 20:45:44,198] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:45:44,199] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:45:44,199] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:45:44,199] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:45:49,081] - 
+  INFO root [2025-02-25 20:45:49,081] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:45:49,082] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:45:49,082] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:45:49,082] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:45:49,091] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:61239 )
+  INFO root [2025-02-25 20:45:49,091] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:61239, SOMAXCONN=511.
+  INFO root [2025-02-25 20:45:49,091] - server-configs:
+  INFO root [2025-02-25 20:45:49,091] - 	internalTcpAddr : 192.168.192.10:61239
+  INFO root [2025-02-25 20:45:49,091] - 	componentID : 5000
+  INFO root [2025-02-25 20:45:49,110] - Components::findLogger: found logger, addr:192.168.192.10:61234
+  INFO root [2025-02-25 20:45:49,110] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:45:49,110] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:45:49,112] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 1984 ----
+  INFO root [2025-02-25 20:45:49,112] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:45:49,112] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:45:49,112] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:45:49,229] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:45:49,229] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:45:55,512] - Forwarding logs to logger[192.168.192.10:61234/0/0/0]...
+ ERROR root [2025-02-25 20:54:50,724] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2703301144475, lastReceivedTime=2703276692841, inactivityExceptionPeriod=599500064)
+   OFF root [2025-02-25 20:54:50,726] - The following logs sent to logger failed:
+  WARN root [2025-02-25 20:54:50,726] - ==> [2025-02-25 20:54:50 724] TCPPacketReceiver::processPendingEvents(192.168.192.10:61234): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:54:50,726] - ==> [2025-02-25 20:54:50 725] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2703301144475, lastReceivedTime=2703276692841, inactivityExceptionPeriod=599500064)
+  WARN root [2025-02-25 20:54:50,776] - TCPPacketReceiver::processPendingEvents(192.168.192.10:61235): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 20:54:50,777] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2703301677362, lastReceivedTime=2703281093380, inactivityExceptionPeriod=599500064)
+  INFO root [2025-02-25 20:54:50,778] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 20:54:50,778] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 20:54:50,778] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 20:54:50,778] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 20:54:53,133] - 
+  INFO root [2025-02-25 20:54:53,133] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 20:54:53,133] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 20:54:53,133] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 20:54:53,133] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 20:54:53,139] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:61616 )
+  INFO root [2025-02-25 20:54:53,140] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:61616, SOMAXCONN=511.
+  INFO root [2025-02-25 20:54:53,140] - server-configs:
+  INFO root [2025-02-25 20:54:53,140] - 	internalTcpAddr : 192.168.192.10:61616
+  INFO root [2025-02-25 20:54:53,140] - 	componentID : 5000
+  INFO root [2025-02-25 20:54:53,208] - Components::findLogger: found logger, addr:192.168.192.10:61613
+  INFO root [2025-02-25 20:54:53,208] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 20:54:53,208] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 20:54:53,209] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 12920 ----
+  INFO root [2025-02-25 20:54:53,210] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 20:54:53,210] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 20:54:53,210] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 20:54:53,322] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 20:54:53,322] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 20:54:59,674] - Forwarding logs to logger[192.168.192.10:61613/0/0/0]...
+ ERROR root [2025-02-25 21:36:12,528] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2728119193614, lastReceivedTime=2727920288442, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 21:36:12,531] - The following logs sent to logger failed:
+  WARN root [2025-02-25 21:36:12,531] - ==> [2025-02-25 21:36:12 529] TCPPacketReceiver::processPendingEvents(192.168.192.10:61613): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 21:36:12,531] - ==> [2025-02-25 21:36:12 529] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2728119193614, lastReceivedTime=2727920288442, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 21:36:12,579] - TCPPacketReceiver::processPendingEvents(192.168.192.10:61614): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 21:36:12,579] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2728119693635, lastReceivedTime=2727923837245, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 21:36:12,580] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 21:36:12,580] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 21:36:12,580] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 21:36:12,581] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 21:36:17,570] - 
+  INFO root [2025-02-25 21:36:17,572] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 21:36:17,572] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 21:36:17,572] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 21:36:17,572] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 21:36:17,579] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:63257 )
+  INFO root [2025-02-25 21:36:17,579] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:63257, SOMAXCONN=511.
+  INFO root [2025-02-25 21:36:17,579] - server-configs:
+  INFO root [2025-02-25 21:36:17,579] - 	internalTcpAddr : 192.168.192.10:63257
+  INFO root [2025-02-25 21:36:17,579] - 	componentID : 5000
+  INFO root [2025-02-25 21:36:17,584] - Components::findLogger: found logger, addr:192.168.192.10:63254
+  INFO root [2025-02-25 21:36:17,584] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 21:36:17,584] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 21:36:17,585] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 28996 ----
+  INFO root [2025-02-25 21:36:17,585] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 21:36:17,585] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 21:36:17,585] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 21:36:17,699] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 21:36:17,700] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 21:36:23,952] - Forwarding logs to logger[192.168.192.10:63254/0/0/0]...
+ ERROR root [2025-02-25 21:36:54,890] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2728542809825, lastReceivedTime=2728464349123, inactivityExceptionPeriod=599500064)
+   OFF root [2025-02-25 21:36:54,890] - The following logs sent to logger failed:
+  WARN root [2025-02-25 21:36:54,890] - ==> [2025-02-25 21:36:54 891] TCPPacketReceiver::processPendingEvents(192.168.192.10:63254): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 21:36:54,890] - ==> [2025-02-25 21:36:54 891] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2728542809825, lastReceivedTime=2728464349123, inactivityExceptionPeriod=599500064)
+  WARN root [2025-02-25 21:36:54,950] - TCPPacketReceiver::processPendingEvents(192.168.192.10:63255): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 21:36:54,950] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2728543408937, lastReceivedTime=2728467952329, inactivityExceptionPeriod=599500064)
+  INFO root [2025-02-25 21:36:54,951] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 21:36:54,952] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 21:36:54,952] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 21:36:54,952] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 22:29:22,575] - 
+  INFO root [2025-02-25 22:29:22,577] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 22:29:22,581] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 22:29:22,581] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 22:29:22,581] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 22:29:22,587] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:64270 )
+  INFO root [2025-02-25 22:29:22,587] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:64270, SOMAXCONN=511.
+  INFO root [2025-02-25 22:29:22,587] - server-configs:
+  INFO root [2025-02-25 22:29:22,587] - 	internalTcpAddr : 192.168.192.10:64270
+  INFO root [2025-02-25 22:29:22,587] - 	componentID : 5000
+  INFO root [2025-02-25 22:29:22,597] - Components::findLogger: found logger, addr:192.168.192.10:64268
+  INFO root [2025-02-25 22:29:22,597] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 22:29:22,597] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 22:29:22,598] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 21916 ----
+  INFO root [2025-02-25 22:29:22,598] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 22:29:22,598] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 22:29:22,598] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 22:29:22,718] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 22:29:22,718] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 22:29:29,000] - Forwarding logs to logger[192.168.192.10:64268/0/0/0]...
+ ERROR root [2025-02-25 22:30:08,249] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2760476390616, lastReceivedTime=2760314256530, inactivityExceptionPeriod=599499873)
+   OFF root [2025-02-25 22:30:08,250] - The following logs sent to logger failed:
+  WARN root [2025-02-25 22:30:08,252] - ==> [2025-02-25 22:30:08 249] TCPPacketReceiver::processPendingEvents(192.168.192.10:64268): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 22:30:08,252] - ==> [2025-02-25 22:30:08 249] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2760476390616, lastReceivedTime=2760314256530, inactivityExceptionPeriod=599499873)
+  WARN root [2025-02-25 22:30:08,307] - TCPPacketReceiver::processPendingEvents(192.168.192.10:64269): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 22:30:08,307] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2760476981804, lastReceivedTime=2760318014997, inactivityExceptionPeriod=599499873)
+  INFO root [2025-02-25 22:30:08,308] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 22:30:08,308] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 22:30:08,308] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 22:30:08,308] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 22:34:09,955] - 
+  INFO root [2025-02-25 22:34:09,955] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 22:34:09,956] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 22:34:09,956] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 22:34:09,956] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 22:34:09,961] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:64401 )
+  INFO root [2025-02-25 22:34:09,962] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:64401, SOMAXCONN=511.
+  INFO root [2025-02-25 22:34:09,962] - server-configs:
+  INFO root [2025-02-25 22:34:09,962] - 	internalTcpAddr : 192.168.192.10:64401
+  INFO root [2025-02-25 22:34:09,962] - 	componentID : 5000
+  INFO root [2025-02-25 22:34:09,968] - Components::findLogger: found logger, addr:192.168.192.10:64399
+  INFO root [2025-02-25 22:34:09,968] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 22:34:09,968] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 22:34:09,969] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 28152 ----
+  INFO root [2025-02-25 22:34:09,969] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 22:34:09,969] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 22:34:09,969] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 22:34:10,084] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 22:34:10,084] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 22:34:16,310] - Forwarding logs to logger[192.168.192.10:64399/0/0/0]...
+ ERROR root [2025-02-25 22:50:12,215] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2772516055900, lastReceivedTime=2772487984366, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 22:50:12,215] - The following logs sent to logger failed:
+  WARN root [2025-02-25 22:50:12,215] - ==> [2025-02-25 22:50:12 215] TCPPacketReceiver::processPendingEvents(192.168.192.10:64399): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 22:50:12,215] - ==> [2025-02-25 22:50:12 216] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2772516055900, lastReceivedTime=2772487984366, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 22:50:12,238] - TCPPacketReceiver::processPendingEvents(192.168.192.10:64400): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 22:50:12,238] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2772516289902, lastReceivedTime=2772491875487, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 22:50:12,238] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 22:50:12,239] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 22:50:12,239] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 22:50:12,239] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 22:50:50,859] - 
+  INFO root [2025-02-25 22:50:50,859] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 22:50:50,859] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 22:50:50,859] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 22:50:50,859] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 22:50:50,866] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:64787 )
+  INFO root [2025-02-25 22:50:50,866] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:64787, SOMAXCONN=511.
+  INFO root [2025-02-25 22:50:50,866] - server-configs:
+  INFO root [2025-02-25 22:50:50,866] - 	internalTcpAddr : 192.168.192.10:64787
+  INFO root [2025-02-25 22:50:50,866] - 	componentID : 5000
+  INFO root [2025-02-25 22:50:50,984] - Components::findLogger: found logger, addr:192.168.192.10:64784
+  INFO root [2025-02-25 22:50:50,984] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 22:50:50,984] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 22:50:50,986] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 14104 ----
+  INFO root [2025-02-25 22:50:50,986] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 22:50:50,986] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 22:50:50,986] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 22:50:51,095] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 22:50:51,095] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 22:50:57,345] - Forwarding logs to logger[192.168.192.10:64784/0/0/0]...
+ ERROR root [2025-02-25 22:51:50,512] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2773499026771, lastReceivedTime=2773497076390, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 22:51:50,512] - The following logs sent to logger failed:
+  WARN root [2025-02-25 22:51:50,512] - ==> [2025-02-25 22:51:50 512] TCPPacketReceiver::processPendingEvents(192.168.192.10:64784): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 22:51:50,512] - ==> [2025-02-25 22:51:50 513] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2773499026771, lastReceivedTime=2773497076390, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 22:51:50,517] - TCPPacketReceiver::processPendingEvents(192.168.192.10:64785): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 22:51:50,517] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2773499080658, lastReceivedTime=2773201004105, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 22:51:50,517] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 22:51:50,517] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 22:51:50,517] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 22:51:50,517] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 22:53:31,959] - 
+  INFO root [2025-02-25 22:53:31,959] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 22:53:31,959] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 22:53:31,959] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 22:53:31,959] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 22:53:31,967] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:64858 )
+  INFO root [2025-02-25 22:53:31,967] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:64858, SOMAXCONN=511.
+  INFO root [2025-02-25 22:53:31,967] - server-configs:
+  INFO root [2025-02-25 22:53:31,967] - 	internalTcpAddr : 192.168.192.10:64858
+  INFO root [2025-02-25 22:53:31,967] - 	componentID : 5000
+  INFO root [2025-02-25 22:53:31,990] - Components::findLogger: found logger, addr:192.168.192.10:64856
+  INFO root [2025-02-25 22:53:31,990] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 22:53:31,990] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 22:53:31,992] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 24684 ----
+  INFO root [2025-02-25 22:53:31,992] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 22:53:31,992] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 22:53:31,992] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 22:53:32,104] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 22:53:32,104] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 22:53:38,358] - Forwarding logs to logger[192.168.192.10:64856/0/0/0]...
+ ERROR root [2025-02-25 23:08:22,805] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2783421958988, lastReceivedTime=2783208209471, inactivityExceptionPeriod=599500064)
+   OFF root [2025-02-25 23:08:22,808] - The following logs sent to logger failed:
+  WARN root [2025-02-25 23:08:22,808] - ==> [2025-02-25 23:08:22 806] TCPPacketReceiver::processPendingEvents(192.168.192.10:64856): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 23:08:22,808] - ==> [2025-02-25 23:08:22 806] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2783421958988, lastReceivedTime=2783208209471, inactivityExceptionPeriod=599500064)
+  WARN root [2025-02-25 23:08:22,851] - TCPPacketReceiver::processPendingEvents(192.168.192.10:64857): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 23:08:22,851] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2783422415145, lastReceivedTime=2783211952546, inactivityExceptionPeriod=599500064)
+  INFO root [2025-02-25 23:08:22,852] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 23:08:22,853] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 23:08:22,853] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 23:08:22,853] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 23:09:18,722] - 
+  INFO root [2025-02-25 23:09:18,722] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 23:09:18,722] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 23:09:18,722] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 23:09:18,722] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 23:09:18,731] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:65154 )
+  INFO root [2025-02-25 23:09:18,731] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:65154, SOMAXCONN=511.
+  INFO root [2025-02-25 23:09:18,731] - server-configs:
+  INFO root [2025-02-25 23:09:18,731] - 	internalTcpAddr : 192.168.192.10:65154
+  INFO root [2025-02-25 23:09:18,731] - 	componentID : 5000
+  INFO root [2025-02-25 23:09:18,844] - Components::findLogger: found logger, addr:192.168.192.10:65151
+  INFO root [2025-02-25 23:09:18,844] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 23:09:18,844] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 23:09:18,845] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 32220 ----
+  INFO root [2025-02-25 23:09:18,845] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 23:09:18,846] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 23:09:18,846] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 23:09:18,960] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 23:09:18,961] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 23:09:25,352] - Forwarding logs to logger[192.168.192.10:65151/0/0/0]...
+ ERROR root [2025-02-25 23:11:26,978] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2785263685020, lastReceivedTime=2785175137740, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 23:11:26,978] - The following logs sent to logger failed:
+  WARN root [2025-02-25 23:11:26,978] - ==> [2025-02-25 23:11:26 978] TCPPacketReceiver::processPendingEvents(192.168.192.10:65151): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 23:11:26,978] - ==> [2025-02-25 23:11:26 979] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2785263685020, lastReceivedTime=2785175137740, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 23:11:27,032] - TCPPacketReceiver::processPendingEvents(192.168.192.10:65152): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 23:11:27,032] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2785264230164, lastReceivedTime=2785179336141, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 23:11:27,035] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 23:11:27,036] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 23:11:27,036] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 23:11:27,036] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 23:17:52,440] - 
+  INFO root [2025-02-25 23:17:52,440] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 23:17:52,441] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 23:17:52,441] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 23:17:52,441] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 23:17:52,449] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:65351 )
+  INFO root [2025-02-25 23:17:52,449] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:65351, SOMAXCONN=511.
+  INFO root [2025-02-25 23:17:52,449] - server-configs:
+  INFO root [2025-02-25 23:17:52,449] - 	internalTcpAddr : 192.168.192.10:65351
+  INFO root [2025-02-25 23:17:52,449] - 	componentID : 5000
+  INFO root [2025-02-25 23:17:52,500] - Components::findLogger: found logger, addr:192.168.192.10:65349
+  INFO root [2025-02-25 23:17:52,500] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 23:17:52,500] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 23:17:52,501] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 19488 ----
+  INFO root [2025-02-25 23:17:52,501] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 23:17:52,501] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 23:17:52,501] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 23:17:52,614] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 23:17:52,614] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 23:17:58,841] - Forwarding logs to logger[192.168.192.10:65349/0/0/0]...
+ ERROR root [2025-02-25 23:49:29,653] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2808090432660, lastReceivedTime=2808013356130, inactivityExceptionPeriod=599500000)
+   OFF root [2025-02-25 23:49:29,654] - The following logs sent to logger failed:
+  WARN root [2025-02-25 23:49:29,654] - ==> [2025-02-25 23:49:29 653] TCPPacketReceiver::processPendingEvents(192.168.192.10:65349): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 23:49:29,654] - ==> [2025-02-25 23:49:29 653] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2808090432660, lastReceivedTime=2808013356130, inactivityExceptionPeriod=599500000)
+  WARN root [2025-02-25 23:49:29,699] - TCPPacketReceiver::processPendingEvents(192.168.192.10:65350): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2025-02-25 23:49:29,699] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2808090898113, lastReceivedTime=2808016779772, inactivityExceptionPeriod=599500000)
+  INFO root [2025-02-25 23:49:29,699] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2025-02-25 23:49:29,699] - Shutdowner::onShutdown: shutting down
+  INFO root [2025-02-25 23:49:29,699] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2025-02-25 23:49:29,699] - ThreadPool::destroy(): starting size 2.
+  INFO root [2025-02-25 23:49:36,821] - 
+  INFO root [2025-02-25 23:49:36,821] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-25 23:49:36,822] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-25 23:49:36,822] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-25 23:49:36,822] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-25 23:49:36,828] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:50591 )
+  INFO root [2025-02-25 23:49:36,830] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:50591, SOMAXCONN=511.
+  INFO root [2025-02-25 23:49:36,830] - server-configs:
+  INFO root [2025-02-25 23:49:36,830] - 	internalTcpAddr : 192.168.192.10:50591
+  INFO root [2025-02-25 23:49:36,830] - 	componentID : 5000
+  INFO root [2025-02-25 23:49:36,873] - Components::findLogger: found logger, addr:192.168.192.10:50589
+  INFO root [2025-02-25 23:49:36,873] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-25 23:49:36,873] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-25 23:49:36,874] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B0B113F2B908637A0F5A49A8ED808F16. Config: Release X64. Built: 13:55:37 Feb  9 2025. AppID: 5000. UID: 42997. PID: 27948 ----
+  INFO root [2025-02-25 23:49:36,874] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-25 23:49:36,874] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-25 23:49:36,874] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-25 23:49:36,994] - ---- baseappmgr is running ----
+ DEBUG root [2025-02-25 23:49:36,994] - Components::process(): Request for the process of identity...
+  WARN root [2025-02-25 23:49:43,221] - Forwarding logs to logger[192.168.192.10:50589/0/0/0]...

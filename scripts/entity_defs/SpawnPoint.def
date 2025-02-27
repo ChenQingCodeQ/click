@@ -1,0 +1,28 @@
+<root>
+	<Volatile>
+		<position/>
+	</Volatile>
+
+	<Properties>
+		<mapID>
+			<Type>				INT32				</Type>
+			<Flags>				CELL_PRIVATE		</Flags>
+		</mapID>
+		<createToCell>
+			<Type>				ENTITYCALL		</Type>
+			<Flags>				BASE			</Flags>
+		</createToCell>
+		<creepSpawnInfo>
+			<Type>				PY_DICT			</Type>
+			<Flags>				CELL_PRIVATE	</Flags>
+		</creepSpawnInfo>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		
+	</CellMethods>
+</root>
+

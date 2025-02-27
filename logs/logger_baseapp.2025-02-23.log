@@ -1,0 +1,156 @@
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 312] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 315] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 315] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 315] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 321] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:20015 )
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 321] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.192.10:20015, SOMAXCONN=511.
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 322] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:20005 )
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 322] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.192.10:20005, SOMAXCONN=511.
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:57988 )
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:57988, SOMAXCONN=511.
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - server-configs:
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - 	internalTcpAddr : 192.168.192.10:57988
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - 	externalTcpAddr : 192.168.192.10:20015
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - 	externalUdpAddr : 192.168.192.10:20005
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - 	externalCustomAddr : 192.168.2.66
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 324] - 	componentID : 7001
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 439] - Components::findLogger: found logger, addr:192.168.192.10:57980
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 440] - Components::addComponent: reset orderLog, uid=42997!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 440] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 441] - ---- baseapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: A64E660274C30DFACD56738D4ED29713. Config: Release X64. Built: 13:56:16 Feb  9 2025. AppID: 7001. UID: 42997. PID: 30808 ----
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 441] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 442] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 442] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 583] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 583] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 42997 7001  [2025-02-23 20:48:06 673] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 42997 7001  [2025-02-23 20:48:06 673] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 42997 7001  [2025-02-23 20:48:06 673] - loaded entity-script:NPC(4).
+   DEBUG    baseapp-1 42997 7001  [2025-02-23 20:48:06 673] - loaded entity-script:Space(5).
+   DEBUG    baseapp-1 42997 7001  [2025-02-23 20:48:06 673] - loaded entity-script:SpawnPoint(6).
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 673] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 674] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:06 685] - ---- baseapp is running ----
+   DEBUG    baseapp-1 42997 7001  [2025-02-23 20:48:06 685] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 42997 7001  [2025-02-23 20:48:12 951] - EntityApp::checkTickPeriod: tick took 6265% (6.26 seconds)!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:14 025] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:14 135] - Components::findComponents: found dbmgr, addr:192.168.192.10:57981
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:14 135] - Components::addComponent: reset orderLog, uid=42997!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:14 135] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:14 136] - Components::findComponents: found dbmgr, addr:192.168.192.10:57981
+ WARNING    baseapp-1 42997 7001  [2025-02-23 20:48:15 146] - EntityApp::checkTickPeriod: tick took 1151% (1.15 seconds)!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:16 188] - Components::findComponents: find baseappmgr(1)...
+ WARNING    baseapp-1 42997 7001  [2025-02-23 20:48:16 672] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20691, errorno=10048
+ WARNING    baseapp-1 42997 7001  [2025-02-23 20:48:16 672] - EntityApp::checkTickPeriod: tick took 577% (0.58 seconds)!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:17 684] - Components::findComponents: find baseappmgr(2)...
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:17 732] - Components::findComponents: found baseappmgr, addr:192.168.192.10:57982
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:17 732] - Components::addComponent[baseappmgr], uid=42997, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:17 732] - Components::findComponents: found baseappmgr, addr:192.168.192.10:57982
+ WARNING    baseapp-1 42997 7001  [2025-02-23 20:48:18 743] - EntityApp::checkTickPeriod: tick took 1154% (1.15 seconds)!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:19 790] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:19 809] - Components::findComponents: found cellappmgr, addr:192.168.192.10:57985
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:19 809] - Components::addComponent[cellappmgr], uid=42997, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:19 809] - Components::findComponents: found cellappmgr, addr:192.168.192.10:57985
+ WARNING    baseapp-1 42997 7001  [2025-02-23 20:48:20 817] - EntityApp::checkTickPeriod: tick took 1119% (1.12 seconds)!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:21 897] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 42997 7001  [2025-02-23 20:48:21 897] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:21 898] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:21 913] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:57996, extaddr:nonsupport, extport:0,  from 192.168.192.10:58022/0/0/0.
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:21 913] - Components::addComponent[cellapp], uid=42997, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:21 913] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:57996, extaddr:nonsupport, extport:0,  from 192.168.192.10:58022/0/0/0.
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:21 913] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:21 927] - Components::process(): Found all the components!
+    INFO    baseapp-1 42997 7001  [2025-02-23 20:48:24 920] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=A23F02FAEF6DC1CCC2EB3E5A9A482AEB.
+    INFO    baseapp01 42997 7001  [2025-02-23 20:48:24 920] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    baseapp01 42997 7001  [2025-02-23 20:48:25 402] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20164, errorno=10048
+  S_INFO    baseapp01 42997 7001  [2025-02-23 20:48:26 727] - 当引擎启动后初始化完所有的脚本后这个接口被调用::isReload:0
+ WARNING    baseapp01 42997 7001  [2025-02-23 20:48:26 727] - D:\Downloads\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.81 seconds
+ WARNING    baseapp01 42997 7001  [2025-02-23 20:48:26 728] - EntityApp::checkTickPeriod: tick took 1839% (1.84 seconds)!
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:48:26 990] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 42997 7001  [2025-02-23 20:48:27 022] - baseapp已经准备好了
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:27 022] - 初始化 [Space] id:[2001]
+    INFO    baseapp01 42997 7001  [2025-02-23 20:48:27 023] - EntityApp::createEntity: new Space 2001
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:48:27 099] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:27 332] - 全局数据有改变: Space10001
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:27 332] - Space::onGetCell: 2001
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:27 397] - 初始化 [SpawnPoint] id:[2002]
+    INFO    baseapp01 42997 7001  [2025-02-23 20:48:27 397] - EntityApp::createEntity: new SpawnPoint 2002
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:48:49 194] - PendingLoginMgr::add: 88888888, size=1.
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:48:49 213] - Channel::handshake: kcp(192.168.2.66:60110/1/0/0) successfully!
+    INFO    baseapp01 42997 7001  [2025-02-23 20:48:49 271] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.66:60110/1/0/0
+ WARNING    baseapp01 42997 7001  [2025-02-23 20:48:49 271] - Baseapp::onHello: client is not encrypted, addr=192.168.2.66:60110/1/0/0
+    INFO    baseapp01 42997 7001  [2025-02-23 20:48:49 310] - Baseapp::loginBaseapp: new user[88888888], channel[192.168.2.66:60110/1/0/0].
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:48:49 333] - PendingLoginMgr::remove: 88888888, size=0.
+    INFO    baseapp01 42997 7001  [2025-02-23 20:48:49 333] - EntityApp::createEntity: new Account 2003
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:49 333] - 初始化 [Account] id:[2003]
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:49 333] - 客户端已连接 [Account] id:[2003]
+    INFO    baseapp01 42997 7001  [2025-02-23 20:48:49 333] - Baseapp::onQueryAccountCBFromDbmgr: user=88888888, uuid=7474595704796020736, entityID=2003, flags=0, deadline=0.
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:49 477] - Account[2003].reqAvatarInfo
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:50 746] - Account[2003].selectAvatarGame:1. self.activeAvatar=None
+    INFO    baseapp01 42997 7001  [2025-02-23 20:48:50 768] - EntityApp::createEntity: new Avatar 2004
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:50 768] - 初始化 [Avatar] id:[2004]
+  S_INFO    baseapp01 42997 7001  [2025-02-23 20:48:50 768] - <class 'Avatar.Avatar'>
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:50 768] - 客户端已连接 [Avatar] id:[2004]
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:48:50 769] - 获得cell [Avatar] id:[2004]
+    INFO    baseapp01 42997 7001  [2025-02-23 20:50:19 218] - ServerApp::onChannelTimeOut: Channel 192.168.2.66:60110/1/0/0 timeout!
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:50:19 218] - Avatar::onClientDeath: 2004.
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:50:19 218] - 客户端断开连接 [Avatar] id:[2004]
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:50:45 069] - PendingLoginMgr::add: 88888888, size=1.
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:50:45 079] - Channel::handshake: kcp(192.168.2.66:56274/2/0/0) successfully!
+    INFO    baseapp01 42997 7001  [2025-02-23 20:50:45 129] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.66:56274/2/0/0
+ WARNING    baseapp01 42997 7001  [2025-02-23 20:50:45 129] - Baseapp::onHello: client is not encrypted, addr=192.168.2.66:56274/2/0/0
+    INFO    baseapp01 42997 7001  [2025-02-23 20:50:45 162] - Baseapp::loginBaseapp: new user[88888888], channel[192.168.2.66:56274/2/0/0].
+    INFO    baseapp01 42997 7001  [2025-02-23 20:50:45 162] - Baseapp::loginBaseapp: user[88888888] has entity(2003).
+  S_INFO    baseapp01 42997 7001  [2025-02-23 20:50:45 162] - Account[2003]::onLogOnAttempt: ip=192.168.2.66, port=56274, selfclient=None
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:50:45 162] - Avatar[2004].destroySelf: relogin =0
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:50:45 162] - entity销毁 [Avatar] id:[2004]
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:50:45 162] - Avatar::~Avatar(): 2004
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:50:45 162] - 客户端已连接 [Account] id:[2003]
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:50:45 262] - Account[2003].reqAvatarInfo
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:50:45 685] - PendingLoginMgr::process: [88888888] is timeout, currsize=0.
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:50:46 272] - Account[2003].selectAvatarGame:1. self.activeAvatar=None
+    INFO    baseapp01 42997 7001  [2025-02-23 20:50:46 294] - EntityApp::createEntity: new Avatar 2005
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:50:46 294] - 初始化 [Avatar] id:[2005]
+  S_INFO    baseapp01 42997 7001  [2025-02-23 20:50:46 294] - <class 'Avatar.Avatar'>
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:50:46 294] - 客户端已连接 [Avatar] id:[2005]
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:50:46 294] - 获得cell [Avatar] id:[2005]
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:51:52 859] - PendingLoginMgr::add: 88888888, size=1.
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:51:52 883] - Channel::handshake: kcp(192.168.2.66:59687/3/0/0) successfully!
+    INFO    baseapp01 42997 7001  [2025-02-23 20:51:52 916] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.66:59687/3/0/0
+ WARNING    baseapp01 42997 7001  [2025-02-23 20:51:52 916] - Baseapp::onHello: client is not encrypted, addr=192.168.2.66:59687/3/0/0
+    INFO    baseapp01 42997 7001  [2025-02-23 20:51:52 967] - Baseapp::loginBaseapp: new user[88888888], channel[192.168.2.66:59687/3/0/0].
+    INFO    baseapp01 42997 7001  [2025-02-23 20:51:52 967] - Baseapp::loginBaseapp: user[88888888] has entity(2003).
+  S_INFO    baseapp01 42997 7001  [2025-02-23 20:51:52 967] - Account[2003]::onLogOnAttempt: ip=192.168.2.66, port=59687, selfclient=None
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:51:52 967] - 客户端已连接 [Account] id:[2003]
+    INFO    baseapp01 42997 7001  [2025-02-23 20:51:52 967] - Baseapp::loginBaseapp: script LOG_ON_ACCEPT. oldClientChannel=192.168.2.66:56274/2/0/0
+    INFO    baseapp01 42997 7001  [2025-02-23 20:51:52 967] - Baseapp::kickChannel: pChannel=192.168.2.66:56274/2/0/0, failedcode=9, proxyID=2003.
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:51:52 967] - 客户端已连接 [Account] id:[2003]
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:51:53 100] - Account[2003].reqAvatarInfo
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:51:53 687] - PendingLoginMgr::process: [88888888] is timeout, currsize=0.
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:51:54 098] - Account[2003].selectAvatarGame:1. self.activeAvatar=None
+  S_INFO    baseapp01 42997 7001  [2025-02-23 20:51:54 119] - <class 'Avatar.Avatar'>
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:51:54 119] - 客户端已连接 [Avatar] id:[2005]
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:51:54 119] - 获得cell [Avatar] id:[2005]
+    INFO    baseapp01 42997 7001  [2025-02-23 20:52:15 089] - ServerApp::onChannelTimeOut: Channel 192.168.2.66:56274/2/8/0 timeout!
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:53:11 246] - PendingLoginMgr::add: 88888888, size=1.
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:53:11 255] - Channel::handshake: kcp(192.168.2.66:51351/4/0/0) successfully!
+    INFO    baseapp01 42997 7001  [2025-02-23 20:53:11 303] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.66:51351/4/0/0
+ WARNING    baseapp01 42997 7001  [2025-02-23 20:53:11 303] - Baseapp::onHello: client is not encrypted, addr=192.168.2.66:51351/4/0/0
+    INFO    baseapp01 42997 7001  [2025-02-23 20:53:11 319] - Baseapp::loginBaseapp: new user[88888888], channel[192.168.2.66:51351/4/0/0].
+    INFO    baseapp01 42997 7001  [2025-02-23 20:53:11 319] - Baseapp::loginBaseapp: user[88888888] has entity(2003).
+  S_INFO    baseapp01 42997 7001  [2025-02-23 20:53:11 319] - Account[2003]::onLogOnAttempt: ip=192.168.2.66, port=51351, selfclient=None
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:53:11 319] - 客户端已连接 [Account] id:[2003]
+    INFO    baseapp01 42997 7001  [2025-02-23 20:53:11 319] - Baseapp::loginBaseapp: script LOG_ON_ACCEPT. oldClientChannel=192.168.2.66:59687/3/0/0
+    INFO    baseapp01 42997 7001  [2025-02-23 20:53:11 319] - Baseapp::kickChannel: pChannel=192.168.2.66:59687/3/0/0, failedcode=9, proxyID=2003.
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:53:11 319] - 客户端已连接 [Account] id:[2003]
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:53:11 369] - Account[2003].reqAvatarInfo
+   DEBUG    baseapp01 42997 7001  [2025-02-23 20:53:11 681] - PendingLoginMgr::process: [88888888] is timeout, currsize=0.
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:53:12 397] - Account[2003].selectAvatarGame:1. self.activeAvatar=None
+  S_INFO    baseapp01 42997 7001  [2025-02-23 20:53:12 417] - <class 'Avatar.Avatar'>
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:53:12 417] - 客户端已连接 [Avatar] id:[2005]
+   S_DBG    baseapp01 42997 7001  [2025-02-23 20:53:12 417] - 获得cell [Avatar] id:[2005]
+    INFO    baseapp01 42997 7001  [2025-02-23 20:53:22 896] - ServerApp::onChannelTimeOut: Channel 192.168.2.66:59687/3/8/0 timeout!

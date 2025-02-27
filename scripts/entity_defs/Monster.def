@@ -1,0 +1,14 @@
+<root>
+	<!-- <Parent>	NPC	</Parent> -->
+	<Interfaces>
+		<Interface>			Unit				</Interface>
+		<Interface>			AI					</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

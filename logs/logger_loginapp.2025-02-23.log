@@ -1,0 +1,79 @@
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 716] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 720] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 720] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 720] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 726] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:20013 )
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 727] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.192.10:20013, SOMAXCONN=511.
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 728] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:57998 )
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 728] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:57998, SOMAXCONN=511.
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 728] - server-configs:
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 728] - 	internalTcpAddr : 192.168.192.10:57998
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 728] - 	externalTcpAddr : 192.168.192.10:20013
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 728] - 	externalCustomAddr : 192.168.2.66
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 728] - 	componentID : 9000
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 890] - Components::findLogger: found logger, addr:192.168.192.10:57980
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 890] - Components::addComponent: reset orderLog, uid=42997!
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 890] - Components::addComponent[logger], uid=42997, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 893] - ---- loginapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 1102EA4445FA7BC78DFA939A2161D781. Config: Release X64. Built: 13:55:42 Feb  9 2025. AppID: 9000. UID: 42997. PID: 19676 ----
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 893] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 893] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:06 893] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:07 030] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:07 030] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 42997 9000  [2025-02-23 20:48:07 041] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:07 041] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:07 053] - ---- loginapp is running ----
+   DEBUG   loginapp-1 42997 9000  [2025-02-23 20:48:07 053] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:14 364] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:14 459] - Components::findComponents: found dbmgr, addr:192.168.192.10:57981
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:14 459] - Components::addComponent: reset orderLog, uid=42997!
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:14 459] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:14 459] - Components::findComponents: found dbmgr, addr:192.168.192.10:57981
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:16 485] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:16 535] - Components::findComponents: found baseappmgr, addr:192.168.192.10:57982
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:16 535] - Components::addComponent[baseappmgr], uid=42997, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:16 535] - Components::findComponents: found baseappmgr, addr:192.168.192.10:57982
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:18 037] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.66:58015/0/0/0
+ WARNING   loginapp-1 42997 9000  [2025-02-23 20:48:18 037] - Loginapp::onHello: client is not encrypted, addr=192.168.2.66:58015/0/0/0
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:18 050] - Loginapp::loginFailed: loginName=88888888 login failed. failedcode=SERVER_ERR_SRV_NO_READY, datas=.
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:18 571] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:18 587] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:18 588] - Components::process(): Found all the components!
+    INFO   loginapp-1 42997 9000  [2025-02-23 20:48:24 919] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=A23F02FAEF6DC1CCC2EB3E5A9A482AEB.
+    INFO   loginapp01 42997 9000  [2025-02-23 20:48:26 227] - HTTPCBHandler::bind: 192.168.192.10:21103
+ WARNING   loginapp01 42997 9000  [2025-02-23 20:48:26 228] - D:\Downloads\kbengine-2.5.12\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.31 seconds
+    INFO   loginapp01 42997 9000  [2025-02-23 20:48:27 100] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 42997 9000  [2025-02-23 20:48:49 161] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.66:58037/0/0/0
+ WARNING   loginapp01 42997 9000  [2025-02-23 20:48:49 161] - Loginapp::onHello: client is not encrypted, addr=192.168.2.66:58037/0/0/0
+  S_INFO   loginapp01 42997 9000  [2025-02-23 20:48:49 177] - onRequestLogin() loginName=88888888, clientType=7
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:48:49 177] - PendingLoginMgr::add: 88888888, size=1.
+    INFO   loginapp01 42997 9000  [2025-02-23 20:48:49 177] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=88888888, datas=kbengine_unity3d_guihuo.
+  S_INFO   loginapp01 42997 9000  [2025-02-23 20:48:49 194] - onLoginCallbackFromDB() loginName=88888888, accountName=88888888, errorno=0
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:48:49 194] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=88888888, addr=192.168.2.66:20015.
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:48:49 194] - PendingLoginMgr::remove: 88888888, size=0.
+    INFO   loginapp01 42997 9000  [2025-02-23 20:50:45 029] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.66:58110/0/0/0
+ WARNING   loginapp01 42997 9000  [2025-02-23 20:50:45 029] - Loginapp::onHello: client is not encrypted, addr=192.168.2.66:58110/0/0/0
+  S_INFO   loginapp01 42997 9000  [2025-02-23 20:50:45 046] - onRequestLogin() loginName=88888888, clientType=7
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:50:45 046] - PendingLoginMgr::add: 88888888, size=1.
+    INFO   loginapp01 42997 9000  [2025-02-23 20:50:45 046] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=88888888, datas=kbengine_unity3d_guihuo.
+  S_INFO   loginapp01 42997 9000  [2025-02-23 20:50:45 069] - onLoginCallbackFromDB() loginName=88888888, accountName=88888888, errorno=10
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:50:45 069] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=88888888, addr=192.168.2.66:20015.
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:50:45 069] - PendingLoginMgr::remove: 88888888, size=0.
+    INFO   loginapp01 42997 9000  [2025-02-23 20:51:52 800] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.66:58147/0/0/0
+ WARNING   loginapp01 42997 9000  [2025-02-23 20:51:52 800] - Loginapp::onHello: client is not encrypted, addr=192.168.2.66:58147/0/0/0
+  S_INFO   loginapp01 42997 9000  [2025-02-23 20:51:52 817] - onRequestLogin() loginName=88888888, clientType=7
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:51:52 817] - PendingLoginMgr::add: 88888888, size=1.
+    INFO   loginapp01 42997 9000  [2025-02-23 20:51:52 817] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=88888888, datas=kbengine_unity3d_guihuo.
+  S_INFO   loginapp01 42997 9000  [2025-02-23 20:51:52 858] - onLoginCallbackFromDB() loginName=88888888, accountName=88888888, errorno=10
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:51:52 859] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=88888888, addr=192.168.2.66:20015.
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:51:52 859] - PendingLoginMgr::remove: 88888888, size=0.
+    INFO   loginapp01 42997 9000  [2025-02-23 20:53:11 208] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.66:58221/0/0/0
+ WARNING   loginapp01 42997 9000  [2025-02-23 20:53:11 208] - Loginapp::onHello: client is not encrypted, addr=192.168.2.66:58221/0/0/0
+  S_INFO   loginapp01 42997 9000  [2025-02-23 20:53:11 221] - onRequestLogin() loginName=88888888, clientType=7
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:53:11 221] - PendingLoginMgr::add: 88888888, size=1.
+    INFO   loginapp01 42997 9000  [2025-02-23 20:53:11 221] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=88888888, datas=kbengine_unity3d_guihuo.
+  S_INFO   loginapp01 42997 9000  [2025-02-23 20:53:11 245] - onLoginCallbackFromDB() loginName=88888888, accountName=88888888, errorno=10
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:53:11 246] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=88888888, addr=192.168.2.66:20015.
+   DEBUG   loginapp01 42997 9000  [2025-02-23 20:53:11 246] - PendingLoginMgr::remove: 88888888, size=0.

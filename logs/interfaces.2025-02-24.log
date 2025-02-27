@@ -1,0 +1,524 @@
+  INFO root [2025-02-24 13:19:07,547] - 
+  INFO root [2025-02-24 13:19:07,547] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 13:19:07,550] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 13:19:07,550] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 13:19:07,550] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 13:19:07,559] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 13:19:07,559] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 13:19:07,559] - server-configs:
+  INFO root [2025-02-24 13:19:07,559] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 13:19:07,559] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 13:19:07,559] - 	componentID : 3000
+  INFO root [2025-02-24 13:19:07,560] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 13028 ----
+  INFO root [2025-02-24 13:19:07,560] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 13:19:07,560] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 13:19:07,561] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 13:19:07,729] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 13:19:07,729] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 13:19:07,838] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 13:19:07,839] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 13:19:07,851] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 13:19:07,851] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 13:26:32,606] - 
+  INFO root [2025-02-24 13:26:32,606] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 13:26:32,606] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 13:26:32,606] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 13:26:32,606] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 13:26:32,614] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 13:26:32,614] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 13:26:32,614] - server-configs:
+  INFO root [2025-02-24 13:26:32,614] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 13:26:32,614] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 13:26:32,614] - 	componentID : 3000
+  INFO root [2025-02-24 13:26:32,615] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 31300 ----
+  INFO root [2025-02-24 13:26:32,616] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 13:26:32,616] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 13:26:32,616] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 13:26:32,774] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 13:26:32,774] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 13:26:32,791] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 13:26:32,793] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 13:26:32,801] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 13:26:32,801] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 13:26:39,060] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:54505, extaddr:nonsupport, extport:0,  from 127.0.0.1:54511/0/0/0.
+  INFO root [2025-02-24 13:26:39,060] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 13:26:39,060] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 13:26:40,108] - Components::process(): Found all the components!
+  WARN root [2025-02-24 13:27:36,650] - TCPPacketReceiver::processPendingEvents(127.0.0.1:54511): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 13:27:36,650] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 17:49:02,696] - 
+  INFO root [2025-02-24 17:49:02,696] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 17:49:02,696] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 17:49:02,697] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 17:49:02,697] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 17:49:02,705] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 17:49:02,705] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 17:49:02,705] - server-configs:
+  INFO root [2025-02-24 17:49:02,705] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 17:49:02,705] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 17:49:02,705] - 	componentID : 3000
+  INFO root [2025-02-24 17:49:02,707] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 25248 ----
+  INFO root [2025-02-24 17:49:02,707] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 17:49:02,707] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 17:49:02,707] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 17:49:02,955] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 17:49:02,955] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 17:49:03,078] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 17:49:03,079] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 17:49:03,087] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 17:49:03,087] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 17:49:10,407] - Components::process(): Found all the components!
+  INFO root [2025-02-24 17:50:06,284] - 
+  INFO root [2025-02-24 17:50:06,284] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 17:50:06,285] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 17:50:06,285] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 17:50:06,285] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 17:50:06,292] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 17:50:06,292] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 17:50:06,292] - server-configs:
+  INFO root [2025-02-24 17:50:06,292] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 17:50:06,292] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 17:50:06,292] - 	componentID : 3000
+  INFO root [2025-02-24 17:50:06,293] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 7692 ----
+  INFO root [2025-02-24 17:50:06,293] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 17:50:06,293] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 17:50:06,293] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 17:50:06,440] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 17:50:06,440] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 17:50:06,450] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 17:50:06,450] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 17:50:06,459] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 17:50:06,459] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 17:50:12,710] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:62308, extaddr:nonsupport, extport:0,  from 127.0.0.1:62313/0/0/0.
+  INFO root [2025-02-24 17:50:12,710] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 17:50:12,710] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 17:50:13,787] - Components::process(): Found all the components!
+  WARN root [2025-02-24 17:51:29,197] - TCPPacketReceiver::processPendingEvents(127.0.0.1:62313): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 17:51:29,198] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 17:51:32,941] - 
+  INFO root [2025-02-24 17:51:32,941] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 17:51:32,941] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 17:51:32,941] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 17:51:32,941] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 17:51:32,948] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 17:51:32,948] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 17:51:32,948] - server-configs:
+  INFO root [2025-02-24 17:51:32,948] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 17:51:32,948] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 17:51:32,948] - 	componentID : 3000
+  INFO root [2025-02-24 17:51:32,950] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 30580 ----
+  INFO root [2025-02-24 17:51:32,950] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 17:51:32,950] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 17:51:32,950] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 17:51:33,095] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 17:51:33,095] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 17:51:33,106] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 17:51:33,107] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 17:51:33,114] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 17:51:33,114] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 17:51:39,414] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:62366, extaddr:nonsupport, extport:0,  from 127.0.0.1:62375/0/0/0.
+  INFO root [2025-02-24 17:51:39,414] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 17:51:39,414] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 17:51:40,518] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 17:52:37,279] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 17:52:48,117] - TCPPacketReceiver::processPendingEvents(127.0.0.1:62375): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 17:52:48,118] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 17:54:11,061] - 
+  INFO root [2025-02-24 17:54:11,061] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 17:54:11,062] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 17:54:11,062] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 17:54:11,062] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 17:54:11,070] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 17:54:11,070] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 17:54:11,070] - server-configs:
+  INFO root [2025-02-24 17:54:11,070] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 17:54:11,070] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 17:54:11,070] - 	componentID : 3000
+  INFO root [2025-02-24 17:54:11,071] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 35204 ----
+  INFO root [2025-02-24 17:54:11,071] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 17:54:11,071] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 17:54:11,072] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 17:54:11,223] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 17:54:11,223] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 17:54:11,234] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 17:54:11,235] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 17:54:11,242] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 17:54:11,242] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 17:54:17,451] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:62458, extaddr:nonsupport, extport:0,  from 127.0.0.1:62462/0/0/0.
+  INFO root [2025-02-24 17:54:17,451] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 17:54:17,451] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 17:54:18,547] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 17:54:34,992] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 17:54:44,812] - TCPPacketReceiver::processPendingEvents(127.0.0.1:62462): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 17:54:44,812] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 17:57:10,731] - 
+  INFO root [2025-02-24 17:57:10,731] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 17:57:10,731] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 17:57:10,731] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 17:57:10,731] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 17:57:10,739] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 17:57:10,739] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 17:57:10,739] - server-configs:
+  INFO root [2025-02-24 17:57:10,739] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 17:57:10,739] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 17:57:10,739] - 	componentID : 3000
+  INFO root [2025-02-24 17:57:10,740] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 20960 ----
+  INFO root [2025-02-24 17:57:10,740] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 17:57:10,741] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 17:57:10,741] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 17:57:10,886] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 17:57:10,886] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 17:57:10,898] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 17:57:10,899] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 17:57:10,906] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 17:57:10,906] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 17:57:17,163] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:62567, extaddr:nonsupport, extport:0,  from 127.0.0.1:62572/0/0/0.
+  INFO root [2025-02-24 17:57:17,163] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 17:57:17,163] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 17:57:18,241] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 17:57:32,232] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 17:57:46,569] - TCPPacketReceiver::processPendingEvents(127.0.0.1:62572): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 17:57:46,569] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 21:09:56,631] - 
+  INFO root [2025-02-24 21:09:56,631] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 21:09:56,635] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 21:09:56,635] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 21:09:56,635] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 21:09:56,642] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 21:09:56,643] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 21:09:56,643] - server-configs:
+  INFO root [2025-02-24 21:09:56,643] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 21:09:56,643] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 21:09:56,643] - 	componentID : 3000
+  INFO root [2025-02-24 21:09:56,645] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 35288 ----
+  INFO root [2025-02-24 21:09:56,645] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 21:09:56,645] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 21:09:56,645] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 21:09:56,784] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 21:09:56,784] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 21:09:56,804] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 21:09:56,805] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 21:09:56,816] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 21:09:56,816] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 21:10:03,040] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:63951, extaddr:nonsupport, extport:0,  from 127.0.0.1:63956/0/0/0.
+  INFO root [2025-02-24 21:10:03,040] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 21:10:03,040] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 21:10:04,147] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 21:11:23,535] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 21:11:36,737] - TCPPacketReceiver::processPendingEvents(127.0.0.1:63956): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 21:11:36,737] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 21:13:04,904] - 
+  INFO root [2025-02-24 21:13:04,904] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 21:13:04,905] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 21:13:04,905] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 21:13:04,905] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 21:13:04,912] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 21:13:04,914] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 21:13:04,914] - server-configs:
+  INFO root [2025-02-24 21:13:04,914] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 21:13:04,914] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 21:13:04,914] - 	componentID : 3000
+  INFO root [2025-02-24 21:13:04,915] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 34156 ----
+  INFO root [2025-02-24 21:13:04,915] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 21:13:04,915] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 21:13:04,915] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 21:13:05,065] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 21:13:05,065] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 21:13:05,076] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 21:13:05,076] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 21:13:05,085] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 21:13:05,085] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 21:13:11,262] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:64165, extaddr:nonsupport, extport:0,  from 127.0.0.1:64169/0/0/0.
+  INFO root [2025-02-24 21:13:11,262] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 21:13:11,264] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 21:13:12,321] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 21:13:31,286] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 21:41:56,348] - TCPPacketReceiver::processPendingEvents(127.0.0.1:64169): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 21:41:56,348] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 21:42:07,487] - 
+  INFO root [2025-02-24 21:42:07,487] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 21:42:07,489] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 21:42:07,489] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 21:42:07,489] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 21:42:07,497] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 21:42:07,497] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 21:42:07,497] - server-configs:
+  INFO root [2025-02-24 21:42:07,497] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 21:42:07,497] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 21:42:07,497] - 	componentID : 3000
+  INFO root [2025-02-24 21:42:07,498] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 9108 ----
+  INFO root [2025-02-24 21:42:07,498] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 21:42:07,498] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 21:42:07,498] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 21:42:07,641] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 21:42:07,641] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 21:42:07,652] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 21:42:07,653] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 21:42:07,661] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 21:42:07,661] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 21:42:13,842] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:64967, extaddr:nonsupport, extport:0,  from 127.0.0.1:64971/0/0/0.
+  INFO root [2025-02-24 21:42:13,843] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 21:42:13,843] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 21:42:14,890] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 21:42:37,816] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 22:03:08,473] - TCPPacketReceiver::processPendingEvents(127.0.0.1:64971): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 22:03:08,473] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 22:05:24,807] - 
+  INFO root [2025-02-24 22:05:24,807] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 22:05:24,808] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 22:05:24,808] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 22:05:24,808] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 22:05:24,814] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 22:05:24,814] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 22:05:24,814] - server-configs:
+  INFO root [2025-02-24 22:05:24,814] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 22:05:24,814] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 22:05:24,814] - 	componentID : 3000
+  INFO root [2025-02-24 22:05:24,815] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 24432 ----
+  INFO root [2025-02-24 22:05:24,816] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 22:05:24,816] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 22:05:24,816] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 22:05:24,966] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 22:05:24,966] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 22:05:24,979] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 22:05:24,979] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 22:05:24,990] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 22:05:24,991] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 22:05:28,219] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:65396, extaddr:nonsupport, extport:0,  from 127.0.0.1:65400/0/0/0.
+  INFO root [2025-02-24 22:05:28,220] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 22:05:28,220] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 22:05:29,285] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 22:05:52,021] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 22:06:01,074] - TCPPacketReceiver::processPendingEvents(127.0.0.1:65400): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 22:06:01,075] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 23:07:35,552] - 
+  INFO root [2025-02-24 23:07:35,552] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 23:07:35,553] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 23:07:35,553] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 23:07:35,553] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 23:07:35,560] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 23:07:35,560] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 23:07:35,560] - server-configs:
+  INFO root [2025-02-24 23:07:35,560] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 23:07:35,560] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 23:07:35,560] - 	componentID : 3000
+  INFO root [2025-02-24 23:07:35,561] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 30148 ----
+  INFO root [2025-02-24 23:07:35,561] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 23:07:35,561] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 23:07:35,561] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 23:07:35,708] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 23:07:35,708] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 23:07:35,719] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 23:07:35,719] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 23:07:35,728] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 23:07:35,728] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 23:07:41,995] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:50821, extaddr:nonsupport, extport:0,  from 127.0.0.1:50825/0/0/0.
+  INFO root [2025-02-24 23:07:41,995] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 23:07:41,995] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 23:07:43,053] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 23:08:02,287] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 23:08:10,686] - TCPPacketReceiver::processPendingEvents(127.0.0.1:50825): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 23:08:10,686] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 23:08:48,971] - 
+  INFO root [2025-02-24 23:08:48,971] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 23:08:48,971] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 23:08:48,971] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 23:08:48,971] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 23:08:48,978] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 23:08:48,978] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 23:08:48,978] - server-configs:
+  INFO root [2025-02-24 23:08:48,978] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 23:08:48,978] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 23:08:48,978] - 	componentID : 3000
+  INFO root [2025-02-24 23:08:48,979] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 22704 ----
+  INFO root [2025-02-24 23:08:48,981] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 23:08:48,981] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 23:08:48,981] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 23:08:49,127] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 23:08:49,127] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 23:08:49,138] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 23:08:49,138] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 23:08:49,146] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 23:08:49,146] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 23:08:55,356] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:50911, extaddr:nonsupport, extport:0,  from 127.0.0.1:50916/0/0/0.
+  INFO root [2025-02-24 23:08:55,357] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 23:08:55,357] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 23:08:56,448] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 23:09:26,648] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 23:09:58,028] - TCPPacketReceiver::processPendingEvents(127.0.0.1:50916): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 23:09:58,028] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 23:24:15,909] - 
+  INFO root [2025-02-24 23:24:15,909] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 23:24:15,910] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 23:24:15,910] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 23:24:15,910] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 23:24:15,916] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 23:24:15,916] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 23:24:15,916] - server-configs:
+  INFO root [2025-02-24 23:24:15,916] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 23:24:15,916] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 23:24:15,916] - 	componentID : 3000
+  INFO root [2025-02-24 23:24:15,918] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 12932 ----
+  INFO root [2025-02-24 23:24:15,918] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 23:24:15,918] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 23:24:15,919] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 23:24:16,063] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 23:24:16,063] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 23:24:16,074] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 23:24:16,074] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 23:24:16,081] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 23:24:16,083] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 23:24:22,275] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:51269, extaddr:nonsupport, extport:0,  from 127.0.0.1:51278/0/0/0.
+  INFO root [2025-02-24 23:24:22,276] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 23:24:22,276] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 23:24:23,318] - Components::process(): Found all the components!
+  WARN root [2025-02-24 23:26:30,913] - TCPPacketReceiver::processPendingEvents(127.0.0.1:51278): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 23:26:30,915] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 23:26:34,214] - 
+  INFO root [2025-02-24 23:26:34,214] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 23:26:34,214] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 23:26:34,214] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 23:26:34,214] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 23:26:34,221] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 23:26:34,221] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 23:26:34,221] - server-configs:
+  INFO root [2025-02-24 23:26:34,221] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 23:26:34,221] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 23:26:34,221] - 	componentID : 3000
+  INFO root [2025-02-24 23:26:34,222] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 18276 ----
+  INFO root [2025-02-24 23:26:34,222] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 23:26:34,222] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 23:26:34,222] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 23:26:34,371] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 23:26:34,371] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 23:26:34,383] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 23:26:34,384] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 23:26:34,392] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 23:26:34,392] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 23:26:40,580] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:51389, extaddr:nonsupport, extport:0,  from 127.0.0.1:51397/0/0/0.
+  INFO root [2025-02-24 23:26:40,580] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 23:26:40,580] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 23:26:41,616] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 23:27:33,969] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 23:28:20,120] - TCPPacketReceiver::processPendingEvents(127.0.0.1:51397): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 23:28:20,120] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 23:33:19,470] - 
+  INFO root [2025-02-24 23:33:19,470] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 23:33:19,470] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 23:33:19,470] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 23:33:19,470] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 23:33:19,478] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 23:33:19,478] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 23:33:19,478] - server-configs:
+  INFO root [2025-02-24 23:33:19,478] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 23:33:19,478] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 23:33:19,478] - 	componentID : 3000
+  INFO root [2025-02-24 23:33:19,480] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 5500 ----
+  INFO root [2025-02-24 23:33:19,480] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 23:33:19,480] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 23:33:19,480] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 23:33:19,627] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 23:33:19,627] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 23:33:19,638] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 23:33:19,639] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 23:33:19,646] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 23:33:19,646] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 23:33:25,861] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:51549, extaddr:nonsupport, extport:0,  from 127.0.0.1:51553/0/0/0.
+  INFO root [2025-02-24 23:33:25,861] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 23:33:25,861] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 23:33:26,940] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 23:33:58,553] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 23:34:29,257] - TCPPacketReceiver::processPendingEvents(127.0.0.1:51553): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 23:34:29,257] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 23:36:22,196] - 
+  INFO root [2025-02-24 23:36:22,196] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 23:36:22,198] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 23:36:22,198] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 23:36:22,198] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 23:36:22,207] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 23:36:22,207] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 23:36:22,207] - server-configs:
+  INFO root [2025-02-24 23:36:22,207] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 23:36:22,207] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 23:36:22,207] - 	componentID : 3000
+  INFO root [2025-02-24 23:36:22,210] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 18084 ----
+  INFO root [2025-02-24 23:36:22,210] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 23:36:22,210] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 23:36:22,210] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 23:36:22,360] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 23:36:22,360] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 23:36:22,372] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 23:36:22,372] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 23:36:22,381] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 23:36:22,381] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 23:36:28,663] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:51670, extaddr:nonsupport, extport:0,  from 127.0.0.1:51674/0/0/0.
+  INFO root [2025-02-24 23:36:28,663] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 23:36:28,663] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 23:36:29,711] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 23:37:24,175] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 23:38:15,888] - TCPPacketReceiver::processPendingEvents(127.0.0.1:51674): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 23:38:15,888] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2025-02-24 23:50:38,042] - 
+  INFO root [2025-02-24 23:50:38,042] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2025-02-24 23:50:38,043] - Resmgr::initialize: KBE_ROOT=D:/IT/kbengine/
+  INFO root [2025-02-24 23:50:38,043] - Resmgr::initialize: KBE_RES_PATH=D:/IT/kbengine/kbe/res/;D:/IT/kbengine/click/;D:/IT/kbengine/click/scripts/;D:/IT/kbengine/click/res/
+  INFO root [2025-02-24 23:50:38,043] - Resmgr::initialize: KBE_BIN_PATH=D:/IT/kbengine/kbe/bin/server/
+  INFO root [2025-02-24 23:50:38,050] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.192.10 ( 192.168.192.10:30099 )
+  INFO root [2025-02-24 23:50:38,050] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.192.10:30099, SOMAXCONN=511.
+  INFO root [2025-02-24 23:50:38,050] - server-configs:
+  INFO root [2025-02-24 23:50:38,050] - 	internalTcpAddr : 192.168.192.10:30099
+  INFO root [2025-02-24 23:50:38,050] - 	externalTcpAddr : %s
+  INFO root [2025-02-24 23:50:38,050] - 	componentID : 3000
+  INFO root [2025-02-24 23:50:38,051] - ---- interfaces Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8E28F900BDACB1CF950529838420D70F. Config: Release X64. Built: 13:55:11 Feb  9 2025. AppID: 3000. UID: 42997. PID: 31280 ----
+  INFO root [2025-02-24 23:50:38,051] - Server 14589: 12th Gen Intel(R) Core(TM) i7-12650H with 16502664kB RAM
+  INFO root [2025-02-24 23:50:38,053] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2025-02-24 23:50:38,053] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2025-02-24 23:50:38,200] - Script::install(): is successfully, Python=(3.7.3 (default, Feb  9 2025, 13:54:30) [MSC v.1942 64 bit (AMD64)])!
+  INFO root [2025-02-24 23:50:38,200] - Script::install(): KBExtra is successfully!
+S_INFO root [2025-02-24 23:50:38,211] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2025-02-24 23:50:38,211] - TelnetServer server is running on port 33000
+  INFO root [2025-02-24 23:50:38,220] - ---- interfaces is running ----
+ DEBUG root [2025-02-24 23:50:38,220] - Components::process(): Request for the process of identity...
+  INFO root [2025-02-24 23:50:44,444] - ServerApp::onRegisterNewApp: uid:42997, username:14589, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.192.10, intport:52151, extaddr:nonsupport, extport:0,  from 127.0.0.1:52158/0/0/0.
+  INFO root [2025-02-24 23:50:44,444] - Components::addComponent: reset orderLog, uid=42997!
+  INFO root [2025-02-24 23:50:44,444] - Components::addComponent[dbmgr], uid=42997, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2025-02-24 23:50:45,554] - Components::process(): Found all the components!
+S_INFO root [2025-02-24 23:52:03,834] - onRequestAccountLogin: registerName=88888888
+  WARN root [2025-02-24 23:52:55,919] - TCPPacketReceiver::processPendingEvents(127.0.0.1:52158): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2025-02-24 23:52:55,919] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!

@@ -1,0 +1,27 @@
+<root>
+	<Properties>
+		<mapID>
+			<Type>			UINT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+		</mapID>
+	</Properties>
+	<ClientMethods>
+
+	</ClientMethods>
+	<BaseMethods>
+
+	</BaseMethods>
+	<CellMethods>
+		<findPath>
+			<Arg>			FLOAT			</Arg>
+			<Arg>			FLOAT			</Arg>
+			<Arg>			FLOAT			</Arg>
+			<Arg>			FLOAT			</Arg>
+		</findPath>
+		<findNearestWalkablePoint>
+			<Arg>			FLOAT			</Arg>
+			<Arg>			FLOAT			</Arg>
+		</findNearestWalkablePoint>
+	</CellMethods>
+</root>
