@@ -23,7 +23,6 @@ class Avatar(KBEngine.Entity,Unit):
 		self.onDeadCallback = self._onDead
 		self.onReviveCallback = self._onRevive
 
-
 	def isPlayer(self): 
 		return True
 	
