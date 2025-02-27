@@ -1,2 +1,36 @@
+/kbe/src/_objs
+/kbe/src/ipch
+__pycache__/
+.vscode/
 
-/.vscode
+logs/
+*.suo
+*.user
+*.ncb
+*.plg
+*.opt
+*.aps
+*.aps
+*.sdf
+*.opensdf
+*.exp
+*.idb
+*.ilk
+*.exe
+*.pdb
+*.chw
+
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+*.pyc
+
+# -------------[ make files ]------------------------ #
+*.o
+*.d
+*.a
+*.s
+*.lo
